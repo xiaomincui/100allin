@@ -1,0 +1,42 @@
+﻿/* CSS Document */
+
+body {
+ 	font: 12px "微软雅黑";
+    margin: 0 auto;
+    padding: 0;
+}
+
+img {
+	border:0;
+}
+
+a{color:#0074C7;text-decoration:none;}
+a:hover{color:#FFFFFF;text-decoration:underline; background:#FF9900;}
+
+.head{
+	width:960px;height:140px;margin:0 auto;
+}
+
+.main{
+	width:960px;height:auto;margin:0 auto;
+}
+
+.main ul{
+	padding:0;
+	margin:0;
+}
+
+.main ul li{
+	display: block;
+    float: left;
+    list-style: none outside none;
+	width:480px;
+	margin:0px 0px 10px 0px;
+}
+
+.main_nav { overflow:hidden; height:auto; font-size:13px;}
+.main_title {font-size:18px; line-height:28px; padding:20px 0px 10px 0px;}
+
+.foot{
+	width:960px;height:55px;margin:0 auto;
+}

@@ -1,0 +1,23 @@
+.divexcees {
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+
+.divexcees a:link {
+	color: #333333;
+	text-decoration: underline;
+}
+.divexcees a:visited {
+	text-decoration: underline;
+}
+.divexcees a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+.divexcees a:active {
+	text-decoration: underline;
+	color: #333333;
+}
+.hidden {
+    display:none;
+}

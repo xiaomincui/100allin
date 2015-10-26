@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="company_mobile.aspx.cs" Inherits="images_get_company_mobile" %>

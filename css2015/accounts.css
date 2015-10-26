@@ -1,0 +1,110 @@
+/* CSS Document */
+.header
+{
+    height:35px;
+    }
+    
+.header-line{border-top: 5px solid #006699;border-bottom: 5px solid #DFEBF0;}
+
+.container{background:#F9F9F9;width:auto;}
+
+.login-box
+{
+    
+    margin:100px auto;
+    text-align:center;
+    }
+
+.login-title
+{
+    font-size:20px;
+    color:#006699;
+    margin:30px 0 10px 0;
+    }
+
+.login-subtitle
+{
+    font-size:14px;
+    color:#999999;
+    height:50px;
+    }
+
+.login-subtitle .login-error
+{
+    margin-top:5px;
+    color:#FF0000;
+    }
+
+
+.forgot-link 
+{
+    margin:10px 0;
+    }
+    
+.forgot-link a
+{
+    color:#999999;
+    }
+
+.reg-link 
+{
+    font-size:16px;
+    margin-bottom:20px;
+    }
+
+.reg-link a
+{
+    text-decoration:underline;
+    }
+
+
+.login-box-input label {
+position: relative;
+margin: 15px auto;
+display: block;
+width:300px;
+}
+
+.login-box-input label span {
+position: absolute;
+line-height: 20px;
+left: 10px;
+top: 10px;
+color: #BCBCBC;
+cursor: text;
+float: left;
+display: block;
+font-size: 14px;
+}
+
+.login-box-input .input-txt {
+color: #000000;
+font-size: 14px;
+font-family: "Microsoft YaHei","Arial Narrow";
+margin: 0;
+border: 1px solid #E6E6E6;
+outline: none;
+box-sizing: content-box;
+-webkit-box-sizing: content-box;
+-webkit-appearance: textfield;
+padding: 10px 0px 10px 10px;
+height: 18px;
+width: 290px;
+}
+
+.login-btn 
+{
+color: #FFFFFF;
+width: 300px;
+height: 40px;
+font-size: 16px;
+font-family: "Microsoft YaHei","Arial Narrow";
+margin: 0 auto;
+border: 0;
+cursor: pointer;
+outline: none;
+background: #006699;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-webkit-appearance: none; 
+}

@@ -1,0 +1,44 @@
+/* CSS Document */
+@media screen and (max-device-width: 1920px){body{-webkit-text-size-adjust:none;}}
+body{padding:0;margin:0px auto;color:#333333; font-family:"Microsoft YaHei","Arial Narrow"; font-size:12px;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+
+img {border:0;}
+a{color:#666666;text-decoration:none;}
+a:hover{color:#006699;text-decoration:none;}
+
+.sep{margin:0 8px; color:#dfdfdf; }
+.red{color:#FF0000;}
+
+p {line-height:24px;text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/}
+
+.header{width:100%; height:195px; }
+.header-top{background:#FAFAFA;width:100%;height:34px; border-bottom:1px solid #DFDFDF;margin:0 auto;}
+
+.header-top-container{width:1190px; margin:0 auto; color:#666666;}
+.header-top-container-userinfo{float:left; margin:7px 0px 0px 0px; }
+.top-username{color:#333333;}
+.top-username a{color:#333333;}
+.top-username a:hover{color:#006699;text-decoration:none;}
+.header-top-container-nav{float:right; margin:7px 0px 0px 0px;}
+
+.header-mid{width:1190px;height:110px; margin:0 auto;}
+.header-mid-left{float:left; margin:30px 0px 0px 0px; height:80px;}
+.header-mid-right{float:right; margin:20px 0px 0px 0px; width:600px; height:90px; text-align:left; 	font-size:13px; color:#666666;}
+
+#tab{width:600px;float:left;}
+.tab_menu{width:100%;float:left;z-index:1;}
+.tab_box{width:100%;float:left;margin:3px 0px 0px 0px;}
+.tab_box div{}
+.tab_box input[type="text"]{color:#000000;font-size:13px; font-family:"Microsoft YaHei","Arial Narrow"; margin:0px 6px 0px 6px; border:0;outline: none;box-sizing: content-box; -webkit-box-sizing: content-box; -webkit-appearance: textfield; padding:0;}
+.tab_box .search-btn{position:absolute;top:-1px;right:-1px;*top:0;*right:0;width:40px;height:40px;*width:38px;*height:38px;border:1px solid #dfdfdf;*border:0;color:#6d6d6d;background:#fff;cursor:pointer;-webkit-transition:all .3s;transition:all .3s}
+.tab_box:hover .search-btn{background:#000000; background-image:url(/images/search_h.gif);}
+
+
+
+.search-form {position:relative;width:422px;height:38px;border:1px solid #dfdfdf}
+.search-form:hover .search-btn{color:#fff;background:#ff4a00;border-color:#ff4a00}
+.search-form .search-text{width:352px;*width:353px;height:20px;padding:9px 15px;border:0;*border-right:1px solid #dfdfdf;line-height:20px;color:#333;background:#fff}
+.search-form .search-text:focus{outline:0}
+.search-form .search-btn{position:absolute;top:-1px;right:-1px;*top:0;*right:0;width:40px;height:40px;*width:38px;*height:38px;border:1px solid #dfdfdf;*border:0;color:#6d6d6d;background:#fff;cursor:pointer;-webkit-transition:all .3s;transition:all .3s}
+

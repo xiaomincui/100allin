@@ -1,0 +1,256 @@
+@charset "gb2312";
+body{	
+       
+		background-image: #;
+		scrollbar-highlight-color: #; 
+        scrollbar-shadow-color: #; 
+        scrollbar-3dlight-color: #; 
+        scrollbar-arrow-color: #; 
+        scrollbar-track-color: #; 
+        scrollbar-darkshadow-color: #;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+		}
+
+td{
+		font-family: "arial", "sans-serif","ËÎÌו";
+		font-size:12px; 
+	    line-height: 120%;
+		
+	text-decoration: none;
+		}
+select,input,textarea{
+		font-family: "arial", "sans-serif","ËÎÌו";
+		font-size:12px; 
+	    line-height: 150%;
+		
+	color: #000000;
+	text-decoration: none;
+		}
+a:link{
+		color:#424242;
+		text-decoration: none;
+		}
+
+a:visited{
+		color:#424242;
+		text-decoration: none;
+		}
+
+a:hover{
+		color:#FF1E00;
+		text-decoration: underline;
+        }
+
+a:active{	 
+		text-decoration: none;
+		}
+		
+.link:link{
+		color:#545454;
+		text-decoration: none;
+		}
+
+.link:visited{
+		color:#545454;
+		text-decoration: none;
+		}
+
+.link:hover{
+		color:#950000;
+		text-decoration: none;
+        }
+
+.link:active{	 
+		text-decoration: none;
+		}
+.link1:link{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link1:visited{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link1:hover{
+		color:#FF8A00;
+		text-decoration: none;
+        }
+
+.link1:active{	 
+		text-decoration: none;
+		}
+.link2:link{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link2:visited{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link2:hover{
+		color:#FF3000;
+		text-decoration: none;
+        }
+
+.link2:active{	 
+		text-decoration: none;
+		}
+.link3:link{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link3:visited{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link3:hover{
+		color:#8E0F0F;
+		text-decoration: none;
+        }
+
+.link3:active{	 
+		text-decoration: none;
+		}
+.link4:link{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link4:visited{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link4:hover{
+		color:#3455A3;
+		text-decoration: none;
+        }
+
+.link4:active{	 
+		text-decoration: none;
+		}
+.link5:link{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link5:visited{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link5:hover{
+		color:#A26700;
+		text-decoration: none;
+        }
+
+.link5:active{	 
+		text-decoration: none;
+		}
+.link6:link{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link6:visited{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link6:hover{
+		color:#147D90;
+		text-decoration: none;
+        }
+
+.link6:active{	 
+		text-decoration: none;
+		}
+p{
+		text-indent: 2em;
+		}
+
+.BG-X-BOTTOM{
+		BACKGROUND-REPEAT:REPEAT-x;
+		BACKGROUND-POSITION: right top;
+		} 
+.BG-BOTTOM{
+		BACKGROUND-REPEAT:NO-REPEAT;
+		BACKGROUND-POSITION:  top;
+		} 
+.BG-search{
+		BACKGROUND-REPEAT:NO-REPEAT;
+		BACKGROUND-POSITION:  right bottom;
+		}
+
+.border {
+	border-right: #7F9DB9 1px solid;
+	border-top: #7F9DB9 1px solid;
+	border-left: #7F9DB9 1px solid;
+	border-bottom: #7F9DB9 1px solid;
+	text-decoration: none;
+	height: 21px;
+	width: 82px;
+		}
+.border_BOTTOM {
+	border-right: #E5E5E5 1px solid;
+	border-top: #E5E5E5 1px solid;
+	border-left: #E5E5E5 1px solid;
+	border-bottom: #E5E5E5 1px solid;
+		}
+.search-font {
+	line-height: 20px;
+	color: #002976;
+	text-decoration: none;
+}
+.border-index {
+	border-right: #DCDCDC 1px solid;
+	border-left: #DCDCDC 1px solid;
+		}
+.border-right{
+	border-right: #B2C3E7 1px solid;
+	color: #021F59;
+		}
+.border-right_1{
+    color:#373737;
+	border-right: #E3E3E3 1px solid;
+		}
+.border-news {
+	border-right: #C8CEDE 1px solid;
+	border-left: #C8CEDE 1px solid;
+		}
+.index_font {
+	line-height: 18px;
+	color: #1B1B1B;
+	text-decoration: none;
+}
+.copy {
+	line-height: 16px;
+	color: #6C6C6C;
+	text-decoration: none;
+	font-size: 11px;
+}
+.news_data {
+	font-size: 10px;
+	color: #B0B0B0;
+	text-decoration: none;
+	line-height: 23px;
+}
+.boder_title {
+	line-height: 35px;
+	color: #021F59;
+	text-decoration: none;
+}
+.news_font {
+	line-height: 20px;
+	color: #5F5F5F;
+	text-decoration: none;
+}

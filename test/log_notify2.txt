@@ -1,0 +1,111 @@
+﻿2010-3-5 15:08:09 程序开始
+2010-3-5 15:08:09 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 15:08:01&notify_id=af126104283d6b21a5971c12033e4f63&notify_time=2010-03-05 15:08:01&notify_type=bank2freeze&orderNo=BO20100305484085777&outOrderNo=PRE10030515075101&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=c2965ef651f41f603bec9380cc862a95,mysign=c2965ef651f41f603bec9380cc862a95,sign=c2965ef651f41f603bec9380cc862a95,dingdan=PRE10030515075101,status=S,responseTxt=true
+2010-3-5 15:08:09 正确
+2010-3-5 15:08:09 0.01
+2010-3-5 15:08:09 PRE10030515075101
+2010-3-5 15:08:09 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-3-5 15:08:09 预存保证金
+2010-3-5 15:08:10 写入数据库
+2010-3-5 15:08:10 程序结束
+2010-3-5 15:16:11 程序开始
+2010-3-5 15:16:11 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 15:16:04&notify_id=cef667c594010c66f3f7488061b90aae&notify_time=2010-03-05 15:16:04&notify_type=bank2freeze&orderNo=BO20100305484094932&outOrderNo=PRE10030515140808&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=69f3004850275c5a3ab0295fe98ac545,mysign=69f3004850275c5a3ab0295fe98ac545,sign=69f3004850275c5a3ab0295fe98ac545,dingdan=PRE10030515140808,status=S,responseTxt=true
+2010-3-5 15:16:11 正确
+2010-3-5 15:16:11 0.01
+2010-3-5 15:16:11 PRE10030515140808
+2010-3-5 15:16:11 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-3-5 15:16:11 预存保证金
+2010-3-5 15:16:12 写入数据库
+2010-3-5 15:16:12 程序结束
+2010-3-5 15:43:03 程序开始
+2010-3-5 15:43:03 prestr=amount=0.20&buyerEmail=nature_d@hotmail.com&buyerUserId=2088002107479710&gmtPay=2010-03-05 15:42:56&notify_id=694651234e865d901541e0b108f7e687&notify_time=2010-03-05 15:42:56&notify_type=bank2freeze&orderNo=BO20100305484125612&outOrderNo=PRE10030515392585&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=677e5de8c311b5504887c044e031be31,mysign=677e5de8c311b5504887c044e031be31,sign=677e5de8c311b5504887c044e031be31,dingdan=PRE10030515392585,status=S,responseTxt=true
+2010-3-5 15:43:03 正确
+2010-3-5 15:43:03 0.20
+2010-3-5 15:43:03 PRE10030515392585
+2010-3-5 15:43:03 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-3-5 15:43:03 预存保证金
+2010-3-5 15:43:04 写入数据库
+2010-3-5 15:43:04 程序结束
+2010-3-5 16:00:05 程序开始
+2010-3-5 16:00:05 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 15:59:58&notify_id=d9d9376c0bcf2838e2218c539275ec58&notify_time=2010-03-05 15:59:58&notify_type=bank2freeze&orderNo=BO20100305484147646&outOrderNo=PRE10030515588110&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=86d2931f5868d54baf50661714aada42,mysign=86d2931f5868d54baf50661714aada42,sign=86d2931f5868d54baf50661714aada42,dingdan=PRE10030515588110,status=S,responseTxt=true
+2010-3-5 16:00:05 正确
+2010-3-5 16:00:05 0.01
+2010-3-5 16:00:05 PRE10030515588110
+2010-3-5 16:00:05 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-3-5 16:00:05 预存保证金
+2010-3-5 16:00:06 写入数据库
+2010-3-5 16:00:06 程序结束
+2010-3-5 16:07:35 程序开始
+2010-3-5 16:07:35 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 16:07:25&notify_id=f517731087a31fe3bf61039a0d1fdf5a&notify_time=2010-03-05 16:07:25&notify_type=bank2freeze&orderNo=BO20100305484156267&outOrderNo=PRE10030516053350&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=b77cf1d203f6becc869028e4c21b654b,mysign=b77cf1d203f6becc869028e4c21b654b,sign=b77cf1d203f6becc869028e4c21b654b,dingdan=PRE10030516053350,status=S,responseTxt=true
+2010-3-5 16:07:35 正确
+2010-3-5 16:07:35 0.01
+2010-3-5 16:07:35 PRE10030516053350
+2010-3-5 16:07:35 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-3-5 16:07:35 预存保证金
+2010-3-5 16:07:35 写入数据库
+2010-3-5 16:07:35 程序结束
+2010-3-5 16:12:35 程序开始
+2010-3-5 16:12:35 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 16:12:28&notify_id=8cafcb739d67123c85e7e64a800041cc&notify_time=2010-03-05 16:12:28&notify_type=bank2freeze&orderNo=BO20100305484161008&outOrderNo=PRE10030516095039&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=c1d9cd2493b8544b8a7aaee907bb9fe6,mysign=c1d9cd2493b8544b8a7aaee907bb9fe6,sign=c1d9cd2493b8544b8a7aaee907bb9fe6,dingdan=PRE10030516095039,status=S,responseTxt=true
+2010-3-5 16:12:35 正确
+2010-3-5 16:12:35 0.01
+2010-3-5 16:12:35 PRE10030516095039
+2010-3-5 16:12:35 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-3-5 16:12:35 预存保证金
+2010-3-5 16:12:36 写入数据库
+2010-3-5 16:12:36 程序结束
+2010-3-5 16:20:50 程序开始
+2010-3-5 16:20:50 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 12:57:35&notify_id=9b13567e649f1f2f768e2363d62c3d20&notify_time=2010-03-05 16:20:43&notify_type=bank2freeze&orderNo=BO20100305483911757&outOrderNo=PRE10030512575446&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=ad6c4557525dcae6f805ba2d751ac2cd,mysign=ad6c4557525dcae6f805ba2d751ac2cd,sign=ad6c4557525dcae6f805ba2d751ac2cd,dingdan=PRE10030512575446,status=S,responseTxt=true
+2010-3-5 16:20:50 正确
+2010-3-5 16:32:13 程序开始
+2010-3-5 16:32:13 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 13:08:19&notify_id=3a9c07e64a91a686ac8b50b7f271cae1&notify_time=2010-03-05 16:32:06&notify_type=bank2freeze&orderNo=BO20100305483926435&outOrderNo=PRE10030513088068&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=ed6376a53f1991aee4f819333541da20,mysign=ed6376a53f1991aee4f819333541da20,sign=ed6376a53f1991aee4f819333541da20,dingdan=PRE10030513088068,status=S,responseTxt=true
+2010-3-5 16:32:13 正确
+2010-3-5 18:19:12 程序开始
+2010-3-5 18:19:12 prestr=amount=0.10&buyerEmail=nature_d@hotmail.com&buyerUserId=2088002107479710&gmtPay=2010-03-05 18:19:05&notify_id=912f2dcd6968987022811d48f930ec77&notify_time=2010-03-05 18:19:05&notify_type=bank2freeze&orderNo=BO20100305484317382&outOrderNo=PRE10030518167014&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=450934cfc514e218a266cd9ecd5d06f7,mysign=450934cfc514e218a266cd9ecd5d06f7,sign=450934cfc514e218a266cd9ecd5d06f7,dingdan=PRE10030518167014,status=S,responseTxt=true
+2010-3-5 18:19:12 正确
+2010-3-5 18:19:12 0.10
+2010-3-5 18:19:12 PRE10030518167014
+2010-3-5 18:19:12 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-3-5 18:19:12 预存保证金
+2010-3-5 18:19:13 写入数据库
+2010-3-5 18:19:13 程序结束
+2010-3-5 22:20:51 程序开始
+2010-3-5 22:20:51 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 12:57:35&notify_id=9b13567e649f1f2f768e2363d62c3d20&notify_time=2010-03-05 22:20:44&notify_type=bank2freeze&orderNo=BO20100305483911757&outOrderNo=PRE10030512575446&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=be9f46c39920fa96b813265552d17d95,mysign=be9f46c39920fa96b813265552d17d95,sign=be9f46c39920fa96b813265552d17d95,dingdan=PRE10030512575446,status=S,responseTxt=true
+2010-3-5 22:20:51 正确
+2010-3-5 22:22:13 程序开始
+2010-3-5 22:22:13 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-04 21:58:06&notify_id=15f552dd0a2667205878aefe1db58485&notify_time=2010-03-05 22:22:07&notify_type=bank2freeze&orderNo=BO20100304483324110&outOrderNo=PRE10030421580489&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=51f50dba737293c4a68f10215ee859c0,mysign=51f50dba737293c4a68f10215ee859c0,sign=51f50dba737293c4a68f10215ee859c0,dingdan=PRE10030421580489,status=S,responseTxt=true
+2010-3-5 22:22:13 正确
+2010-3-5 22:32:14 程序开始
+2010-3-5 22:32:14 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 13:08:19&notify_id=3a9c07e64a91a686ac8b50b7f271cae1&notify_time=2010-03-05 22:32:07&notify_type=bank2freeze&orderNo=BO20100305483926435&outOrderNo=PRE10030513088068&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=f7b471947623317c6ca8b7874baa4c3c,mysign=f7b471947623317c6ca8b7874baa4c3c,sign=f7b471947623317c6ca8b7874baa4c3c,dingdan=PRE10030513088068,status=S,responseTxt=true
+2010-3-5 22:32:14 正确
+2010-3-6 13:20:49 程序开始
+2010-3-6 13:20:49 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 12:57:35&notify_id=9b13567e649f1f2f768e2363d62c3d20&notify_time=2010-03-06 13:20:43&notify_type=bank2freeze&orderNo=BO20100305483911757&outOrderNo=PRE10030512575446&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=c23258d99a53e439911e276070d1a94d,mysign=c23258d99a53e439911e276070d1a94d,sign=c23258d99a53e439911e276070d1a94d,dingdan=PRE10030512575446,status=S,responseTxt=true
+2010-3-6 13:20:49 正确
+2010-3-6 13:32:15 程序开始
+2010-3-6 13:32:15 prestr=amount=0.01&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 13:08:19&notify_id=3a9c07e64a91a686ac8b50b7f271cae1&notify_time=2010-03-06 13:32:09&notify_type=bank2freeze&orderNo=BO20100305483926435&outOrderNo=PRE10030513088068&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=76a0f87737ad3dc256d72ce9ee84e18d,mysign=76a0f87737ad3dc256d72ce9ee84e18d,sign=76a0f87737ad3dc256d72ce9ee84e18d,dingdan=PRE10030513088068,status=S,responseTxt=true
+2010-3-6 13:32:15 正确
+2010-4-14 11:53:09 程序开始
+2010-4-14 11:53:09 prestr=amount=1.00&buyerEmail=275627908@qq.com&buyerUserId=2088002414927782&gmtPay=2010-04-14 11:52:59&notify_id=34df92033d11179b957f3942a07f663a&notify_time=2010-04-14 11:52:59&notify_type=bank2freeze&orderNo=BO20100414535739344&outOrderNo=PRE10041411448007&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=4cebcf21e9821da19ee9219b5a871be5,mysign=4cebcf21e9821da19ee9219b5a871be5,sign=4cebcf21e9821da19ee9219b5a871be5,dingdan=PRE10041411448007,status=S,responseTxt=true
+2010-4-14 11:53:09 正确
+2010-4-14 11:53:09 1.00
+2010-4-14 11:53:09 PRE10041411448007
+2010-4-14 11:53:09 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-4-14 11:53:09 预存保证金
+2010-4-14 11:53:10 写入数据库
+2010-4-14 11:53:10 程序结束
+2010-4-28 14:54:52 程序开始
+2010-4-28 14:54:52 prestr=amount=1000.00&buyerEmail=ywboai@hotmail.com&buyerUserId=2088002528037063&gmtPay=2010-04-28 14:54:43&notify_id=5a64de8eb30764f5a5d9da5008dba3f6&notify_time=2010-04-28 14:54:44&notify_type=bank2freeze&orderNo=BO20100428556128035&outOrderNo=PRE10042814546251&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=09aa4fd8c8b1ec0ba4c426c9faced962,mysign=09aa4fd8c8b1ec0ba4c426c9faced962,sign=09aa4fd8c8b1ec0ba4c426c9faced962,dingdan=PRE10042814546251,status=S,responseTxt=true
+2010-4-28 14:54:52 正确
+2010-4-28 14:54:52 1000.00
+2010-4-28 14:54:52 PRE10042814546251
+2010-4-28 14:54:52 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-4-28 14:54:52 预存保证金
+2010-4-28 14:54:55 写入数据库
+2010-4-28 14:54:55 程序结束
+2010-5-12 11:53:10 程序开始
+2010-5-12 11:53:10 prestr=amount=1000.00&buyerEmail=ywboai@hotmail.com&buyerUserId=2088002528037063&gmtPay=2010-05-12 11:53:03&notify_id=a392c5732b42f555104a778bd2e613b1&notify_time=2010-05-12 11:53:03&notify_type=bank2freeze&orderNo=BO20100512576588378&outOrderNo=PRE10051211529980&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=So272s6dqq0s60tm44sy314jvnsfeihd0,request_sign=449f0dfe0014237bc4ec6d0fc869c6a7,mysign=449f0dfe0014237bc4ec6d0fc869c6a7,sign=449f0dfe0014237bc4ec6d0fc869c6a7,dingdan=PRE10051211529980,status=S,responseTxt=true
+2010-5-12 11:53:10 正确
+2010-5-12 11:53:10 1000.00
+2010-5-12 11:53:10 PRE10051211529980
+2010-5-12 11:53:10 http://www.100allin.com/test/Alipay_Notify2.aspx
+2010-5-12 11:53:10 预存保证金
+2010-5-12 11:53:11 写入数据库
+2010-5-12 11:53:11 程序结束

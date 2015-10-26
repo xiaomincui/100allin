@@ -1,0 +1,48 @@
+/* CSS Document */
+
+body {
+	background-color: #B6BFC4;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color:#000000;
+	font:12px "宋体";
+}
+
+.picSmall img {background:#FFFFFF none repeat scroll 0 0;border:1px solid #999999;padding:2px;
+}
+
+.picSmall img:hover {background:#FFFFFF none repeat scroll 0 0;border:2px solid #FF6600;padding:1px;}
+
+.top_nav a{font:14px "宋体";color:#000;font-weight:bold;text-decoration:none;line-height:40px;}
+
+.top_nav a:hover{color: #FF6600;text-decoration: underline;}
+
+.STYLE1 {font-size: 14px;font-weight: bold;color:#000000}
+
+.STYLE1 a {font-size: 14px;font-weight: bold; text-decoration:none; color:#000000}
+
+.STYLE2 {font-size: 12px; line-height:22px; text-indent:24px;}
+
+.STYLE2 a{ color: #FF6600; text-decoration:underline;}
+
+.STYLE3 a{ color: #1d66ca; text-decoration:underline; line-height:24px; font-size: 12px;}
+
+.STYLE3 a:hover{ color: #fff; background-color:#1d66ca;text-decoration:none; line-height:24px; font-size: 12px;}
+
+.STYLE4 a{ color: #FF0000; text-decoration:none;line-height:20px; font-size: 12px; text-decoration:underline;}
+
+.STYLE5 a{ color: #000; text-decoration:none;line-height:20px; font-size: 12px;}
+
+.STYLE5 a:hover{text-decoration:underline;}
+
+.STYLE3 {color: #999999}
+
+.STYLE4 {color: #666666}
+
+.STYLE5 {color: #28385A}
+
+.STYLE6{ color: #000; text-decoration:none;line-height:20px; font-size: 12px;}
+
+.STYLE6 a{ color: #000; text-decoration:none;line-height:20px; font-size: 12px;}

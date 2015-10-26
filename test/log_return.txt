@@ -1,0 +1,48 @@
+﻿2010-3-5 8:25:40 程序开始
+2010-3-5 8:25:40 prestr=amount=0.01&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGcNAzdka6RPxSTYIHg1hPftaFjh20ZdjIvRn9uBoesPAsR&notify_time=2010-03-05 08:25:29&notify_type=freeze_success_notify&order_no=BO20100305483632423&out_order_no=PRE10030508240910&trans_account_out=20880028681849640156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=e05c6fa8918da4eafb4523717cd83d94,mysign=e05c6fa8918da4eafb4523717cd83d94,sign=e05c6fa8918da4eafb4523717cd83d94,dingdan=PRE10030508240910,responseTxt=true
+2010-3-5 8:25:41 程序结束
+2010-3-5 8:28:06 程序开始
+2010-3-5 8:28:06 prestr=amount=0.01&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGcNAzdka6RPxSTYIHg1hPftaFjh20ZdjIvRn9uBoesPAsR&notify_time=2010-03-05 08:25:29&notify_type=freeze_success_notify&order_no=BO20100305483632423&out_order_no=PRE10030508240910&trans_account_out=20880028681849640156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=e05c6fa8918da4eafb4523717cd83d94,mysign=e05c6fa8918da4eafb4523717cd83d94,sign=e05c6fa8918da4eafb4523717cd83d94,dingdan=PRE10030508240910,responseTxt=false
+2010-3-5 8:28:06 程序结束
+2010-3-5 12:39:50 程序开始
+2010-3-5 12:39:50 prestr=amount=0.01&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGe22osZMUZWIIbR2iSyoXOTj3BWEKXpvpJcQru4Z350P8q&notify_time=2010-03-05 12:39:42&notify_type=freeze_success_notify&order_no=BO20100305483888824&out_order_no=PRE10030512395040&trans_account_out=20880028681849640156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=6cf9bfb3970d9325ab3006fffda3d4cc,mysign=6cf9bfb3970d9325ab3006fffda3d4cc,sign=6cf9bfb3970d9325ab3006fffda3d4cc,dingdan=PRE10030512395040,responseTxt=true
+2010-3-5 12:39:51 程序结束
+2010-3-5 15:43:23 程序开始
+2010-3-5 15:43:23 prestr=amount=0.20&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGfiFQ%2BC4zItTHJDRDtnLjgz8XFeFspM7jQb64ssOvPzqOr&notify_time=2010-03-05 15:42:56&notify_type=freeze_success_notify&order_no=BO20100305484125612&out_order_no=PRE10030515392585&trans_account_out=20880021074797100156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=2fe26a1bc929d07eeeb79401f8f5baec,mysign=2fe26a1bc929d07eeeb79401f8f5baec,sign=2fe26a1bc929d07eeeb79401f8f5baec,dingdan=PRE10030515392585,responseTxt=true
+2010-3-5 15:43:23 程序结束
+2010-3-5 16:00:18 程序开始
+2010-3-5 16:00:18 prestr=amount=0.01&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGfib90lNoyDU45aXhvk4iiVhg1w8uZwfKvEsayRVGbgqme&notify_time=2010-03-05 15:59:58&notify_type=freeze_success_notify&order_no=BO20100305484147646&out_order_no=PRE10030515588110&trans_account_out=20880028681849640156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=9f19cc24575eded0537479f1d44f6331,mysign=9f19cc24575eded0537479f1d44f6331,sign=9f19cc24575eded0537479f1d44f6331,dingdan=PRE10030515588110,responseTxt=true
+2010-3-5 16:00:18 程序结束
+2010-3-5 16:12:48 程序开始
+2010-3-5 16:12:48 prestr=amount=0.01&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGfigdi%2BEo5vxEst06I1pDtivaAMm8sIKBMoBXnMc79RLYm&notify_time=2010-03-05 16:12:28&notify_type=freeze_success_notify&order_no=BO20100305484161008&out_order_no=PRE10030516095039&trans_account_out=20880028681849640156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=782084b4d0404a57b5fee4eb44906881,mysign=782084b4d0404a57b5fee4eb44906881,sign=782084b4d0404a57b5fee4eb44906881,dingdan=PRE10030516095039,responseTxt=true
+2010-3-5 16:12:48 程序结束
+2010-3-5 16:54:33 程序开始
+2010-3-5 16:54:33 prestr=hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=,mysign=4c16fbed8a9e4fb73001ff0900b7a411,sign=,dingdan=,responseTxt=invalid命令参数不对
+2010-3-5 16:54:33 程序结束
+2010-3-5 18:19:20 程序开始
+2010-3-5 18:19:20 prestr=amount=0.10&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGQiZ1K%2Fjn8coYEkWSLhs9w3E1YwoTVByEy%2FcN9eUwjpYjE&notify_time=2010-03-05 18:19:05&notify_type=freeze_success_notify&order_no=BO20100305484317382&out_order_no=PRE10030518167014&trans_account_out=20880021074797100156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=b9e99ebf817f53fcc9e70f86637f9e35,mysign=b9e99ebf817f53fcc9e70f86637f9e35,sign=b9e99ebf817f53fcc9e70f86637f9e35,dingdan=PRE10030518167014,responseTxt=true
+2010-3-5 18:19:20 程序结束
+2010-3-5 18:19:20 程序开始
+2010-3-5 18:19:20 prestr=amount=0.10&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGQiZ1K%2Fjn8coYEkWSLhs9w3E1YwoTVByEy%2FcN9eUwjpYjE&notify_time=2010-03-05 18:19:05&notify_type=freeze_success_notify&order_no=BO20100305484317382&out_order_no=PRE10030518167014&trans_account_out=20880021074797100156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=b9e99ebf817f53fcc9e70f86637f9e35,mysign=b9e99ebf817f53fcc9e70f86637f9e35,sign=b9e99ebf817f53fcc9e70f86637f9e35,dingdan=PRE10030518167014,responseTxt=true
+2010-3-5 18:19:20 程序结束
+2010-3-5 18:37:27 程序开始
+2010-3-5 18:37:27 prestr=amount=0.08&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGQiMUeW1f6BCrdus7kr1q5yjU11tD9%2FOVij%2F03AE3rvYUa&notify_time=2010-03-05 18:37:18&notify_type=freeze_success_notify&order_no=BO20100305484341767&out_order_no=FCL10030518331644&trans_account_out=20880028681849640156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=6c78518385bf013ad3a027a01e9a0c2e,mysign=6c78518385bf013ad3a027a01e9a0c2e,sign=6c78518385bf013ad3a027a01e9a0c2e,dingdan=FCL10030518331644,responseTxt=true
+2010-3-5 18:37:27 程序结束
+2010-3-5 18:40:25 程序开始
+2010-3-5 18:40:25 prestr=hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=,mysign=4c16fbed8a9e4fb73001ff0900b7a411,sign=,dingdan=,responseTxt=invalid命令参数不对
+2010-3-5 18:40:25 程序结束
+2010-3-5 18:42:29 程序开始
+2010-3-5 18:42:29 prestr=amount=0.08&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGQiMZRXuBVigJ8qyxsRtt0Wh9f25CtfBAJ5MJ%2FVqvA7v7y&notify_time=2010-03-05 18:42:22&notify_type=freeze_success_notify&order_no=BO20100305484347489&out_order_no=FCL10030518331645&trans_account_out=20880028681849640156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=5c313c60e361373393ea975b65fc451a,mysign=5c313c60e361373393ea975b65fc451a,sign=5c313c60e361373393ea975b65fc451a,dingdan=FCL10030518331645,responseTxt=true
+2010-3-5 18:42:29 程序结束
+2010-3-5 18:47:40 程序开始
+2010-3-5 18:47:40 prestr=amount=0.04&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BKBpGQiy0P5goMDCxqrvcgQvNLavXfXji9wlRNjfQMYICXX%2BX%2F&notify_time=2010-03-05 18:47:22&notify_type=freeze_success_notify&order_no=BO20100305484349417&out_order_no=FCL10030518203425&trans_account_out=20880021074797100156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=0cd58fc80725813a51c452c5e3d53d91,mysign=0cd58fc80725813a51c452c5e3d53d91,sign=0cd58fc80725813a51c452c5e3d53d91,dingdan=FCL10030518203425,responseTxt=true
+2010-3-5 18:47:40 程序结束
+2010-4-14 11:53:11 程序开始
+2010-4-14 11:53:11 prestr=amount=1.00&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BLVKLoUYBXyaE1614oD%2FsdY2NJF1ZjGSmyKEVB%2BoD7vB%2B8izPQ&notify_time=2010-04-14 11:52:59&notify_type=freeze_success_notify&order_no=BO20100414535739344&out_order_no=PRE10041411448007&trans_account_out=20880024149277820156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=c65ec075e3a0408f4eebc57844f84e7a,mysign=c65ec075e3a0408f4eebc57844f84e7a,sign=c65ec075e3a0408f4eebc57844f84e7a,dingdan=PRE10041411448007,responseTxt=true
+2010-4-14 11:53:11 程序结束
+2010-4-28 14:54:52 程序开始
+2010-4-28 14:54:52 prestr=amount=1000.00&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BLV5YiFuwW4pXeJAyCkdBSUh%2FtvSoJZRRWUeHKXAW99bqYx4GE&notify_time=2010-04-28 14:54:44&notify_type=freeze_success_notify&order_no=BO20100428556128035&out_order_no=PRE10042814546251&trans_account_out=20880025280370630156hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=bfdfb34de5ea10b026a43adf7f2e3c73,mysign=bfdfb34de5ea10b026a43adf7f2e3c73,sign=bfdfb34de5ea10b026a43adf7f2e3c73,dingdan=PRE10042814546251,responseTxt=true
+2010-4-28 14:54:52 程序结束
+2010-5-12 11:53:11 程序开始
+2010-5-12 11:53:11 prestr=amount=1000.00&exterface=bank2freeze&is_success=T&notify_id=RqPnCoPT3K9%2Fvwbh3I%2BLVrZpOW1ylS23j4MqHa%2FB6gIioPkHE2jomnxSBaZHQAfZ4wbV&notify_time=2010-05-12 11:53:03&notify_type=freeze_success_notify&order_no=BO20100512576588378&out_order_no=PRE10051211529980&trans_account_out=20880025280370630156o272s6dqq0s60tm44sy314jvnsfeihd0,request_sign=f0d2476fcf8eccab55f25680c55f1313,mysign=f0d2476fcf8eccab55f25680c55f1313,sign=f0d2476fcf8eccab55f25680c55f1313,dingdan=PRE10051211529980,responseTxt=true
+2010-5-12 11:53:11 程序结束

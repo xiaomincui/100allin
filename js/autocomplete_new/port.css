@@ -1,0 +1,65 @@
+#prot_warp
+{
+	font-size: 12px;
+	font-family: arial, simsun;
+	border: #7f9db9 1px solid;
+	padding: 4px;
+	text-align: left;
+	background-color: #ffffff;
+	margin: 0px;
+}
+#prot_warp #prot_list a
+{
+	color: #0055aa;
+	text-decoration: none;
+	line-height: 20px;
+	display: block;
+	curso: pointer;
+	text-align: left;
+	text-decoration: none;
+	background-color: white;
+	padding-left: 5px;
+	border: #fff 0px solid;
+}
+#prot_warp #prot_list a:hover
+{
+	border-top: #7f9db9 1px solid;
+	background: #e7f1fd;
+	border-bottom: #7f9db9 1px solid;
+}
+#prot_warp #prot_list .hov
+{
+	border-top: #7f9db9 1px solid;
+	background: #e7f1fd;
+	border-bottom: #7f9db9 1px solid;
+}
+#prot_warp #prot_list span
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	float: right;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	text-align: left;
+}
+#prot_warp #prot_message
+{
+	padding-right: 0px;
+	display: block;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	color: #666;
+	word-break: break-all;
+	line-height: 20px;
+	padding-top: 0px;
+	border-bottom: #aaa 1px dashed;
+	font-family: "simyou";
+	word-wrap: break-word;
+}
+.autodiv
+{
+	max-height: 300px;
+	-webkit-max-height: 300px;
+	height: expression(this.scrollHeight>299?"300px":"auto");
+}

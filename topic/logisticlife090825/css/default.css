@@ -1,0 +1,56 @@
+/* CSS Document */
+
+body {
+	margin: 0px;
+	font:12px "宋体";
+	background-image: url(../images/8_24_bg.gif);
+}
+
+a{
+	color:#474747;
+	text-decoration:underline;
+}
+
+a:hover{
+	color: #FF6600;
+	text-decoration:underline;
+}
+
+.nav{
+	font:14px "宋体";
+	color:#fff;
+}
+
+.nav a{
+	font:14px "宋体";
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+}
+
+.nav a:hover,.top a:hover{
+	text-decoration: underline;
+}
+
+.top a{
+	color:#757575;
+	text-decoration:none;
+}
+
+.bottom_tn{
+	width:1000px;
+	background-color: #ff9b1f;
+	margin-top:8px;
+	padding:5px 0;
+	line-height:18px;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+	color: #fff;
+}
+
+.bottom_tn a{
+	color: #fff;
+	text-decoration:none;
+}
+

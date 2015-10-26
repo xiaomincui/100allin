@@ -1,0 +1,300 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 12px "宋体";
+	color: #000000; 
+}
+
+td{
+	font-family: "宋体";
+	font-size:12px; 
+}
+
+a {
+	color: #7e7e7e;
+	background-color: inherit;
+	text-decoration:none
+}
+
+a:hover {
+	color: #33ADDB;
+	background-color: inherit;
+
+}
+
+h1 {
+	font: bold 1.8em Arial, Sans-Serif;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h2 {
+	margin: 0; 
+	padding: 3px 0 6px 0; 
+	font: 130% "宋体";
+	font-weight: bold;
+	color: #808080; 
+	text-transform: uppercase;
+	background-color: inherit;
+	
+}
+
+h2 a {
+	color: #6AC65D;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+
+p {
+	padding: 2px 0 5px;
+	margin: 0;
+}
+
+#content {
+	margin: 0px auto; 
+	width: 980px; 
+}
+
+.header { 
+	height: 65px; 
+	margin: 0px 0 2px 0; 
+	padding: 20px 0 0 5px;
+	border-top: 4px solid #000;
+	background: #FFF url(headerbg.gif) repeat-x bottom left;
+	color: #808080;
+}
+	
+.searchform {
+	float: right;
+	padding: 2px 5px 0 0;
+}
+
+.subheader {
+	clear: both;
+	height: 23px;
+	margin: 0 0 10px 0;	
+}
+
+.subheader_left {
+	line-height: 28px;
+	width: 193px;
+	background: #33ADDB url(hmleftbg.gif) repeat-x;
+	color: #FFFFFF;
+	padding: 0 5px 0 5px;
+}
+
+.subheader_left a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: inherit;
+}
+
+.subheader_right {
+	background: #F6F6F6 url(hmrightbg.gif) repeat-x;
+	color: #626262;
+	line-height: 28px;
+	float: right;
+	width: 774px;
+	
+}
+
+.subheader_right a {
+	margin: 0px 2px 0 0;
+	padding: 7px 10px 8px 10px;
+	color: #626262;
+	background: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.subheader_right a:hover {
+	background: #33ADDB url(hmleftbg.gif) repeat-x;
+	border-top: 1px solid #1A83AC;
+	color: #FFFFFF;
+}
+
+.left {
+	float: left;
+	padding: 5px 0 0 5px;
+	width: 190px;
+}
+
+.right {
+	float: right;
+	width: 760px;
+	margin: 0 0 0px 0; 
+	padding: 0px 0 0 15px; 
+	color: #000;
+	background-color: #FFFFFF; 
+	border-left: 1px solid #e6e6e6;
+}
+
+.line {
+	height: 2px;
+	margin: 10px 0 10px 0;
+}
+
+.right_left {
+	float: left;
+	width: 260px;
+	padding: 13px;
+	background: #f2f2f2 url(corner.gif) no-repeat bottom right;
+	color: #626262;
+}
+
+.right_right {
+	float: right;
+	width: 240px;
+	padding: 13px;
+	background: #f2f2f2 url(corner.gif) no-repeat bottom right;
+	color: #626262;
+}
+
+.footer { 
+	clear: both; 
+	color: #999999; 
+	background-color: #FFFFFF;
+	padding: 10px 0 10px 0; 
+	border-top: 1px solid #e6e6e6; 
+	text-align: center;  
+	line-height: 13px;
+}
+
+.footer a { 
+	text-decoration: underline; 
+}
+
+
+
+.link:link{
+		color:#545454;
+		text-decoration: none;
+		}
+
+.link:visited{
+		color:#545454;
+		text-decoration: none;
+		}
+
+.link:hover{
+		color:#950000;
+		text-decoration: none;
+        }
+
+.link:active{	 
+		text-decoration: none;
+		}
+.link1:link{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link1:visited{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link1:hover{
+		color:#FF8A00;
+		text-decoration: none;
+        }
+
+.link1:active{	 
+		text-decoration: none;
+		}
+
+.link4:link{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link4:visited{
+		color:#5F5F5F;
+		text-decoration: none;
+		}
+
+.link4:hover{
+		color:#3455A3;
+		text-decoration: none;
+        }
+
+.link4:active{	 
+		text-decoration: none;
+		}
+
+.border-news {
+	border-right: #C8CEDE 1px solid;
+	border-left: #C8CEDE 1px solid;
+	border-bottom: #C8CEDE 1px solid;
+		}
+
+
+.textbox {
+	height: 13px;
+}
+
+.textbox1 {	
+	height: 20px;
+}
+.textbox2 {
+	height: 20px;
+}
+
+.defaultTitleBlue {
+	color: #27A1CF; 
+	font-size: 12px; 
+	font-family: "宋体";
+	font-weight:bold; 
+}
+.defaultTitleWhite {
+	color: #FFFFFF; 
+	font-size: 12px; 
+	font-family: font-family: "宋体";
+	font-weight:bold; 
+}
+
+.bigTitleBlue {
+	color: #33ADDB;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.bigTitleOrange {
+	color: #FF6600;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.smallTitleUnselected {
+	color: #999999; 
+}
+.smallTitleSelected {
+	color: #000000; 
+	font-weight: bold;
+}
+.smallTitleBackUnselected {
+	background:#FFFFFF; 
+}
+.smallTitleBackselected {
+	background:#F2F2F2;
+}
+
+.price20dc {color: #79BED9}
+.price40dc {color: #3EA2C8}
+.price40hq {color: #256983}
+.priceSp {color: #33CC66}
+
+.regRequired {color: #FF6600; font-family:"宋体"}
+.regRemark {color: #999999}
+
+.priceDetail{
+	color: #666666;
+}

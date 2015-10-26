@@ -1,0 +1,128 @@
+/*
+.banner {
+position: relative;
+height: 300px;
+overflow: hidden;
+z-index: 0;
+}
+
+
+.banner .bd {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+z-index: 0;
+height: 300px;
+overflow: hidden;
+}
+
+.banner .bd ul{ width:100% !important;}
+.banner .bd li{ width:100% !important; height:300px; }
+*/
+
+.banner {
+width: auto;
+margin: 0 auto;
+overflow: hidden;
+}
+
+.banner .bd {
+background: url("/products/one/images/slide.png") no-repeat center top;
+height:300px;
+}
+
+.group dl
+{
+    text-align:center;
+    }
+    
+.group dl dt
+{
+    margin:0;
+    text-align:center;
+    }    
+    
+.group dl dd
+{
+    margin:0;
+    text-align:center;
+    float:left;
+    width:297px;
+    margin-top:60px;
+    }        
+    
+.group dl dd span
+{
+    display:block;
+    margin:5px 0;
+    }        
+    
+.group dl dd .title
+{
+    font-size:18px;
+    font-weight:bold;
+    margin-top:20px;
+    }       
+
+.group dl dd .subtitle
+{
+    color:#999999;
+    }       
+    
+.group dl dd .sep
+{
+    width:50px;height:3px;margin:0px auto;padding:0px;background-color:#AAAAAA;overflow:hidden;margin-bottom:10px;
+    }            
+
+.group dl dd .intro
+{
+    color:#999999;
+    }           
+    
+.group dl dd .intro b
+{
+    color:#107999;
+    }               
+    
+.ex-title
+{
+    margin:50px 0px 10px 0px;
+    }    
+    
+.container-gray
+{
+    background:#EFEFEF;
+    width:100%;
+    padding-bottom:50px;
+    }    
+    
+.container-gray .box
+{
+    width:1190px;
+    margin:0 auto;
+    overflow:hidden;
+    }    
+
+.container-gray .box .ex-tips
+{
+    margin:20px 0;
+    }  
+
+.container-gray .box .ex-tips b
+{
+    color:#107999;
+    padding:0 5px;
+    }  
+        
+.container-gray .box .ex-tips img
+{
+    vertical-align: middle;
+    margin-right:14px;
+    }        
+    
+    
+/*在线客服*/
+.OnlineService_Bg {width:197px;overflow:hidden;position:fixed;right:100px;bottom:190px;z-index:10;}
+.OnlineService_Box {width:100%;overflow:hidden;}
+.OnlineService_Phone {width:197px;height:153px;margin-bottom:10px;}

@@ -1,0 +1,133 @@
+.listTitle {
+	margin-left:0px;
+	margin-top:10px;
+}
+
+.listTable {
+	margin-top:8px;
+	margin-left:5px;
+}
+
+.listTable a:link{
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+.listTable a:visited {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+.listTable a:hover {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+.listTable a:active {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+
+.listTable .edit a:link {
+	color: #226077;
+	text-decoration: underline;
+}
+
+.listTable .edit a:visited {
+	text-decoration: underline;
+	color: #226077;
+}
+
+.listTable .edit a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+.listTable .edit a:active {
+	text-decoration: underline;
+	color: #226077;
+}
+
+
+.idText {
+	width:48px;
+	line-height:30px;	
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+
+
+.startPortText {
+	width:88px;
+	line-height:30px;	
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+
+.titleText {
+	width:268px;
+	line-height:30px;
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+
+.dateText {
+	width:73px;
+	line-height:30px;	
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+
+#tipBoxHome {
+	width:755px;
+	margin-left:5px;
+	margin-top:10px;
+	padding-left:13px;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+#tipBoxSearch {
+	width:755px;
+	margin-left:5px;
+	margin-top:10px;
+	padding-left:13px;
+	padding-top:8px;
+	padding-bottom:6px;
+	color:#226077;
+}
+
+
+.typeText {
+	width:93px;
+	line-height:30px;
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+
+.GoodLineText {
+	width:198px;
+	line-height:30px;	
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+
+.cargoText {
+	width:83px;
+	line-height:30px;	
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+
+.amountText {
+	width:60px;
+	line-height:30px;	
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+

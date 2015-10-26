@@ -1,0 +1,113 @@
+.divexcees {
+    text-overflow:clip;
+    overflow: hidden;
+}
+
+.pm a:link {
+	color: #666666;
+	text-decoration: none;
+}
+.pm a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+.pm a:hover {
+	text-decoration: none;
+	color: #FF6600;
+}
+.pm a:active {
+	text-decoration: none;
+	color: #666666;
+}
+
+
+.divexcees a:link {
+	color: #333333;
+	text-decoration: underline;
+}
+.divexcees a:visited {
+	text-decoration: underline;
+}
+.divexcees a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+.divexcees a:active {
+	text-decoration: underline;
+	color: #333333;
+}
+.hidden {
+    display:none;
+}
+
+.p_l_d
+{
+    margin-top:5px;
+    height:150px;
+}
+.prot_ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.prot_ul li
+{
+	float:left;
+	width:100px;
+	overflow:hidden;
+	height:25px;
+}
+.select_Language
+{
+    border:1px solid #CCCCCC;
+	padding:3px 8px;
+    background-color: #DDDDDD;
+	cursor:pointer;
+}
+.noselect_Language
+{
+    border:1px solid #CCCCCC;
+	padding:3px 8px;    
+    background-color: #ffffff;
+	cursor:pointer;
+}
+#tab_list ul
+{
+	list-style:none;
+	margin-top:5px;
+	padding:0px;
+}
+#tab_list ul li
+{
+	float:left;
+	margin-right:5px;
+	padding:5px 10px;
+	text-align:center;
+    border:1px solid #CCCCCC;
+	cursor:pointer;
+}
+
+.tab_li_on
+{
+    background-color: #DDDDDD;
+}
+
+.tab_li_out
+{
+    background-color: #ffffff;
+}
+#page_number
+{
+    text-align:right;
+    display:in-ling;
+}
+#page_number a{
+	display:block;
+	text-align:center;
+	float:right;
+	border:1px solid #CCCCCC; 
+	background:#FFFFFF; 
+	padding:1px 5px;
+	margin-left:2px;
+}

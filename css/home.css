@@ -1,0 +1,118 @@
+.divexcees {
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+
+.divexcees2 {
+    width:30px;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+}
+
+.show_box_bot a:link {
+	color: #293B5E;
+	text-decoration: none;
+}
+.show_box_bot a:visited {
+    color: #293B5E;
+	text-decoration: none;
+}
+.show_box_bot a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+.show_box_bot a:active {
+	text-decoration: none;
+	color: #293B5E;
+}
+
+.divexcees a:link {
+	color: #293B5E;
+	text-decoration: underline;
+}
+.divexcees a:visited {
+	text-decoration: underline;
+}
+.divexcees a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+.divexcees a:active {
+	text-decoration: underline;
+	color: #293B5E;
+}
+
+.header a:link ,.divaldlogin a:link {
+	color: #293B5E;
+	text-decoration: underline;
+}
+.header a:visited ,.divaldlogin a:visited {
+	text-decoration: underline;
+	color: #293B5E;
+}
+.header a:hover ,.divaldlogin a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+.header a:active ,.divaldlogin a:active {
+	text-decoration: underline;
+	color: #293B5E;
+}
+.styletr td{
+padding-left:5px;
+}
+
+.styletr tr{
+    background-color:expression((this.sectionRowIndex%2==0)?"#F2F7FD":"#FFFFFF")
+}
+#play img {border:0px}
+#play {width:451px;height:232px;overflow:hidden;margin: 0 auto;}
+#play_info{position:absolute;margin-top:204px;padding:8px 0 0 20px;height:22px;width:270px;color:#fff; font-weight:bold;z-index:21;cursor:pointer; font-family:"ËÎÌו";}
+#play_info b{font-size:14px;display:block}
+#play_bg {position:absolute;background-color:#000;margin-top:202px;height:30px;width:451px;filter: Alpha(Opacity=50);opacity:0.5;z-index:20}
+#play_text {position:absolute;margin:207px 0 0 326px;height:30px;width:60px;z-index:22}
+#play_text ul {list-style-type:none; width:80px;height:30px;display:block;padding-top:1px;_padding-top:0px;}
+#play_text ul li {width:17px;height:17px;float:left;background-color:#000;display:block;color:#FFF;text-align:center;margin:1px;cursor:pointer;font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;}
+#play_list a{display:block;width:451px;height:232px;position:absolute;overflow:hidden}
+
+
+
+.hytop a:link {
+	text-decoration: none;
+}
+
+.hidden {
+display:none;
+}
+
+.portul {
+	
+}
+
+.portul a {
+	font-weight:bold;
+	margin-left:10px;
+}
+
+.portul img {
+	border:0;	
+	margin-bottom:-5px;	
+}
+
+#scrollLcl{height:40px;overflow:hidden}
+
+#ad_full a img {
+    border:0;
+	cursor: pointer;
+}
+#ad_full a span {
+    border:0;
+	cursor: pointer;
+}
+.adfull_sh {
+	visibility: visible;
+	overflow: hidden;
+}
+.adfull_hid {
+	visibility: hidden;
+}

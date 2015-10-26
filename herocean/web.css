@@ -1,0 +1,25 @@
+/* CSS Document */
+
+body{ padding:0; font:12px "宋体"; font-family:Verdana, Arial, Helvetica, sans-serif; margin:0px auto; color:#4D4D4D; background:url(images/bg.jpg) repeat-x top;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+a{color: #000000; text-decoration: none;}
+a:hover{ color:#FF6600;}
+.red{ color:#FF0000;}
+
+/* index */
+.main{ width:958px; margin:0 auto; background:#fff;}
+	.top{ width:958px; float:right; background:#fff;}
+		#logo{ float:left;}
+		#allin{ float: right;}
+		.menu{ margin:13px 10px 0 0; float:right;}
+	.big_pic{ width:958px; float: left; background:#fff;}
+	.box{ width:940px; padding:20px 9px; float:left; background:#fff;}
+		.l_box{ width:250px; float:left; line-height:24px;}
+			.l_box a{ font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+		.r_box{ width:673px; float:right; line-height:22px;}
+			.r_box h2{ font-family:Verdana, Arial, Helvetica, sans-serif;; font-size:18px; color:#0e67c0; font-weight:normal;}
+	.foot{ width:958px; height:38px; background:url(images/foot_bg.jpg) repeat-x top; margin-top:12px; float:left; text-align:center; line-height:38px; font-size:14px;}
+	
+.sm_pic{ width:958px; float:left;}
+.sm_pic h2{ font-family:Verdana, Arial, Helvetica, sans-serif;; font-size:18px; color:#0e67c0; font-weight:normal;}
+#scrollLcl{height:60px;overflow:hidden}

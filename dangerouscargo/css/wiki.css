@@ -1,0 +1,95 @@
+﻿/* CSS Document */
+
+body{ padding:0; font:12px "宋体"; margin:0px auto; background:url(../images/wiki/top_menu_bg.gif) repeat-x top; color:#6C6C6C;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+img{
+	border-width:0px;
+}
+a{color:#6C6C6C; text-decoration:none;}
+a:hover{ color:#FF6600;}
+
+.main{ width:998px; margin:0 auto;}
+.td1{
+	text-align:center;
+}
+.td2{
+	border-left:2px #CCCCCC solid;
+}
+a .a_more{
+	color:#FF6600;
+}
+a:hover .a_more {
+	color:#FF6600;
+	text-decoration:underline;
+}
+/*wiki*/
+.top{ width:998px; float:left;}
+	.top_menu{ width:998px; height:25px; float:left;}
+		.top_menu h2{ color:#6C6C6C; font-size:12px; line-height:25px; float:left; font-weight:normal;}
+		.top_menu h3{ color:#6C6C6C; font-size:12px; line-height:25px; float: right; font-weight:normal;}
+			.top_menu h3 img{ vertical-align:middle; margin:0 5px 0 0;}
+	.top_mid{ width:998px; height:80px; float:left;}
+	.nav{ width:998px; height:38px; margin:8px 0 0 0; float:left;}
+		.nav_l,.nav_r{ width:4px; height:38px; float:left;}
+		.nav_box{ width:990px; height:38px; background:url(../images/wiki/nav_bg.gif) repeat-x top;float:left; }
+			.nav_box ul li{display:block;list-style:none;float:left; }
+				.nav_box ul li a{display:block; height:38px; font-size:14px; line-height:38px; color:white; text-decoration:none; padding:0 11px;}
+				.nav_box ul li a:hover{ color:#FF9900;} 
+				.nav_box ul li .atv{ color:#FF9900;}
+			.nav_box ul li.divider{display:block;width:2px;height:38px;float:left;background: url(../images/wiki/ddv.gif) no-repeat top;}
+	.pic{ width:998px; float:left; margin:12px 0 0 0;}
+	.knowledge{ width:996px; height:220px; float:left; border:1px solid #55AAFD; margin:12px 0 0 0;}
+		.k_left{ float:left;}
+			.k_left p{ float:left; line-height:22px;}
+			.k_box{ width:225px; height:200px; float:left; border:1px solid #D9D9D9; padding:1px; margin:8px 0 0 12px; line-height:22px;}
+				.k_box h2{ height:22px; background:url(../images/wiki/k_box1.gif) repeat-x top; font-size:14px; margin-bottom:8px;}
+				.k_box a{ padding:0 10px; color:#FF6600} 
+	.mid_a{ width:998px; float:left; margin-top:4px;}
+		.sort{ width:377px; height:505px; float:left; margin-right:9px;}
+			.sort h2,.code h2,.report h2{ float:left;}
+			.sort_b{ width:375px; height:465px; float:left; border-left:1px solid #55A9FF; border-right:1px solid #55A9FF; border-bottom:1px solid #55A9FF; background:url(../images/wiki/sort_bg.gif) repeat-x top;}
+				.sort_b p,.report p{ padding:8px; line-height:22px;}
+		.code{ width:361px; height:505px; float:left;}
+			.code_b{ width:359px; height:465px; float:left; border-left:1px solid #D0D0D0; border-right:1px solid #D0D0D0; border-bottom:1px solid #D0D0D0;}
+				.code p{ padding:8px; line-height:16px;}
+					.code p td{ padding-left:5px; background-color:white;}
+			.code_mid_box{ width:468px; float:left; margin-bottom:12px;}
+				.code_mid_box_tit{ width:431px; height:20px; float: left; background:url(../images/wiki/mid_tit.gif) no-repeat left top; font-size:14px; margin-top:9px; line-height:20px; color:#4D97D4; padding:0 0 0 32px;}
+				.code_mid_box p{ padding:9px 0; line-height:22px; float:left;}
+		.report{ width:239px; height:494px; float:right; border:1px solid #D2D2D2; margin-top:9px; background:#EDEDED;}
+			.report_lad{ width:265px; height:496px; float:left; margin:9px 12px 0 0;}
+	.b_ad,.port{ width:998px; float:left; margin-top:12px;}
+		.port_tit{ width:998px; height:33px; float: left;}
+		.port_box{ width:960px; padding:8px 18px; border-left:1px solid #D0D0D0; border-right:1px solid #D0D0D0; border-bottom:1px solid #D0D0D0; float:left;}
+.foot{ width:998px; text-align:center; line-height:22px; padding:12px 0;}				
+				
+/*cp*/
+.cp_box{width:998px; margin-top:16px; float:left;}
+	.cp_box_l{width:161px; height:1177px; float:left;}
+		.cp_box_l a{ display:block; color:#18303C; font-family:"Microsoft Yahei","Trebuchet MS",Tahoma,Arial; text-decoration:none; font-size:15px; margin:18px 0 0 28px;}
+			.cp_box_l a img{ vertical-align:middle; margin:0 6px -8px 0;}
+	.cp_box_r{width:810px; height:1155px; padding:10px; float: right; border:1px solid #D0D0D0;}
+		.cp_pic_box{ width:810px; float:left; margin-bottom:15px;}
+			.cp_pic_box h2{ line-height:22px; font-size:12px; padding-left:8px; background-color:#8DD1FF;}
+			.s_pic{ float:left; text-align:center; padding:12px 0; margin-right:7px;}
+				.s_pic a{ color:#FF6600;}
+				.s_pic img{ margin-bottom:8px;}
+.fcl_tel{ width:232px; height:65px; padding:20px 0 0 18px; background:url(../images/fcl/tel_bg.gif) no-repeat right bottom; float:right;}
+.fcl_tel img{ vertical-align:middle; margin:0 5px 0 0;}
+.fcl_tel a{ color:#000; text-decoration:none;}
+			
+			
+			
+/*内页*/
+
+	.inside_r{ width:240px; float: right;}
+		.inside_r_ad{ width:240px; float: right;}
+		.ship_tit{ width:240px; float: right; margin-top:12px;}
+		.ship_box{ width:218px; float: right; border-left:1px solid #F4AA2F; border-right:1px solid #F4AA2F; border-bottom:1px solid #F4AA2F; padding:5px 10px 25px 10px;}
+			.ship_box a{ display:block; width:218px; line-height:24px; border-bottom:1px solid #ccc;}
+	.inside_l{ width:723px; float: left; padding:10px 10px 100px 10px; border:1px solid #D2D2D2;}
+	.inside_l table tr{
+	line-height:25px;
+}
+		.inside_l h2{ height:26px; background:url(../images/wiki/ll_bg.gif) repeat-x top; font-size:14px; padding-left:18px; line-height:26px; color:#082662;}
+		.inside_l p{ padding:18px; line-height:22px;}

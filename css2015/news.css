@@ -1,0 +1,315 @@
+/* CSS Document */
+.tab-box-news
+{
+    margin-top:25px;
+    }
+
+.keywords
+{
+    margin:25px auto;
+    font-size:16px;
+    }   
+
+.result-left {
+    width: 800px;
+    float: left;
+    margin: 0px 40px 30px 0px;
+    border-right:1px solid #EDEDED;
+    padding:0px 40px 0 0px;
+    
+}
+
+.result-right {
+    width: 309px;
+    float: left;
+    margin: 0;
+}          
+
+.i-r-box {
+    margin-bottom: 25px;
+}
+
+.grey-box {
+    border: 1px solid #E6E6E6;
+    width: 248px;
+}          
+
+.i-r-box dl {
+    margin: 0;
+    padding-bottom: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.i-r-box dl dt {
+    height: 40px;
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    background: #B2D7E0;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #FFFFFF;
+}     
+
+.i-r-box dl dt span {
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    color:#FFFFFF;
+}
+
+.i-r-box dl dt span a{
+    color:#FFFFFF;
+}
+
+.i-r-box dl dd {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+
+.i-r-box dl dd span
+{
+    float:right;
+    } 
+
+.i-r-box .rate-wrapper dd {
+    float: left;
+    height: 60px;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0px 0px 6px 25px;
+}
+
+.i-r-box .rate-wrapper .flag img {
+    padding-top: 13px;
+    vertical-align: middle;
+}
+
+.i-r-box .rate-wrapper dd label {
+    letter-spacing: 16px;
+    margin-right: -16px;
+}
+
+.i-r-box .rate-wrapper b {
+    color: #FF8900;
+    
+}
+
+.i-r-box .news-wrapper dt {
+    height: 40px;
+    padding: 0 5px 0 5px;
+    margin: -10px 0 0 0;
+    background: #FFFFFF;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #006699;
+}
+
+.i-r-box .news-wrapper dd 
+{
+    padding: 0 5px 15px 5px;
+    font-size:14px;
+    overflow:hidden;
+    }
+    
+.i-r-box .news-wrapper .line {
+    width: 229px;
+    height: 2px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    background-color: #E6E6E6;
+    overflow: hidden;
+    border-left: 80px solid #006699;
+}
+
+
+.i-r-box .news-wrapper dd label 
+{
+    color:#FFFFFF;
+    margin:0 9px 0 0;
+    font-size:12px;
+    float:left;
+    }     
+    
+.i-r-box .news-wrapper dd .row-1 
+{
+    background:#006699;
+    padding:0 4px;
+    }         
+    
+.i-r-box .news-wrapper dd .row-2 
+{
+    background:#3385AD;
+    padding:0 4px;
+    }    
+    
+.i-r-box .news-wrapper dd .row-3 
+{
+    background:#66A3C2;
+    padding:0 4px;
+    }  
+    
+.i-r-box .news-wrapper dd .row-4 
+{
+    background:#BBBBBB;
+    padding:0 4px;
+    }          
+
+
+.i-r-box .grey dt {
+    color:#666666;
+}
+
+.i-r-box .grey .line {
+    border-left: 80px solid #666666;
+}
+
+.result-left .entry
+{
+    border-bottom:1px solid #EDEDED;
+    margin-bottom:40px;
+    padding-bottom:20px;
+    }
+    
+.result-left .entry-title
+{
+    height:auto;
+    }
+
+.result-left .entry-title h1,.result-left .entry-title h2
+{
+    font-size:28px;
+    font-weight:normal;
+    margin:0;
+    line-height:50px;
+    }    
+    
+.result-left .entry-meta span
+{
+    margin-right:12px;
+    }  
+    
+.result-left .entry-meta div
+{
+    float:right;
+    }       
+
+.result-left .entry-meta div a
+{
+    margin:0 5px 0 0;
+    }      
+
+.result-left .entry-meta div .share-title
+{
+    background-image:none;
+    }   
+        
+.result-left .entry-meta
+{
+    font-size:12px;
+    color:#999999;
+    margin:10px 0 30px 0;
+    }    
+    
+.result-left .entry-content
+{
+    font-size:14px;
+    line-height:30px;
+    }       
+    
+.result-left .entry-content p
+{
+    margin-bottom:14px;
+    line-height:30px;
+    text-indent:0;
+    }
+        
+.result-left .entry-content img
+{
+    margin:14px 0px;
+    }    
+    
+
+.nodata
+{
+    text-align:center;
+    color:#999999;
+    padding-bottom:20px;
+    }
+
+.nodata img
+{
+    vertical-align: middle;
+    margin-right:1px;
+    }
+    
+.i-r-box .news-wrapper dd a
+{
+    display:block;
+    float:left;
+    width: 220px;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; 
+    }        
+    
+.HQZS
+{
+    
+    }    
+    
+.i-r-box .stock dd div
+{
+    margin-left:-7px;
+    }
+        
+.i-r-box .stock dd a
+{
+    display:inline;
+    width:auto;
+    margin-right:14px;
+    font-size:12px;
+    }
+    
+.pager 
+{
+    text-align:right;
+    margin-top:10px;
+    margin-bottom:20px;
+    }
+    
+.pager span
+{
+    color:#999999;
+    margin:0 7px;
+    }
+
+.pager a
+{
+    color:#999999;
+    }
+        
+.pager .selected
+{
+    color:#006699;
+
+    }  
+     
+.pager .disabled
+{
+    display:none;
+    }       
+    
+.pager .button
+{
+    border:1px solid #BBBBBB;
+    padding:0px 5px;
+    }           
+        
+        
+.detail-title
+{
+    margin:20px 0px 20px 0px;
+    }

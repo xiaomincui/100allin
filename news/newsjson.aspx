@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="newsjson.aspx.cs" Inherits="news_newsjson" %>

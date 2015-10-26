@@ -1,0 +1,742 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="51-freight" />
+<meta name="keywords" content="freight" />
+<meta name="viewport" content="width=1280, initial-scale=0.2"/>
+<link href="/css2015/master.css" rel="stylesheet" type="text/css" />
+<link href="/css2015/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js2015/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/js2015/unslider.min.js"></script>
+<script type="text/javascript" src="/js2015/base.js"></script>
+<script type="text/javascript" src="/js2015/index.js"></script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript" language="javascript" src="/js2015/auto/ac_zd.js"></script>
+<script type="text/javascript" language="javascript" src="/js2015/auto/airprot_ch.js"></script>
+<script type="text/javascript" language="javascript" src="/js2015/auto/ac_zd_head_home.js"></script>
+<link href="/js2015/auto/port.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+
+</style>
+<title>环球运费网</title>
+</head>
+<body>
+    <div id="messages"></div>
+	<div class="header">
+		<div class="header-top">
+			<div class="header-top-container">
+				<div class="header-top-container-userinfo">
+					<b class="top-username"><a href="/member/">用户</a></b>，您好！欢迎使用100Allin <a href="/accounts/logout.aspx">[退出登录] </a>
+					<span class="sep">|</span> 
+					<a href="/member/">我的办公室</a>
+				</div>
+				<div class="header-top-container-nav">
+					<a href="/"><img src="/images2015/logo_m.gif"> 100Allin首页</a>
+					<span class="sep">|</span> 
+					<a href="/sitemap.html">网站地图</a>
+					<span class="sep">|</span> 
+					<a href="/about.html">关于100Allin</a>
+                    <span class="sep">|</span> 
+					<img src="/images2015/tel_m.gif"> <span style="color:#006699;">400-888-9256</span>
+				</div>				
+			</div>
+		</div>
+		<div class="header-mid">
+			<div class="header-mid-left"><a href="/"><img src="/images2015/logo.gif" alt="环球运费网"></a></div>
+			<div class="header-mid-right">
+					<div id="tab">
+						<ul class="tab-menu">
+							<li class="selected">整箱海运价</li>
+							<li>拼箱海运价</li>
+							<li>空运运价</li>
+							<li>公司库</li>																		
+						</ul>
+						<div class="tab-box">
+                            <div>
+                                <form autocomplete="off">
+                                    <div class="tab-box-input">
+                                        <label><span>请输入起运港</span><input type="text" id="txtStartport" sou_type="start_port" onfocus="auto_init(event,this);" class="input-txt"/></label>
+                                        <span>至</span>
+                                        <label><span>请输入目的港</span><input type="text" id="txtDestport" sou_type="end_port" onfocus="auto_init(event,this);" class="input-txt"/></label>
+                                        <span>由</span>
+                                        <label><span>请输入船公司</span><input type="text" id="txtCarrier" sou_type="ship_com" onfocus="auto_init(event,this);" class="input-txt"/></label>
+                                        <span>承运</span>
+                                    </div>
+                                    <div class="tab-box-submit">
+                                        <input type="button" value="" class="search-btn" />
+                                    </div>
+                                </form>							
+                            </div>
+                            <div class="hide">
+                                <form autocomplete="off">
+                                    <div class="tab-box-input">
+                                        <label><span>请输入起运港</span><input type="text" id="txtStartport2" sou_type="start_port" onfocus="auto_init(event,this);" class="input-txt"/></label>
+                                        <span>至</span>
+                                        <label><span>请输入目的港</span><input type="text" id="txtDestport2" sou_type="end_port" onfocus="auto_init(event,this);" class="input-txt"/></label>
+                                    </div>
+                                    <div class="tab-box-submit">
+                                        <input type="button" value="" class="search-btn" />
+                                    </div>
+                                </form>	                            
+                            </div>
+                            <div class="hide">
+                                <form autocomplete="off">
+                                    <div class="tab-box-input">
+                                        <label><span>请输入起运地</span><input type="text" id="txtStartport3" sou_type="air_start" onfocus="auto_init(event,this);" class="input-txt"/></label>
+                                        <span>至</span>
+                                        <label><span>请输入目的地</span><input type="text" id="txtDestport3" sou_type="air_port" onfocus="auto_init(event,this);" class="input-txt"/></label>
+                                    </div>
+                                    <div class="tab-box-submit">
+                                        <input type="button" value="" class="search-btn" />
+                                    </div>
+                                </form>	 
+                            </div>
+                            <div class="hide">
+                                <form autocomplete="off">
+                                    <div class="tab-box-input">
+                                        <label><span>请输入公司名称</span><input type="text" id="txtCompanyName"  class="input-txt"/></label>
+                                    </div>
+                                    <div class="tab-box-submit">
+                                        <input type="button" value="" class="search-btn" />
+                                    </div>
+                                </form>	                            
+                            </div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="header-nav">
+			<ul>
+				<li class="st"><a href="/">首页</a></li>
+				<li><a href="/search/fcl.aspx">整箱海运价</a></li>
+				<li><a href="/search/lcl.aspx">拼箱海运价</a></li>
+				<li><a href="/search/air.aspx">空运运价</a></li>
+				<li><a href="/search/company.aspx">公司库</a></li>
+				<li><a href="/news/news.aspx">物流聚焦</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="container bigpage">
+	    <div class="index-left">
+            <div class="i-l-box">
+                <div class="index-slide">
+                     <ul>
+                        <li><img src="/images2015/home-1.jpg" /></li>
+                        <li><img src="/images2015/home-2.jpg" /></li>
+                        <li><img src="/images2015/home-3.jpg" /></li>
+                        <li><img src="/images2015/home-4.jpg" /></li>
+                    </ul>
+                </div>
+                <div class="index-at">
+                    <img src="/images2015/home-2-1.jpg" />
+                </div>
+            </div>
+            <div class="i-l-box">
+                <div class="l-box-hd">
+                    <h2>热门运价</h2><span>换一批<img src="/images2015/0213random.gif"></span>
+                </div>
+                <div class="l-box-bd">
+                    <div class="item hot fcl">
+                        <div class="pic">
+                            <img src="/images2015/0213hotf.gif" />
+                        </div>
+                        <div class="port">
+                            <a href="#" target="_blank">SHANGHAI<span>至</span>BUENOS AIRES</a>
+                        </div>
+                        <div class="freight">
+                            <dl>
+                                <dt>20GP</dt>
+                                <dd>$10000</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>40GP</dt>
+                                <dd>$10000</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>40HQ</dt>
+                                <dd>$10000</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="item hot air">
+                        <div class="pic">
+                            <img src="/images2015/0213hota.gif" />    
+                        </div>  
+                        <div class="port">
+                            <a href="#" target="_blank">SHANGHAI<span>至</span>VII</a>
+                        </div>   
+                        <div class="freight">
+                            <dl>
+                                <dt>+45</dt>
+                                <dd>$53.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+100</dt>
+                                <dd>$37.6</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+300</dt>
+                                <dd>$37.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+500</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+1000</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                        </div>                                                               
+                    </div>
+                </div>
+            </div>
+            <div class="i-l-box">
+                <div class="l-box-hd">
+                    <h2><span>1F</span>新 · 整箱海运价</h2><span><a href="#">MORE ></a></span>
+                </div>
+                <div class="l-box-bd">
+                    <div class="item new new-fcl-1">
+                        <div class="title">
+                            <a href="#">CSAV中东印巴线优势价格</a>
+                        </div>
+                        <div class="time">有效期至 2015-01-30</div>
+                        <div class="content">
+                            <div class="freight">
+                                <dl>
+                                    <dt>20GP</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                                <dl>
+                                    <dt>40GP</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                                 <dl>
+                                    <dt>40HQ</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                            </div>
+                            <div class="port">
+                                <div class="pol"><span>起运港</span>SHANGHAI</div>
+                                <div class="pod"><span>出发日</span>六</div>
+                                <div class="shipper"><img src="/images2015/carrier/home/msk.gif" /></div>
+                                <div class="pol"><span>航程</span>22天</div>
+                                <div class="pod"><span>目的港</span>BUENOS AIRES</div>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-2">
+                        <div class="title">
+                            <a href="#">ZIM欧基4//6 4//7 实单申</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div>
+                            </div>
+                            <div class="freight">
+                                <dl>
+                                    <dt><span>20GP</span></dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                                <dl>
+                                    <dt><span>40GP</span></dt>
+                                    <dd>-</dd>
+                                </dl>
+                                 <dl>
+                                    <dt><span>40HQ</span></dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">ZIM欧基4//6 4//7 实单申门到门到门到门到门到门</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES AIRES</div>
+                            </div>
+                            <div class="freight">
+                                <dl>
+                                    <dt>20GP</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>40GP</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>40HQ</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">ZIM欧基4//6 4//7 实单申</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div>
+                            </div>
+                            <div class="freight">
+                                <dl>
+                                    <dt>20GP</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>40GP</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>40HQ</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">ZIM欧基4//6 4//7 实单申门到门到门到门到门到门</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES AIRES</div>
+                            </div>
+                            <div class="freight">
+                                <dl>
+                                    <dt>20GP</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>40GP</dt>
+                                    <dd>-</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>40HQ</dt>
+                                    <dd>$10000</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="i-l-box">
+                <div class="l-box-hd">
+                    <h2><span>2F</span>新 · 拼箱海运价</h2><span><a href="#">MORE ></a></span>
+                </div>
+                <div class="l-box-bd">
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">马来西亚海运门到门</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div>
+                            </div>
+                            <div class="freight">
+                                <dl>
+                                    <dt>KGS</dt>
+                                    <dd>$20</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>CBM</dt>
+                                    <dd>-</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">马来西亚海运门到门</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div>
+                            </div>
+                            <div class="freight">
+                                <dl>
+                                    <dt>KGS</dt>
+                                    <dd>$20</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>CBM</dt>
+                                    <dd>$30</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">马来西亚海运门到门</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div>
+                            </div>
+                            <div class="freight">
+                                <dl>
+                                    <dt>KGS</dt>
+                                    <dd>$20</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>CBM</dt>
+                                    <dd>$30</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">马来西亚海运门到门</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div>
+                            </div>
+                            <div class="freight">
+                                <dl>
+                                    <dt>KGS</dt>
+                                    <dd>$20</dd>
+                                </dl>
+                                <div class="sep">|</div>
+                                <dl>
+                                    <dt>CBM</dt>
+                                    <dd>$30</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="i-l-box">
+                <div class="l-box-hd">
+                    <h2><span>3F</span>新 · 空运运价</h2><span><a href="#">MORE ></a></span>
+                </div>
+                <div class="l-box-bd">
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">EY 到新德里最新空运价格</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div> 
+                            </div>
+                            <div class="freight">
+                            <dl>
+                                <dt>+45</dt>
+                                <dd>$53.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+100</dt>
+                                <dd>$37.6</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+300</dt>
+                                <dd>$37.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+500</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+1000</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                        </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">EY 到新德里最新空运价格</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div> 
+                            </div>
+                            <div class="freight">
+                            <dl>
+                                <dt>+45</dt>
+                                <dd>$53.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+100</dt>
+                                <dd>$37.6</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+300</dt>
+                                <dd>$37.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+500</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+1000</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                        </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">EY 到新德里最新空运价格</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />BUENOS AIRES</div> 
+                            </div>
+<%--                            <div class="port">
+                                SHANGHAI<span>至</span>BUENOS AIRES 
+                            </div>--%>
+                            <div class="freight">
+                            <dl>
+                                <dt>+45</dt>
+                                <dd>$53.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+100</dt>
+                                <dd>$37.6</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+300</dt>
+                                <dd>$37.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+500</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+1000</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                        </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                    <div class="item new new-fcl-3">
+                        <div class="title">
+                            <a href="#">EY 到新德里最新空运价格</a>
+                        </div>
+                        <div class="content">
+                            <div class="port">
+                                <div><img src="/images2015/0213iconcpol.gif" />SHANGHAI</div>
+                                <div><img src="/images2015/0213iconcpod.gif" />TLV特拉维夫</div> 
+                            </div>
+                            <div class="freight">
+                            <dl>
+                                <dt>+45</dt>
+                                <dd>$53.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+100</dt>
+                                <dd>$37.6</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+300</dt>
+                                <dd>$37.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+500</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                            <div class="sep">|</div>
+                            <dl>
+                                <dt>+1000</dt>
+                                <dd>$35.1</dd>
+                            </dl>
+                        </div>
+                        </div>
+                        <div class="company"><a href="#">连云港汉万国际货物运输代理有限公司</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="i-l-box banner">
+                <a href="#"><img src="/images2015/0213port.gif" /></a>
+            </div>
+	    </div>
+	    <div class="index-right">
+	        <div class="i-r-box login-box">
+                <div class="username-field login-box-input"><label><span>用户名</span><input type="text" id="txtUsername" class="input-txt"/></label></div>
+                <div class="btn-field"><input type="button" value="登录" class="login-btn" /></div>
+                <div class="pwd-field login-box-input"><label><span>密码</span><input type="password" id="txtPassword" class="input-txt"/></label></div>
+                <div class="chk-field">
+                    <input type="checkbox" id="chkAutoLogin" class="login-box-chk" /> <label for="chkAutoLogin">下次自动登录</label>
+                </div>
+                <div class="reg-field">
+                    <a href="#">忘记密码</a><a href="#" class="box-reg">免费注册</a>
+                </div>
+	        </div>
+            <div class="i-r-box grey-box">
+                <dl class="chance-wrapper">
+                    <dt>实时商机<span><a href="#" target="_blank">MORE ></a></span></dt>
+                    <dd><img src="/images2015/0212iconf.gif" /><a href="#" target="_blank">SHANGHAI <label>至</label> SANTOS</a><span>10:00</span></dd>
+                    <dd><img src="/images2015/0212iconf.gif" /><a href="#" target="_blank">SHANGHAI <label>至</label> SANTOS</a><span>10:00</span></dd>
+                    <dd><img src="/images2015/0212iconl.gif" /><a href="#" target="_blank">SHANGHAI <label>至</label> SANTOS</a><span>10:00</span></dd>
+                    <dd><img src="/images2015/0212icona.gif" /><a href="#" target="_blank">SHANGHAI <label>至</label> SANTOS</a><span>10:00</span></dd>
+                </dl>
+            </div>  
+            <div class="i-r-box">
+                <dl class="news-wrapper">
+                    <dt>航运动态<span><a href="#" target="_blank">MORE ></a></span></dt>
+                    <dd class="line"></dd>
+                    <dd><label class="row-1">1</label><a href="#" target="_blank">航运走向“大船低碳”时代</a><span>03/01</span></dd>
+                    <dd><label class="row-2">2</label><a href="#" target="_blank">来自上海的询价</a><span>03/01</span></dd>
+                    <dd><label class="row-3">3</label><a href="#" target="_blank">来自上海的询价</a><span>03/01</span></dd>
+                    <dd><label class="row-4">4</label><a href="#" target="_blank">来自上海的询价</a><span>03/01</span></dd>
+                    <dd><label class="row-4">5</label><a href="#" target="_blank">来自上海的询价</a><span>03/01</span></dd>
+                    <dd><label class="row-4">6</label><a href="#" target="_blank">来自上海的询价</a><span>03/01</span></dd>
+                    <dd><label class="row-4">7</label><a href="#" target="_blank">来自上海的询价</a><span>03/01</span></dd>
+                    <dd><label class="row-4">8</label><a href="#" target="_blank">来自上海的询价</a><span>03/01</span></dd>
+                </dl>
+            </div>
+	        <div class="i-r-box">
+	            <a href="#" target="_blank"><img src="/images2015/0215pm.jpg"></a>
+	        </div>
+            <div class="i-r-box grey-box">
+                <dl class="rate-wrapper">
+                    <dt>当前汇率<span><a href="#" target="_blank">MORE ></a></span></dt>
+                    <dd class="flag"><img src="/images2015/0211usa.gif" /></dd>
+                    <dd>
+                        1 <label>美元</label> = <b>6.2726</b> 人民币 <br />
+                        1 人民币 = <b>0.1601</b> <label>美元</label>
+                    </dd>
+                </dl>
+            </div>
+            <div class="i-r-box grey-box">
+                <dl class="srv-wrapper tools">
+                    <dt>常用工具</dt>
+                    <dd><a href="#" target="_blank">HS编码</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">海关税率</a></dd>
+                    <dd><a href="#" target="_blank">空港代码</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">危险品标志</a></dd>
+                    <dd><a href="#" target="_blank">航空公司</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">外贸单证</a></dd>
+                    <dd><a href="#" target="_blank">保函样本</a></dd>
+                </dl>
+                <dl class="srv-wrapper ports">
+                    <dt>八大港口</dt>
+                    <dd><a href="#" target="_blank">上海港口</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">深圳港口</a></dd>
+                    <dd><a href="#" target="_blank">广州港口</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">青岛港口</a></dd>
+                    <dd><a href="#" target="_blank">天津港口</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">大连港口</a></dd>
+                    <dd><a href="#" target="_blank">宁波港口</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">厦门港口</a></dd>
+                </dl>
+                <dl class="srv-wrapper busi">
+                    <dt>商务服务</dt>
+                    <dd><a href="#" target="_blank">世界港口</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">船公司名录</a></dd>
+                    <dd><a href="#" target="_blank">报关商检</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">危险品运输</a></dd>
+                    <dd><a href="#" target="_blank">NVOCC</a></dd>
+                </dl>
+                <dl class="srv-wrapper baf">
+                    <dt>运费快报</dt>
+                    <dd><a href="#" target="_blank">3月BAF</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">3月CAF</a></dd>
+                    <dd><a href="#" target="_blank">3月THC</a></dd>
+                    <dd class="rt"><a href="#" target="_blank">3月ORC</a></dd>
+                </dl>
+            </div>
+	    </div>
+	</div>
+    <div class="link">
+        <div class="link-container">
+            <div class="title">友情链接：</div>
+            <div class="detail">
+                <a href="http://www.chinaports.com/containerTracker/" target="_blank">集装箱查询</a>
+                <a href="http://www.56135.com/" target="_blank">中国物流交易中心</a>
+                <a href="http://www.51yunli.com/" target="_blank">无忧运力网</a>
+                <a href="http://www.baoyuntong.com/" target="_blank">货物运输保险</a>
+                <a href="http://www.56zp.com" target="_blank">中国物流人才网</a>
+                <a href="http://www.baidu.com/" target="_blank">百度</a>
+                <a href="http://www.yicang.com/ " target="_blank">易舱网</a>
+                <a href="http://www.21098.com" target="_blank">广交会展信息网</a>
+                <a href="http://www.cnhangyun.com" target="_blank">中国航运网</a>
+                <a href="http://www.56913.com" target="_blank">福建物流网</a>
+                <a href="http://www.156580.com" target="_blank">易物流网</a>
+                <a href="http://www.zgsyb.com/gb/" target="_blank">中国水运网</a>
+                <a href="http://www.eachtrans.com/" target="_blank">易网通物流网</a>
+                <a href="http://www.56qss.com/" target="_blank">物流全搜索</a>
+                <a href="http://www.haoyun56.com/" target="_blank">好运物流网</a>
+                <a href="http://www.9956.cn/" target="_blank">九九物流网</a>
+                <a href="http://www.56on.com/" target="_blank">赢在物流</a>
+                <a href="http://www.scmcn.net/ " target="_blank">供应链中国网</a>
+                <a href="http://www.8ems.com/" target="_blank">8速快查</a>
+                <a href="http://www.360fob.com/" target="_blank">物贸在线</a>
+                <a href="http://wl.job1001.com/" target="_blank">物流英才网</a>
+                <a href="http://www.02156.cn/" target="_blank">中国物流企业网</a>
+                <a href="http://www.igenzong.com/" target="_blank">集装箱跟踪网</a>
+                <a href="http://www.56885.net/" target="_blank">物流天下</a>
+                <a href="http://www.jobtrans.cn/" target="_blank">物流招聘</a>
+                <a href="http://www.56lem.com/" target="_blank">56联盟网</a>
+                <a href="http://www.sofreight.com/" target="_blank">海运费查询</a>
+                <a href="/links.aspx" target="_blank">更多...</a>
+            </div>
+        </div>
+    </div>	
+    <div class="footer">
+        <div class="footer-container"><img src="/images2015/0213footer.gif" /></div>
+    </div>
+</body>
+</html>

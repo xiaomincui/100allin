@@ -1,0 +1,89 @@
+﻿#tuna_address {
+	font-size: 12px;
+	font-family: Arial, Simsun;
+}
+#tuna_address #address_warp {
+	width: 253px;
+	border: 1px solid #7F9DB9;
+	background: #FFF;
+	padding: 4px;
+	margin: 0px;
+	text-align: left;
+	min-height:305px;
+}
+* html #tuna_address #address_warp {
+	height:305px;
+}
+#tuna_address #address_message {
+	display: block;
+	line-height: 20px;
+	padding: 0px 0px 0px 5px;
+	color: #666;
+	border-bottom: 1px dashed #aaa;
+	font-family:"Simyou";
+	word-wrap:break-word;
+	word-break:break-all;
+	width:240px;
+}
+#tuna_address #address_list {
+	margin: 5px 0 0 0;
+	padding: 0px;
+	min-height:277px;
+}
+* html #tuna_address #address_list {
+	height:277px;
+}
+#tuna_address #address_list span {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-align: left;
+}
+#tuna_address #address_list a {
+	padding: 1px 5px 0px 5px;
+	text-align: right;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	cursor: pointer;
+	line-height: 20px;
+	color: #0055aa;
+	display:block;
+	text-decoration:none;
+	min-height:20px;
+}
+* html #tuna_address #address_list a {
+	height:20px;
+}
+#tuna_address #address_list a:hover {
+	background: #E7F1FD;
+	border-top: 1px solid #7F9DB9;
+	border-bottom: 1px solid #7F9DB9;
+}
+#tuna_address .address_selected {
+	background: #C8E3FC;
+	color: #FFF;
+	border-top: 1px solid #C8E3FC;
+	border-bottom: 1px solid #C8E3FC;
+}
+#tuna_address .address_pagebreak {
+	padding:0;
+	margin:0;
+	display:none;
+	line-height:25px;
+	text-align:center;
+}
+#tuna_address .address_pagebreak a {
+	color:#0055aa;
+	font-family: Arial, Simsun, sans-serif;
+	text-decoration:underline;
+	padding:0px 4px 0px 4px;
+	margin:0;
+	font-size:14px;
+}
+#tuna_address #address_arrowl,#tuna_address #address_arrowr {
+	color:#0055aa;
+}
+#tuna_address a.address_current {
+	color:black;
+	text-decoration:none;
+}

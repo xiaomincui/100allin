@@ -1,0 +1,60 @@
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#086296;
+}
+
+.content{
+	width:778px;
+	margin:0px auto;
+}
+
+/*头部*/
+
+.head{
+	width:778px;
+	height:242px;
+	padding:0px;
+	background:url(images/kline_top.jpg) no-repeat top;
+}
+
+/*主体*/
+
+.pagebody{
+	width:738px;
+	margin:0px;
+	padding:20px 0px 0px 40px;
+	background-color:#FFFFFF;
+	float:left;
+}
+
+.pagebody h2{
+	font:13px "宋体";
+	font-weight:bold;
+	color:#0681C7;
+}
+
+.pagebody P{
+	font:12px "宋体";
+	line-height:26px;
+	padding:0px 40px 0px 20px;
+
+}
+
+.pagebody ul{
+	padding:0px 0px 0px 20px;
+	margin:0px;
+	float:left;
+}
+
+.pagebody ul li{
+	display:block;
+	float:left;
+	list-style:none;
+	margin-right:27px;
+	width:200px;
+	text-align:center;
+	font:12px "宋体";
+}

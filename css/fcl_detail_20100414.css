@@ -1,0 +1,80 @@
+﻿body{padding:0;font:12px"宋体";margin:0px auto;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+td{word-break:break-all;WORD-WRAP:break-word;}
+ul{list-style-type:none;}
+a{color:#22568F;text-decoration:none;}
+a:hover{color:#FF6600;text-decoration:underline;}
+.main{width:950px;padding:0;margin:0 auto;}
+.gray{color:#666666;}
+.fcl_top{width:950px;height:85px;float:left;}
+#fcl_logo{height:62px;float:left;margin:0 0 0 16px;padding:23px 0 0 0;}
+#solo{float:left;margin:43px 0 0 0;padding:0 0 0 10px;}
+.fcl_tel{width:232px;height:65px;padding:20px 0 0 18px;background:url(http://img01.100allin.com/images/fcl_s/tel_bg.png) no-repeat right bottom;float:right;}
+.fcl_tel img{vertical-align:middle;margin:0 5px 0 0;}
+.fcl_tel a{color:#000;text-decoration:none;}
+.fcl_login{width:300px;height:71px;padding:14px 15px 0 0;background:url(http://img01.100allin.com/images/fcl/login_bg.gif) no-repeat right;float:right;}
+.fcl_login a{line-height:28px;}
+.fcl_login a img{vertical-align:middle;margin:-3px 5px 0 0;}
+.nav{width:950px;height:33px;background:url(http://img01.100allin.com/images/fcl_s/nav_bg.png) repeat-x top;float:left;}
+.nav ul li{display:block;width:94px;text-align:center;height:33px;float:left;}
+.nav ul li a{display:block;width:94px;height:25px;padding:8px 0 0 0;color:#fff;text-decoration:none;font:14px"宋体";font-weight:bold;}
+.st{background:url(http://img01.100allin.com/images/fcl_s/nav_a_bg.png) repeat-x;}
+.st a{color:#011334 !important;}
+.nav ul li a:hover{background:url(http://img01.100allin.com/images/fcl_s/nav_a_bg.png) repeat-x;color:#011334;text-decoration:none;}
+.nav ul li.divider{display:block;width:2px;height:33px;float:left;background:url(http://img01.100allin.com/images/index_s/dv.png) no-repeat center;}
+.search_mid p a:link{color:#293B5E;text-decoration:none;}
+.search_mid p a:visited{text-decoration:none;color:#293B5E;}
+.search_mid p a:hover{text-decoration:underline;color:#FFFFFF;background-color:#FF6600;}
+.search_mid p a:active{text-decoration:none;color:#293B5E;}
+.notice_hd{width:913px;padding:0 0 0 35px;float:left;color:#566939;background:#C8E59A url(http://img01.100allin.com/images/fcl/dc16.gif) no-repeat 15px;border:1px dashed #92ac69;margin-top:12px;line-height:28px;}
+.mail{width:145px;height:16px;margin:7px 7px 0 0;display:inline;background:url(http://img01.100allin.com/images/fcl_s/mail_bg.png) no-repeat center;color:#2A509B;padding:4px 0 0 30px;float:right;}
+.mail a{color:#FF6600;text-decoration:underline;}
+.right_nav ul li a:link,.right_nav ul li a:visited,.right_nav ul li a:active{color:#28385A;text-decoration:none;}
+.right_nav ul li a:hover{color:#FF6600;text-decoration:none;padding-left:3px;}
+.bottom_tn{width:950px;line-height:20px;text-decoration:none;text-align:center;float:left;}
+.bottom_tn a{color:#000000;text-decoration:none;}
+.info_other{width:950px;float:left;overflow:hidden;margin:12px 0 0 0;}
+.info_other a{color:#616161;margin-right:8px;line-height:20px;text-decoration:none;}
+.info_other a:hover{color:#fff;background-color:#FF6600;text-decoration:none;}
+.info_other h2{font:14px"宋体";font-weight:bold;width:92px;height:22px;text-align:center;color:#FFF;background:url(http://img01.100allin.com/images/fcl/h2.jpg) repeat-x center;padding:7px 0 0 0;margin:0 0 0 20px;}
+.info_box{width:948px;background-color:#fff;border:1px solid #1563b0;float:left;margin-top:12px;}
+.info_left{width:659px;padding:1px;float:left;}
+#bttj{width:611px;text-align:center;border:none;padding:13px 0;color:#999;font:12px"宋体";}
+#bttj img{vertical-align:middle;margin:0 0 7px 0;}
+.info_left h1{font:20px"宋体";margin:0 0 1px 0;padding:11px 0 0 30px;height:31px;background:url(http://img01.100allin.com/images/fcl_s/zz_bg.jpeg) repeat-x;font-weight:bold;}
+.info_left ul{margin:0px;padding:19px 0 0 33px;overflow:hidden;width:624px;border-top:1px dashed #A6BCD1;}
+.info_left ul li{display:block;width:295px;font:13px"宋体";border-bottom:1px dashed #e5e4e4;float:left;list-style:none;line-height:32px;}
+.info_right{width:286px;float:left;background:#eff8fe;border-left:1px solid #1563B0;margin:0px;padding:0 0 30px 0;}
+.info_right h2{width:262px;font:14px"宋体";height:26px;font-weight:bold;padding:15px 0 0 24px;margin:0px;float:left;color:#28385A;}
+.info_right h2 a{color:#28385A;text-decoration:underline;}
+.other_list{width:950px;float:left;background:url(http://img01.100allin.com/images/fcl/qit1.gif) repeat-x center 30px;padding:1px;overflow:hidden;margin:18px 0 0 0;}
+.other_list h1{margin:0px;padding:0px;height:29px;font:14px"宋体";font-weight:bold;background:url(http://img01.100allin.com/images/fcl_s/diqiu.png) no-repeat 16px 5px;line-height:29px;padding:0 0 0 38px;}
+.other_list_left{width:685px;margin:0px;float:left;display:inline;}
+.other_list_left h2{font:13px"宋体";margin:0px;background:url(http://img01.100allin.com/images/fcl/jt.gif) no-repeat 25px 18px;padding:13px 0px 10px 35px;}
+.other_list_right h2{font:13px"宋体";background:url(http://img01.100allin.com/images/fcl/jt.gif) no-repeat 12px 18px;margin:0px;padding:13px 0px 0px 23px;}
+.other_list_box{width:685px;float:left;}
+.other_list_box a{color:#28385A;text-decoration:none;}
+.other_list_box a:hover{color:#FF6600;text-decoration:underline;}
+.other_list_right{width:250px;float:right;}
+.other_list_right ul{margin:0px;padding:10px;float:left;}
+.other_list_right ul li{display:block;width:230px;list-style:none;line-height:26px;border-bottom:1px dashed #C8C8C8;}
+.other_list_right ul li a:link,.other_list_right ul li a:visited,.other_list_right ul li a:active{color:#28385A;text-decoration:none;}
+.other_list_right ul li a:hover{color:#FF6600;text-decoration:underline;}
+.details_info{width:254px;margin:12px 0 0 12px;padding:6px 0 0 0;display:inline;overflow:hidden;float:left;border-top:1px solid #E5E4E4;}
+.details_info ul{margin:0px 0px 0px 0px;padding:0px 0px 0px 20px;}
+.details_info ul li{font:12px"宋体";display:block;list-style:none;line-height:24px;}
+.details_info ul li img{vertical-align:middle;}
+.details_info ul li a{color:#FF6600;text-decoration:underline;}
+.blue_box{width:590px;background:#f5fafd;float:left;margin:0px;text-align:center;padding:0px;overflow:hidden;}
+.sju{font:20px"宋体";color:#28385A;font-weight:bold;line-height:64px;margin:0 12px;}
+.sju a{font:30px"宋体";color:#FF0000;font-weight:bold;}
+.name{margin:10px 0px 0px 0px;font:13px"宋体";color:#FF0000;font-weight:bold;float:left;}
+#pic{float:left;padding:10px 0px 0px 24px;margin:0px 20px 8px 0px;}
+#pd td{padding-left:8px;}
+#pic img{background:#FFFFFF none repeat scroll 0 0;border:1px solid #CBCCC7;padding:3px;}
+.page{color:#333333;height:25px;line-height:25px;float:right;margin:8px 0;}
+.page .selected, .page .selected a, .page a.selected:hover{background:#3277ac;border:1px solid #C2C2C2;color:#FFFFFF;padding:2px 6px;}
+.page a:hover{background-color:#FFFFFF;border:1px solid #3277ac;color:#000000;text-decoration:none;}
+.pop_page .selected, .page .selected a, .page a.selected:hover{background:#3277ac;border:1px solid #C2C2C2;color:#FFFFFF;padding:2px 6px;margin:0px;}
+.pop_page a:hover{background-color:#FFFFFF;border:1px solid #3277ac;color:#000000;text-decoration:none;}
+.fcl_rd{margin-top:18px;width:950px;float:left;}

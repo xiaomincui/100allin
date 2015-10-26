@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="waysfooter.ascx.cs" Inherits="waysglobal_uc_waysfooter" %>
+		<div class="foot">Copyright 2007-2010 100Allin.com All Rights Reserved 沪ICP备07510944号</div>

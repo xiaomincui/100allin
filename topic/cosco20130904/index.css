@@ -1,0 +1,24 @@
+﻿/* CSS Document */
+body{padding:0;	font:12px "宋体";font-family: Verdana;margin:0px auto;color:#373737;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+ul{list-style-type:none; margin:20px 0px 0px 0px;}
+li{float:left; width:280px; height:30px;}
+img {border:0;}
+a{color:#5692A5;text-decoration:none; font-weight:bold;}
+a:hover{color:#5692A5;text-decoration:underline; font-weight:bold;}
+h2 {font-family:"黑体";font-size:20px;font-weight:normal;background:url(images/h2_bg.gif) repeat-x;height:28px;padding:8px 0px 0px 15px;}
+h3 {font-family:"黑体";font-size:18px;color:#666666;font-weight:normal;height:32px;padding:15px 0px 0px 0px;}
+h4 {font-family:"黑体";font-size:18px;color:#333333;font-weight:normal;height:25px;padding:10px 0px 0px 10px; margin:10px 0px 10px 0px; background:#CCCCCC;}
+h3 a{color:#666666;text-decoration:none;}
+p {line-height:24px;text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/}
+.h_box{ background:#FCFCFC url(images/main_top.gif) repeat-x; width:100%; }
+.head{width:950px;margin:0 auto; }
+.head_top{width:944px;height:39px;padding:0 3px;}
+.head_top img{vertical-align:middle;}
+.head_top_left{height:39px;float:left;}
+.head_top_right{height:29px;float:right;margin-top:10px;}
+.main{width:950px;padding:0;margin:0 auto;}
+.title{margin:20px 0px 0px 0px;}
+
+
+.bottom_tn{width:950px;line-height:20px;text-decoration:none;text-align:center;float:left;}

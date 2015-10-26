@@ -1,0 +1,21 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+<LINK href="css/WebResource.css" type=text/css rel=stylesheet></LINK>
+<DIV class=basicdatepicker id=BasicDatePicker1 style="DISPLAY: inline">
+<INPUT id=BasicDatePicker1_TextBox readOnly value="点击右边日历选择日期" name=BasicDatePicker1$TextBox>
+<IMG class=bdpButton id=BasicDatePicker1_Image style="BORDER: 0px; WIDTH: 28px; HEIGHT: 22px;" alt="点击日历选择日期" src="images/WebResource.gif" border=10>点击左边日历选择日期
+<SCRIPT src="js/WebResource.js" type=text/javascript></SCRIPT>
+<SCRIPT src="js/coolite.js" type=text/javascript></SCRIPT>
+<SCRIPT src="js/basicdatepicker.js" type=text/javascript></SCRIPT>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var BasicDatePicker1 = (Coolite.DatePicker) ? new Coolite.DatePicker({clientID:"BasicDatePicker1",dateFormat:"yyyy-MM-dd",selectableWeekendDays:false,minimumDate:"1999/1/1",nullDateText:"点击右边日历选择日期",showWeekNumbers:true,showDaysInNextMonth:false,showDaysInPrevMonth:false,northImage:"images/arrow_up.gif",southImage:"images/arrow_down.gif",eastImage:"images/arrow_right.gif",westImage:"images/arrow_left.gif"}).applyTo({inputID:"BasicDatePicker1_TextBox",buttonID:"BasicDatePicker1_Image"}) : alert("日期控件出现问题，请刷新该页面");
+//]]>
+</SCRIPT>
+</BODY>
+</HTML>

@@ -1,0 +1,161 @@
+/* CSS Document */
+.header
+{
+    height:155px;
+    }
+    
+.header-line{border-top: 5px solid #006699;border-bottom: 5px solid #DFEBF0;}
+
+.container{background:#F9F9F9;width:auto;}
+
+.container-hd{width:1190px; margin:0 auto;overflow:hidden;padding:20px 0;}
+.container-bd{width:1130px; margin:0 auto;overflow:hidden; border:1px solid #DFDFDF;background:#FFFFFF; margin-bottom:50px; padding:30px;}
+
+.hd-title{font-size:20px; color:#006699;}
+
+.doc-left
+{
+    width: 700px;
+    float: left;
+    margin: 0px 40px 30px 20px;
+    border-right: 1px solid #EDEDED;
+    padding: 0px 40px 0 0px;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    word-break:break-all;
+    }
+    
+.doc-right
+{
+    float:left;
+    width:300px;
+           }
+
+
+.doc-left p
+{
+    line-height:30px;
+    margin-bottom:14px;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    word-break:break-all;
+    }
+
+.doc-left .nospace
+{
+    text-indent:0;
+    }
+
+.sitemap dl
+{
+    overflow:hidden;
+    }   
+    
+.sitemap dl dt
+{
+    font-weight:800;
+    padding:20px 0;
+    }    
+
+.sitemap dl dd
+{
+    width:125px;
+    padding: 0 14px 14px 0;
+    margin:0;
+    float:left;
+    }    
+    
+.uc-nav-box {
+background: #FFFFFF;
+}
+
+
+.uc-nav-box .box-hd .title{
+font-size:16px;
+}
+
+
+
+
+
+
+.notices{
+	height:25px;
+	line-height:25px;
+	color:#FF0000;
+	background:#FEF0F0 url(../images/!.gif) no-repeat 8px 6px;
+	padding:0px 25px;
+	margin:0px 5px;
+}
+
+.standard{
+	height:25px;
+	line-height:25px;
+	color:#000000;
+	background:#CCFF9A url(../images/gg.gif) no-repeat 8px 6px;
+	padding:0px 25px;
+	margin:0px 5px;
+}
+
+.common{
+	height:25px;
+	line-height:25px;
+	border-bottom:1px solid #E6E6E6;
+	border-top:1px solid #E6E6E6;
+	padding:0px 25px;
+	margin:0px 5px;
+	color:#999999;
+}
+
+
+.gray
+{
+    color:#999999;
+    }
+    
+.reg-law
+{
+    color:#006699;
+    }    
+    
+.reg-box table tr td
+{
+    padding-right:10px;
+        }    
+        
+.reg-box input
+{
+    padding:0;
+    margin:0;
+    width:250px;
+    height:25px;
+    line-height:25px;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Microsoft YaHei","Arial Narrow";
+    border: 1px solid #E6E6E6;    
+    padding-left:5px;
+        }          
+
+.zc_tn
+{
+    color:#999999;
+    }
+
+
+#Button1
+{
+    color: #FFFFFF;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","Arial Narrow";
+    margin: 0 auto;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    background: #006699;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none; 
+    }        

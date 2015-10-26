@@ -1,0 +1,229 @@
+﻿<%@ Master Language="VB" CodeFile="member.master.vb" Inherits="member_member" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>傲赢网 - 我的办公室</title>
+    <link href="css/master.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+
+-->
+</style>
+</head>
+<body>
+<form id="form1" runat="server">
+    <div id="page">
+		<div id="center">
+			<div id="top">
+				<div id="logo"><a href="/"><img src="images/logo.gif" width="182" height="72" border="0" /></a></div>
+				<div id="banner">
+					<div id="help"><a href="/">回到首页</a>|<a href="#">设为首页</a>|<a href="#">加入收藏</a>|<a href="/help/help_about.html">使用帮助</a>|<a href="javascript:;" onclick="document.getElementById('servicebox').style.display = '';" style="color:#FF0000; font-weight:bold;" title="点击此处打开客户服务列表">客户服务</a><DIV id="servicebox" style="Z-INDEX:999; right:10px; top:30px; POSITION: absolute;  display:none;"><img src="../images/servicebox_head1.gif"  width="108" height="30" border="0" onclick="document.getElementById('servicebox').style.display = 'none';" style="cursor:pointer;" alt="点击此处隐藏客户服务列表" id="servicebox_head" /><br />
+<img src="../images/servicebox_body1.gif" name="servicebox_head" width="108" height="194" border="0" usemap="#servicebox_headMap" id="servicebox_body" />
+<map name="servicebox_headMap" id="servicebox_headMap">
+<area shape="rect" coords="10,152,95,180" href="msnim:chat?contact=100allin01@LIVE.CN" />
+<area shape="rect" coords="10,123,95,150" href="msnim:chat?contact=100allin02@LIVE.CN" />
+<area shape="rect" coords="10,95,95,120" href="msnim:chat?contact=100allin03@LIVE.CN" />
+<area shape="rect" coords="10,68,95,93" href="tencent://message/?uin=908318342&amp;Site=www.100allin.com&amp;Menu=yes" />
+<area shape="rect" coords="10,40,95,66" href="tencent://message/?uin=914019684&amp;Site=www.100allin.com&amp;Menu=yes" />
+<area shape="rect" coords="10,11,95,38" href="tencent://message/?uin=744593820&amp;Site=www.100allin.com&amp;Menu=yes" />
+</map></DIV></div>
+					
+				</div>
+			</div>
+			<div id="menu">
+			  <table width="990" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="10"><img src="images/menu_1.gif" width="10" height="35" /></td>
+                      <td width="970" background="images/menu_2.gif">
+						  <ul class="menu">
+							<li><a href="/" target="_blank">首页</a></li>
+							<li>|</li>
+							<li><a href="/fcl/" target="_blank">整箱运价</a></li>
+							<li>|</li>
+							<li><a href="/lcl/" target="_blank">拼箱运价</a></li>
+							<li>|</li>
+							<li><a href="/air/" target="_blank">空运运价</a></li>
+							<li>|</li>
+							<li><a href="/search/cargo.html" target="_blank">货盘信息</a></li>
+							<li>|</li>
+							<li><a href="/company/" target="_blank">公司库</a></li>
+							<li>|</li>
+							<li><a href="/home/space.php?do=home" target="_blank">社区</a></li>
+							<li>|</li>
+							<li><a href="/bbs/" target="_blank">论坛</a></li>
+									
+						  </ul>
+					 </td>
+                      <td width="10"><img src="images/menu_3.gif" width="10" height="35" /></td>
+                    </tr>
+                  </table>
+			</div>			
+			<div id="main">
+				<div id="left">
+					<div id="denglu" class="leftbox">
+					  <table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							  <td width="10" style="height: 31px"><img src="images/box_1.gif" width="10" height="31" /></td>
+							  <td width="155" background="images/box_2.gif" style="height: 31px"><div class="smallBoxTitle">会员信息</div></td>
+							  <td width="10" style="height: 31px"><img src="images/box_3.gif" width="10" height="31" /></td>
+							</tr>
+							<tr>
+							  <td background="images/box_4_b.gif"></td>
+							  <td bgcolor="#F6FBFD">
+							  <div class="inLeftBox"><span class="smallBoldOrange"><asp:Label ID="lblUserName" runat="server"></asp:Label></span>，欢迎您！<br />
+								   <a href="/member">我的办公室首页</a>
+								   <a href="/member/login_2_edit.aspx" style="color:#FF0000; font-weight:bold;display:none;" target="_blank">编辑我的商铺(新)</a><br />	
+                                    <a href="/member/pm.aspx">我的短消息<asp:Label ID="Label1" runat="server" Text=""></asp:Label></a><br />	
+                                    <a href="/member/getdicker.aspx">我的讨价还价<asp:Label ID="Label2" runat="server" Text=""></asp:Label></a><br />	
+								   <asp:LinkButton ID="LinkButton1" runat="server">退出登录</asp:LinkButton>
+							  </div>
+							  </td>
+							  <td background="images/box_6_b.gif"></td>
+							</tr>
+							<tr>
+							  <td><img src="images/box_7_b.gif" width="10" height="10" /></td>
+							  <td background="images/box_8_b.gif"></td>
+							  <td><img src="images/box_9_b.gif" width="10" height="10" /></td>
+							</tr>
+				      </table>
+					</div>				
+					<div id="yunjia" class="leftbox">
+					  <table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							  <td width="10"><img src="images/box_1.gif" width="10" height="31" /></td>
+							  <td width="155" background="images/box_2.gif"><div class="smallBoxTitle">运价/货盘管理发布</div></td>
+							  <td width="10"><img src="images/box_3.gif" width="10" height="31" /></td>
+							</tr>
+							<tr>
+							  <td background="images/box_4.gif"></td>
+							  <td>
+							  <div class="inLeftBox">整箱运价&nbsp;&nbsp;&nbsp;<a href="shippinglist.aspx">管理</a> | <a href="Release.aspx">发布</a><br />
+								   拼箱运价&nbsp;&nbsp;&nbsp;<a href="lcllist.aspx">管理</a> | <a href="SpellRelease.aspx">发布</a><br />
+								   空运运价&nbsp;&nbsp;&nbsp;<a href="airlist.aspx">管理</a> | <a href="AirRelease.aspx">发布</a><br />
+								   海运货盘&nbsp;&nbsp;&nbsp;<a href="cargolist.aspx">管理</a> | <a href="temp_add4.aspx">发布</a><br />
+								   空运货盘&nbsp;&nbsp;&nbsp;<a href="aircargolist.aspx">管理</a> | <a href="temp_add5.aspx">发布</a>
+							  </div>
+							  </td>
+							  <td background="images/box_6.gif"></td>
+							</tr>
+							<tr>
+							  <td><img src="images/box_7.gif" width="10" height="10" /></td>
+							  <td background="images/box_8.gif"></td>
+							  <td><img src="images/box_9.gif" width="10" height="10" /></td>
+							</tr>
+				      </table>
+					</div>
+					<div id="piliang" class="leftbox">
+					  <table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							  <td width="10"><img src="images/box_1.gif" width="10" height="31" /></td>
+							  <td width="155" background="images/box_2.gif"><div class="smallBoxTitle">批量上传运价</div></td>
+							  <td width="10"><img src="images/box_3.gif" width="10" height="31" /></td>
+							</tr>
+							<tr>
+							  <td background="images/box_4.gif"></td>
+							  <td>
+							  <div class="inLeftBox"><a href="temp_upload1.aspx">批量上传整箱运价</a><br />
+								   <a href="temp_upload2.aspx">批量上传拼箱运价</a><br />
+								   <a href="temp_upload3.aspx">批量上传空运运价</a>
+							  </div>
+							  </td>
+							  <td background="images/box_6.gif"></td>
+							</tr>
+							<tr>
+							  <td><img src="images/box_7.gif" width="10" height="10" /></td>
+							  <td background="images/box_8.gif"></td>
+							  <td><img src="images/box_9.gif" width="10" height="10" /></td>
+							</tr>
+				      </table>
+					</div>						
+					<div id="setup" class="leftbox" >
+					  <table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							  <td width="10"><img src="images/box_1.gif" width="10" height="31" /></td>
+							  <td width="155" background="images/box_2.gif"><div class="smallBoxTitle">会员设置</div></td>
+							  <td width="10"><img src="images/box_3.gif" width="10" height="31" /></td>
+							</tr>
+							<tr>
+							  <td background="images/box_4.gif"></td>
+							  <td>
+							  	<div class="inLeftBox">
+                                    <asp:Label ID="lblVip" runat="server" Text="Label"><a href="/member/vip.aspx" style="color:red; font-weight:bold;">vip专区</a><br /></asp:Label>
+                                    <asp:Label ID="lblAdv" runat="server" Text="Label"><a href="/member/advuser.aspx" style="color:red; font-weight:bold;">高级会员专区</a><br /></asp:Label>
+								   <a href="/member/passwordedit.aspx">修改密码</a><br />	
+								   <a href="/member/useredit.aspx">修改个人信息</a><br />
+								   <a href="../member/recommend/recommend.aspx" target="_blank">推荐朋友注册，免费得积分</a><br />								  	
+							  	
+							  	</div>
+							  </td>
+							  <td background="images/box_6.gif"></td>
+							</tr>
+							<tr>
+							  <td><img src="images/box_7.gif" width="10" height="10" /></td>
+							  <td background="images/box_8.gif"></td>
+							  <td><img src="images/box_9.gif" width="10" height="10" /></td>
+							</tr>
+				      </table>
+					</div>						
+					<div id="zhuce" class="leftbox" style="display:none;">
+					  <table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							  <td width="10"><img src="images/box_1.gif" width="10" height="31" /></td>
+							  <td width="155" background="images/box_2.gif"><div class="smallBoxTitle">注册傲赢网会员</div></td>
+							  <td width="10"><img src="images/box_3.gif" width="10" height="31" /></td>
+							</tr>
+							<tr>
+							  <td background="images/box_4.gif"></td>
+							  <td>
+							  	<div class="inLeftBox"><a href="#">立即免费注册</a><br />
+								<a href="#">邀请朋友来注册</a>
+							  	</div>
+							  </td>
+							  <td background="images/box_6.gif"></td>
+							</tr>
+							<tr>
+							  <td><img src="images/box_7.gif" width="10" height="10" /></td>
+							  <td background="images/box_8.gif"></td>
+							  <td><img src="images/box_9.gif" width="10" height="10" /></td>
+							</tr>
+				      </table>
+					</div>										
+				</div>
+                <div id="right">
+					  <table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+							  <td width="10" style="height: 31px"><img src="images/box_1.gif" width="10" height="31" /></td>
+							  <td width="780" background="images/box_2.gif" style="height: 31px"><div class="bigBoxTitle">我的办公室</div></td>
+							  <td width="10" style="height: 31px"><img src="images/box_3.gif" width="10" height="31" /></td>
+							</tr>
+							<tr>
+							      <td background="images/box_4.gif" style="height: 15px"></td>
+							      <td style="height: 15px">	
+                                      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                      </asp:ContentPlaceHolder>
+							      </td>
+							      <td background="images/box_6.gif" style="height: 15px"></td>
+							</tr>
+							<tr>
+							  <td><img src="images/box_7.gif" width="10" height="10" /></td>
+							  <td background="images/box_8.gif"></td>
+							  <td><img src="images/box_9.gif" width="10" height="10" /></td>
+							</tr>
+				      </table>
+				</div>		
+			</div>
+		</div>
+    </div>
+	<div><img src="images/blank.gif" width="100%" height="10" /></div>
+	<div id="bottom" style="line-height:25px;">
+		<div class="line"><img src="images/line_blue.gif" width="100%" height="1" /></div>
+		
+		<userbottom:userbottom ID="userbottom1" runat="server" />
+	</div>
+</form>
+
+</body>
+</html>

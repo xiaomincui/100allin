@@ -1,0 +1,198 @@
+/* CSS Document */
+
+body{
+	padding:0;
+	font:13px "ËÎÌו";
+	margin:0px auto;
+	background:url(/images2/index/main_top.jpg) repeat-x;
+}
+
+.container_left{
+	float: left;
+    width: 212px;
+}
+
+.container_right{
+	float: left;
+    width: 733px;
+	padding: 2px 0px 0px 5px;
+}
+
+.container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin-top: 0px;
+    width: 950px;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 0;
+    width: 950px;
+}
+
+.container_left_top{
+	float: left;
+    height:111px;
+}
+
+.clt1{
+	height:111px;
+	width:6px;
+	float: left;
+}
+
+.clt2{
+	height:111px;
+	width:200px;
+	background: url("../images/bclt2.gif") repeat-x scroll center top transparent;
+    float: left;
+}
+
+.clt2 h2{
+	float:left;
+	background: url("../images/clt_cion.gif") no-repeat scroll 20px center transparent;
+	padding:5px 20px
+}
+
+.clt2 h2 span{
+	float:left;
+    margin-left:25px;
+	padding-top:4px;
+	color:#950E08;
+	font-size:17px;
+	font-weight:normal;
+}
+
+.clt2 p {
+	float:left;
+    color: #4C4C4C;
+    line-height: 21px;
+    padding: 9px 0 0 46px;
+}
+
+.container_left_mid{
+	float: left;
+    height:188px;
+	margin-top: 3px;
+}
+
+.clm1{
+	height:188px;
+	width:6px;
+	float: left;
+}
+
+.clm2{
+	height:188px;
+	width:200px;
+	background: url("../images/bclm2.gif") repeat-x scroll center top transparent;
+    float: left;
+}
+
+.clm2 h2{
+	float:left;
+	background: url("../images/clm_cion.gif") no-repeat scroll 20px center transparent;
+	padding:5px 20px
+}
+
+.clm2 h2 span{
+	float:left;
+    margin-left:25px;
+	padding-top:4px;
+	color:#950E08;
+	font-size:17px;
+	font-weight:normal;
+}
+
+.clm2 p {
+	float:left;
+    color: #4C4C4C;
+    line-height: 21px;
+    padding: 9px 0 0 46px;
+}
+
+.container_left_but{
+	float: left;
+    height:272px;
+	margin-top: 3px;
+}
+
+.clb1{
+	height:272px;
+	width:6px;
+	float: left;
+}
+
+.clb2{
+	height:272px;
+	width:200px;
+	background: url("../images/bclb2.gif") repeat-x scroll center top transparent;
+    float: left;
+}
+
+.clb2 h2{
+	float:left;
+	background: url("../images/clb_cion.gif") no-repeat scroll 20px center transparent;
+	padding:5px 20px
+}
+
+.clb2 h2 span{
+	float:left;
+    margin-left:25px;
+	padding-top:4px;
+	color:#950E08;
+	font-size:17px;
+	font-weight:normal;
+}
+
+.clb2 p {
+	float:left;
+    color: #4C4C4C;
+    line-height: 21px;
+    padding: 9px 0 0 46px;
+}
+
+.container_right_top_1{
+	float:left;
+	width:470px;
+}
+
+
+.container_right_top_2{
+	padding:0px 0px 0px 20px;
+	float:left;
+	width:69px;
+}
+
+.container_right_top_3{
+	padding:0px 0px 0px 20px;
+	float:left;
+	width:126px;
+}
+
+.container_right_main{
+	margin:20px 0px 0px 0px;
+	float:left;
+	width:740px;
+	height:666px;
+	border:1px solid #BDBDBD;
+}
+
+.container_right_main_top{
+	float:left;
+	width:740px;
+	height:34px;
+	background: url("../images/bcrmt.gif") repeat-x scroll center top transparent;
+}
+
+.container_right_main_top h2{
+	float:left;
+	margin:7px 0px 0px 22px;
+	font-weight:normal;
+	font-size:17px;
+}
+
+ .container_right_main_top h2 span{
+	padding:0px 0px 0px 170px;
+}

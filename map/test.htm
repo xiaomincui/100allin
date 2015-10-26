@@ -1,0 +1,38 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>地图显示</title>
+<style>
+body{ margin:0; padding:0;font:12px/16px Verdana, Helvetica, Arial, sans-serif;}
+</style>
+<link rel="stylesheet" href="/Public/Css/demo.Default.css" type="text/css" />
+<script language="javascript" src="http://webapi.amap.com/maps?v=1.2&key=f3f8984e7edce09c0f89e26527cdf173"></script>
+<script language="javascript">
+var mapObj,tool,view,scale;
+function mapInit(){
+	mapObj = new AMap.Map("imap",{
+	center:new AMap.LngLat(116.397428,39.90923),
+	level:13
+	});
+    mapObj.plugin(["AMap.ToolBar"],function(){  
+        //加载工具条  
+        var tool = new AMap.ToolBar({  
+            autoPosition:true//禁止自动定位  
+        });  
+        mapObj.addControl(tool);      
+    });  
+	
+}
+
+
+
+</script>
+</head>
+<body onLoad="mapInit()">
+<div class="demo_box">
+	<div id="imap" style="width:659px;height:400px;border:#F6F6F6 solid 1px;"></div>
+</div>
+<div id="cc">地图基本显示</div>
+</body>
+</html>

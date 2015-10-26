@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="company_qq.aspx.cs" Inherits="images_get_company_qq" %>

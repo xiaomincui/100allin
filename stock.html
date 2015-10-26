@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=gbk">
+<script src="http://js.jrj.com.cn/hq/co/swfobject.js" type="text/javascript"></script>
+<script src="http://js.jrj.com.cn/hq/co/flash4code.js" type="text/javascript"></script>
+<!--
+<script src="flash4code.js" type="text/javascript"></script>
+-->
+</head>
+<body>
+	<div>
+		使用说明:<br />
+		页面引入以下脚本<br/>		
+		<span style="color: green">&lt;script src="http://js.jrj.com.cn/hq/co/swfobject.js" type="text/javascript"&gt;&lt;/script&gt;</span><br/>
+		<span style="color: green">&lt;script src="http://js.jrj.com.cn/hq/co/flash4code.js" type="text/javascript"&gt;&lt;/script&gt;</span><br/>
+		调用javascript函数<br/>
+		<span style="color: green">jrj_show_flash(s_code,s_type,divId,flashWidth,flashHeigth)</span><br />
+		s_code:证券代码<br/>
+		s_type:证券类型,s表示股票，i表示指数,传空字符串默认为股票<br/>
+		divId:div容器id<br/>
+		flashWidth:flash宽度<br/>
+		flashHeigth:flash高度<br/>
+	</div>
+	<hr />
+	<div>
+	演示：<br />
+	股票代码:<input id="s_code" type="text" value="000002"/><br/>
+	股票类型:<input id="s_type" type="text" value="s"/><br/>
+	宽：<input id="flashW" type="text" value="600"/><br/>
+	高：<input id="flashH" type="text" value="400"/><br/>
+	<input type="button" onclick="jrj_show_flash(document.getElementById('s_code').value,document.getElementById('s_type').value,'HQZS',document.getElementById('flashW').value,document.getElementById('flashH').value)" value="显示"/><br/>
+	<div id="HQZS"></div>
+	<script type="text/javascript">
+	    jrj_show_flash(document.getElementById('s_code').value, document.getElementById('s_type').value, 'HQZS', document.getElementById('flashW').value, document.getElementById('flashH').value)
+	</script>
+	</div>
+</body>
+</html>

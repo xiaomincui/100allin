@@ -1,0 +1,26 @@
+/* CSS Document */
+
+body{ padding:0; font:12px "宋体"; font-family:Verdana, Arial, Helvetica, sans-serif; margin:0px auto; color:#4D4D4D;}
+div, p, ul, h2, h3, h4{padding:0px;margin:0px;}
+a{color: #4D4D4D; text-decoration:none;}
+a:hover{ color:#FF6600; text-decoration:underline;}
+.red{ color:#FF0000;}
+img{padding:0px;margin:0px; border:0}
+.line{border-bottom:1px solid #B6B6B6; line-height:0px; font-size:0px; overflow:hidden; margin-bottom:10px;}
+.line2{border-bottom:1px dashed #B6B6B6; line-height:0px; font-size:0px; overflow:hidden; margin:15px 0px;}
+.line3{border-bottom:1px dashed #0e67c0; line-height:0px; font-size:0px; overflow:hidden; margin:15px 0px;}
+h2{ font-family:黑体; font-size:18px; color:#0e67c0; font-weight:normal;}
+
+.main{ width:950px; margin:0 auto; background:#fff;}
+	.top{ width:950px; float:left; background:#fff; overflow:hidden;}
+		#logo{ float:left;}
+		#contact{ float:left; padding:44px 0px 0px 200px;}
+		#allin{ float: right;}
+	.big_pic{ width:950px; background:#fff; text-align:center;}
+	.box{ width:950px; padding:6px 0px;overflow:hidden; font-size:13px; line-height:22px;}
+		.box ul {margin-left:15px;}
+		.l_box{ width:590px; height:810px; float:left; padding:15px; border:1px #CCCCCC solid;}
+		.r_box{ width:290px; height:810px; float:left; padding:15px; border:1px #CCCCCC solid; margin-left:6px;}
+			.intro{padding:10px 10px 10px 0px; line-height:24px;}
+	.foot{ width:950px; height:38px; background:#DCDCDC; text-align:center; line-height:38px; font-size:14px;}
+	

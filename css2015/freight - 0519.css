@@ -1,0 +1,980 @@
+/* CSS Document */
+.filter-box .box-hd
+{
+    margin:0 auto;
+    }
+
+.filter-box .box-hd .title
+{
+    color:#006699;
+    font-weight:bold;
+    }
+    
+.filter-box .box-bd dl
+{
+    margin: 0;
+    padding: 20px 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 12px;
+    color: #8c8c8c;
+    }
+    
+.filter-box .box-bd dl dt
+{
+    float: left;
+    clear: both;
+    margin: 0 0 10px;
+    _margin: 2px 0 10px;
+    text-align: left;
+    }    
+    
+.filter-box .box-bd dl dd
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    _zoom: 1;
+    }        
+    
+.filter-box .box-bd dl dd ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }       
+    
+.filter-box .box-bd dl dd li
+{
+    float: left;
+    _display: inline;
+    margin: 3px 0 13px;
+    padding: 0 20px;
+    border-left: 1px solid #dfdfdf;
+    line-height: 1;
+    }    
+    
+.filter-box .box-bd dl dd li a
+{
+    color:#333333;
+    }     
+
+.filter-box .box-bd dl dd li a:hover
+{
+    color:#0088CA;
+    }
+
+    
+.filter-box .box-bd dl dd li.first
+{
+    border-left: 0;
+    }      
+    
+.filter-box .box-bd dl dd li.current a
+{
+    color: #0088CA;
+    }      
+    
+.filter-box .box-bd dl dt .w2
+{
+    letter-spacing: 12px;
+    margin-right: -12px;
+    } 
+    
+
+.filter-box .box-bd dl.filter-carrier dt
+{
+    padding-top:11px;
+    }   
+    
+.filter-box .box-bd dl.filter-carrier li
+{
+    height:33px;
+    padding:0 15px;
+    margin:3px 0 10px;
+    }      
+
+.filter-box .box-bd dl.filter-carrier ul
+{
+    overflow:hidden;
+    }      
+
+
+.filter-box .box-bd dl.filter-carrier dd li.first
+{
+    padding-top:11px;
+    border-bottom:none;
+    height:22px;
+    }  
+
+.filter-box .box-bd dl.filter-carrier dd li.more    
+{
+    padding-top:11px;
+    height:22px;
+    }      
+  
+.filter-box .box-bd dl.filter-carrier li a
+{
+    display:block;
+    padding:0px 5px;
+    border:1px #FFFFFF solid;
+    }  
+
+.filter-box .box-bd dl.filter-carrier li a:hover,.filter-box .box-bd dl.filter-carrier li.current a
+{
+    border:1px #4CABDA solid;
+    }  
+  
+  
+.filter-box .box-bd dl.filter-carrier dd li.first a,.filter-box .box-bd dl.filter-carrier dd li.more a,.filter-box .box-bd dl.filter-carrier dd li.first a:hover,.filter-box .box-bd dl.filter-carrier dd li.more a:hover
+{
+    border:none;
+    }   
+
+.keywords
+{
+    margin:25px auto;
+    font-size:16px;
+    }   
+
+.result-left {
+    width: 915px;
+    float: left;
+    margin: 0px 25px 0px 0px;
+}
+
+.result-right {
+    width: 250px;
+    float: left;
+    margin: 0;
+}          
+
+.i-r-box {
+    margin-bottom: 25px;
+}
+
+.grey-box {
+    border: 1px solid #E6E6E6;
+    width: 248px;
+}          
+
+.i-r-box dl {
+    margin: 0;
+    padding-bottom: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.i-r-box dl dt {
+    height: 40px;
+    padding: 0 15px;
+    margin: 0 0 20px 0;
+    background: #FAFAFA;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #777777;
+}     
+
+.i-r-box dl dt span {
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.i-r-box dl dd {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+}
+
+.i-r-box dl dd span
+{
+    float:right;
+    } 
+
+.i-r-box .rate-wrapper dd {
+    float: left;
+    height: 60px;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0px 0px 6px 20px;
+}
+
+.i-r-box .rate-wrapper .flag img {
+    padding-top: 13px;
+    vertical-align: middle;
+}
+
+.i-r-box .rate-wrapper b {
+    color: #FF8900;
+}
+
+.i-r-box .news-wrapper dt {
+    height: 40px;
+    padding: 0 5px 0 5px;
+    margin: -10px 0 0 0;
+    background: #FFFFFF;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #666666;
+}
+
+.i-r-box .news-wrapper dd 
+{
+    padding: 0 5px 15px 5px;
+    font-size:12px;
+    }
+    
+.i-r-box .news-wrapper .line {
+    width: 220px;
+    height: 1px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    background-color: #E6E6E6;
+    overflow: hidden;
+    border-left: 80px solid #006699;
+}
+
+
+.i-r-box .news-wrapper dd label 
+{
+    color:#FFFFFF;
+    margin:0 9px 0 0;
+    font-size:12px;
+    }     
+    
+.i-r-box .news-wrapper dd .row-1 
+{
+    background:#006699;
+    padding:0 4px;
+    }         
+    
+.i-r-box .news-wrapper dd .row-2 
+{
+    background:#3385AD;
+    padding:0 4px;
+    }    
+    
+.i-r-box .news-wrapper dd .row-3 
+{
+    background:#66A3C2;
+    padding:0 4px;
+    }  
+    
+.i-r-box .news-wrapper dd .row-4 
+{
+    background:#BBBBBB;
+    padding:0 4px;
+    }          
+
+
+.result-left .box-hd
+{
+    border-bottom: 0;
+    background: #fafafa;
+    }
+    
+.result-left .box-hd
+{
+    border-bottom: 0;
+    background: #fafafa;
+    margin:0 auto;
+    height:41px;
+    width:915px;
+    -webkit-box-shadow: rgba(0,0,0,.2) 0 1px 1px 0;
+    -moz-box-shadow: rgba(0,0,0,.2) 0 1px 1px 0;
+    box-shadow: rgba(0,0,0,.2) 0 1px 1px 0;      
+    }    
+    
+.result-left .box-hd dl
+{
+    margin: 0;
+    padding: 12px 0 5px;
+    font-size: 12px;
+    color: #8c8c8c;
+    }    
+    
+.result-left .box-hd dl dd
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    _zoom: 1;
+    }          
+    
+.result-left .box-hd dl dd ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }  
+    
+.result-left .box-hd dl dd li
+{
+    float: left;
+    _display: inline;
+    margin: 3px 0 13px;
+    padding: 0 20px;
+    border-left: 1px solid #dfdfdf;
+    line-height: 1;
+    }      
+    
+.result-left .box-hd dl dd li.first
+{
+    border-left: 0;
+    }     
+    
+.result-left .box-hd dl dd li.current a
+{
+    color: #0088CA;
+    }      
+    
+.result-left .box-bd
+{
+    margin:25px 0 0;
+    }        
+    
+.result-left .box-bd ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }  
+    
+.result-left .box-bd li
+{
+    border-bottom: 1px solid #E6E6E6;
+    border-top: 1px solid #E6E6E6;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    margin-bottom: 25px;
+    }
+.result-left .box-bd li .freight-hd
+{
+    font-size:12px;
+    background:#FAFAFA;
+    padding:10px 20px;
+    color:#999999;
+    overflow:hidden;
+    }  
+
+.result-left .box-bd li .freight-hd div
+{
+    margin-right:20px;
+    float:left;
+    } 
+    
+.result-left .box-bd li .freight-hd span
+{
+    background: #CDCDCD;
+    padding: 0 1px;
+    color:#FFFFFF;
+    }    
+    
+.result-left .box-bd li .freight-hd span.sel
+{
+    background: #64A1C0;
+    color:#FFFFFF;
+    }    
+    
+.result-left .box-bd li .freight-bd
+{
+    padding:20px;
+    } 
+    
+.result-left .box-bd li .freight-bd .title h3
+{
+    font-size:16px;
+    font-weight:400;
+    }           
+
+    
+.result-left .box-bd li .freight-bd .company {
+    font-size: 12px;
+    color: #999999;
+    }                    
+
+.result-left .box-bd li .freight-bd .company a {
+    color: #999999;
+    }
+
+.result-left .box-bd li .freight-bd .company a:hover
+{
+    color:#0088CA;
+    } 
+
+.result-left .box-bd li .freight-bd .content
+{
+    overflow:hidden;
+    }
+    
+.result-left .box-bd li .freight-bd .content .port
+{
+    float:left;
+    font-size:12px;
+    margin:10px 0 15px 0;
+    width:270px;
+    }
+
+.result-left .box-bd li .freight-bd .content .port div
+{
+    margin:5px 0 0 0;
+    }
+    
+.result-left .box-bd li .freight-bd .content .port img
+{
+    vertical-align:middle;
+    margin-right:8px;
+    }    
+   
+.result-left .box-bd li .freight-bd .content .freight
+{
+    float:left;
+    margin:0px 40px 0px 0px;
+    margin-top:11px;
+    }
+
+.result-left .box-bd li .freight-bd .content .freight-lcl
+{
+    margin-left:100px;
+    margin-right:120px;
+    }
+
+.result-left .box-bd li .freight-bd .content .freight-air
+{
+    margin-left:30px;
+    margin-right:30px;
+    }
+    
+.result-left .box-bd li .freight-bd .content .freight .sep
+{
+    float: left;
+    color: #C3C3C3;
+    margin: 0 20px;
+    padding: 23px 0 0 0;
+    }
+        
+.result-left .box-bd li .freight-bd .content .freight dl
+{
+    margin:4px 0 0 0;
+    padding:0;
+    float:left;
+    width:54px;
+    } 
+
+.result-left .box-bd li .freight-bd .content .freight dl dt
+{
+    text-align:center;
+    font-size:12px;
+    color:#C3C3C3;
+    }
+
+        
+.result-left .box-bd li .freight-bd .content .freight dl dd
+{
+    font-size:15px;
+    margin:0 auto;
+    padding:0;
+    color:#b12704;
+    font-weight:400;
+    text-align:center;
+    font-family: Verdana;
+    } 
+
+.result-left .box-bd li .freight-bd .content .freight dl dd span
+{
+    font-size:15px;
+    } 
+
+.result-left .box-bd li .freight-bd .content .carrier
+{
+    float:left;
+    margin:0;
+    margin-top:18px;
+    width:120px;
+    text-align:center;
+    line-height:30px;
+    }    
+
+.result-left .box-bd li .freight-bd .content .op
+{
+    float:right;
+    margin:0;
+    margin-top:20px;
+    }       
+    
+.result-left .box-bd li .freight-bd .content .op .order a
+{
+    display:block;
+    width:70px;
+    height:25px;
+    background:#006699;
+    text-align:center;
+    color:#FFFFFF;
+    padding-top:4px;
+    }
+
+.result-left .box-bd li .freight-bd .content .op .order a:hover
+{
+    background:#004E73;
+    }        
+    
+.result-left .box-bd li .freight-bd .content .op .order-desc
+{
+    color:#990000;
+    font-size:12px;
+    text-align:center;
+    }            
+
+.freight-hide
+{
+    display:none;
+    }
+
+
+.detail-left {
+    width: 705px;
+    float: left;
+    margin: 0px 50px 0px 0px;
+    padding-right:50px;
+    border-right:1px solid #EDEDED;
+}
+
+.detail-right {
+    width: 384px;
+    float: left;
+    margin: 0;
+    overflow:hidden;
+}     
+
+.detail-left .title{
+    height: 50px;
+}
+
+.detail-left .title h2{
+    line-height:50px;
+    font-size:25px;
+    font-weight:400;
+    color:#000000;
+}
+
+.detail-left .valid{
+    color: #999999;
+    border-bottom:1px solid #EDEDED;
+    padding-bottom:25px;
+}
+
+.detail-left .valid div{
+    float:right;
+}
+
+.detail-left .valid div a
+{
+    margin:0 5px 0 0;
+    color: #999999;
+    }      
+    
+.detail-left .valid div .share-title
+{
+    background-image:none;
+    }   
+    
+.detail-left .port-box
+{
+    overflow:hidden;
+    margin-top:40px;
+    }
+
+.detail-left .port-box div
+{
+    
+    }
+    
+    
+.detail-left .port-box .pol .pol-flag, .detail-left .port-box .pod .pod-flag
+{
+    margin:5px;
+    }
+    
+.port-box dl
+{
+    float:left;
+    margin:0;
+    padding:0;
+    }
+    
+.port-box dl dt
+{
+    color:#BABABA;
+    }
+    
+.port-box dl dd
+{
+    font-size:25px;
+    color:#006699;
+    margin:0;
+    padding:0;
+    }  
+    
+    
+.port-box  .carrier
+{
+    background:url(/images/arrow_b.gif);
+    height:58px;
+    width:auto;
+    float:left;
+    text-align:center;
+    }       
+
+.port-box .carrier span
+{
+    color:#FFFFFF;
+    padding:0 5px;
+    }     
+     
+.port-box .carrier .span-c
+{
+    background:#9CC3D7;
+    margin:0 2px 0 0;
+    }     
+
+.port-box .carrier .span-d
+{
+    background:#FF8000;
+    margin:0 0 0 2px;
+    }    
+        
+.port-box .pol
+{
+    float:left;
+    text-align:left;
+    margin-right:30px;
+    }  
+.port-box .pol .pol-en
+{
+    text-align:left;
+    }  
+    
+.port-box .arrow-b
+{
+    float:left;
+    }  
+    
+.port-box .pod
+{
+    float:right;
+    text-align:right;
+    margin-left:30px;
+    }  
+         
+.port-box .pod .pod-en
+{
+    text-align:right;
+    }
+      
+.port-box .arrow-f
+{
+    float:left;
+    } 
+
+.detail-left dl dt
+{
+    text-align: center;
+    } 
+
+.detail-left dl dd
+{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    } 
+ 
+.detail-left .freight
+{
+    overflow:hidden;
+    margin:40px 0 20px 0;
+    }   
+        
+.detail-left .freight dl
+{
+    margin: 4px 0 0 0;
+    padding: 0;
+    float: left;
+    }        
+    
+.detail-left .freight dl dt
+{
+    width: 175px;
+    height: 25px;
+    line-height:25px;
+    background: #7F7F7F;
+    color: #FFFFFF;
+    margin-right: 1px;
+    font-size: 14px;
+    }
+    
+.detail-left .freight dl dd
+{
+    width: 175px;
+    height: 50px;
+    line-height:50px;
+    background: #66A3C2;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 1px;
+    }  
+
+.detail-left .freight-sub
+{
+    overflow:hidden;
+    }   
+        
+.detail-left .freight-sub dl
+{
+    margin: 4px 0 0 0;
+    padding: 0;
+    float: left;
+    }        
+    
+.detail-left .freight-sub dl dt
+{
+    width: 174px;
+    height: 25px;
+    line-height:25px;
+    background: #FFFFFF;
+    color: #BBBBBB;
+    margin-right: 1px;
+    font-size: 14px;
+    }
+    
+.detail-left .freight-sub dl dd
+{
+    width: 174px;
+    height: 40px;
+    line-height:30px;
+    background: #FFFFFF;
+    font-size: 20px;
+    margin-right: 1px;
+    }   
+    
+.detail-left .freight-sub .sep {
+    float: left;
+    border-left:1px dashed #C3C3C3;
+    height:65px;
+    margin: 0;
+    padding: 0;
+}                
+
+
+.detail-right .u-company
+{
+    font-size:18px;
+    width:100%;
+    margin:20px 0 30px 0;
+    }
+    
+.detail-right .u-head
+{
+    width:70px;
+    height:70px;
+    border:1px solid #DDDDDD;
+    padding:10px;
+    float:left;
+    margin:0 20px 10px 0;
+    }    
+    
+.detail-right .u-name
+{
+    font-size:25px;
+    width:272px;
+    height:62px;
+    float:left;
+    }    
+    
+.detail-right .u-pm
+{
+    font-size:25px;
+    width:272px;
+    float:left;
+    margin:0 0 10px 0;
+    }         
+
+.detail-right .u-row
+{
+    float:left;
+    } 
+        
+.detail-right dl
+{
+    float:left;
+    width:172px;
+    margin:25px 10px 0 0;
+    }   
+
+.detail-right dl dt
+{
+    margin:0;
+    padding:0;
+    color:#000000;
+    }     
+        
+.detail-right dl dd
+{
+    margin:5px 0 0 0;
+    padding:0;
+    color:#666666;
+    }                       
+    
+.d-detail    
+{
+    
+    }
+    
+.d-more    
+{
+    margin-bottom:30px;
+    }   
+
+.d-more-nav  
+{
+    overflow:hidden;
+    }
+        
+.d-more-nav .title 
+{
+    font-size:18px;
+    overflow:hidden;
+    border-bottom:1px solid #EDEDED;
+    padding-bottom:10px;
+    margin:80px 0 20px 0;
+    }
+
+.d-more-nav ul
+{
+    overflow:hidden;
+    }
+        
+.d-more-nav .title li
+{
+    float:left;
+    list-style: none outside none;
+    margin-right:40px;
+    }
+     
+.d-more-nav .current
+{
+    font-size:18px;
+    color:#006699;
+    }    
+    
+.freight-more 
+{
+    text-align:right;
+    margin:40px 0 0 0;
+    }
+    
+.freight-more a
+{
+    color:#BBBBBB;
+    }    
+    
+.d-more-freight .result-left .box-bd
+{
+    margin:0;
+    }    
+
+.d-more-freight .result-left .box-bd li
+{
+    border-top:1px solid #FFFFFF;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    }       
+        
+.d-more-freight .result-left .box-bd .freight-bd
+{
+    padding:0;
+    }        
+    
+.d-more-freight .result-left .box-bd li .freight-bd .content .port {
+    width: 200px;
+}    
+
+.d-more-freight .result-left .box-bd li .freight-bd .content .freight dl dd {
+font-size: 14px;
+}
+
+.d-more-freight .result-left .box-bd li .freight-bd .content .freight .sep {
+margin: 0 10px;
+padding: 23px 0 0 0;
+}
+
+.d-more-freight .result-left .box-bd li .freight-bd .content .freight {
+margin: 0;
+margin-top: 5px;
+}
+
+.d-more-freight .result-left .box-bd li .freight-bd .content .freight-sub {
+margin-left: 60px;
+}
+
+.d-more-freight .result-left .box-bd li .freight-bd .content .freight-sub dl dd {
+color:#000000;
+}
+
+.d-more-freight .result-left .box-bd li .freight-bd .title {
+font-size: 16px;
+overflow: hidden;
+border-bottom: none;
+padding: 0;
+margin: 0;
+}
+
+.d-more-freight .result-left .box-bd li .freight-bd .title h3 {
+margin:0;
+padding:0;
+}
+
+.d-more-freight .result-left .box-bd li .freight-bd .title span {
+float:right;
+font-size: 12px;
+margin:0;
+padding:3px 0 0 0;
+color:#999999;
+}
+
+.d-more-freight .result-left {
+width: 705px;
+margin: 0;
+}
+
+.result-left .box-bd li .freight-bd .content .op .order a {
+width: 50px;
+height: 20px;
+background: #006699;
+padding-top: 0px;
+margin-left:10px;
+float:left;
+}
+
+.result-left .box-bd li .freight-bd .content .op .order .more {
+background: #CCCCCC;
+}
+
+.d-more .d-more-left
+{
+    width: 705px;
+    float: left;
+    margin: 0px 50px 0px 0px;
+    padding-right: 50px;
+    border-right: 1px solid #EDEDED;
+    }
+    
+.d-more .d-more-right
+{
+    width: 384px;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    }    

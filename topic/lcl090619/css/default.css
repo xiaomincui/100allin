@@ -1,0 +1,139 @@
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font:12px "宋体";
+	background-color: #c2c1c1;
+}
+
+img {
+	border:0;
+}
+
+.yellow{
+	color:#f8cc1b;
+}
+
+.gray{
+	color: #666666;
+}
+
+.orange{
+	color: #FF6600;
+}
+
+.top_nav a{
+	font:14px "宋体";
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:40px;
+}
+
+.top_nav a:hover{
+	color:#F6F400;
+	text-decoration: underline;
+}
+
+.bt1{
+	color:#f8cc1b;
+	font:14px "宋体";
+	font-weight:bold;
+}
+
+.bt2{
+	color:#3c3c3c;
+	font:14px "宋体";
+	font-weight:bold;
+	line-height:18px;
+}
+
+.bt2 a , .bt2 a:visited{
+	color:#3c3c3c;
+	text-decoration:none;
+}
+
+.bt2 a:hover{
+	color:#3c3c3c;
+	text-decoration: underline;
+}
+
+
+.zw{
+	font:12px "宋体";
+	color:#fff;
+	line-height:20px;
+}
+
+.zw2{
+	font:12px "宋体";
+	line-height:20px;
+	color:#3c3c3c;
+}
+
+.list_box{
+	width:800px;
+	float:left;
+	line-height:24px;
+}
+
+.list_box ul{
+	width:800px;
+	float:left;
+	padding:0px;
+	margin:0px;
+	}
+
+.list_box ul li{
+	display:block;
+	list-style:none;
+	border-bottom:1px dashed #CCCCCC;
+}
+
+.list_box ul li a{
+	color:#29395B;
+	text-decoration:none;
+}
+
+.list_box ul li a:hover{
+	color:#29395B;
+	text-decoration: underline;
+}
+
+.bottom_tn{
+	width:800px;
+	background-color: #496A61;
+	margin-top:8px;
+	padding:5px 0;
+	line-height:18px;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+	color: #fff;
+}
+
+.bottom_tn a{
+	color: #fff;
+	text-decoration:none;
+}
+
+
+#more a{
+	color:#29395B;
+	text-decoration:none;
+}
+
+#more a:hover{
+	color:#29395B;
+	text-decoration: underline;
+}
+
+
+
+.STYLE1 {color: #FFFFFF}
+
+#scrollLcl{height:200px;overflow:hidden}
+#scrollCompany{height:200px;overflow:hidden}

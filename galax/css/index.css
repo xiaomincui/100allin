@@ -1,0 +1,29 @@
+/* CSS Document */
+
+body{ padding:0; font:12px "宋体"; margin:0px auto; color:#4D4D4D;background:#F0F0F0 url(../images/bg.jpg) repeat-y center;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+a{color:#298BD2;}
+a:hover{ color:#FF6600;}
+
+/* index */
+.main{ width:938px; border-left:1px solid #B7B7B7; border-right:1px solid #B7B7B7; margin:0 auto; padding:0 17px; overflow:hidden;}
+	.header{ width:938px; float:left;}
+		.header_text{ width:938px; float:left; text-align:right; padding:6px 0 0 0;}
+		.nav{ width:938px; float:left;}
+		#logo{ float:left;}
+	.photo{ width:938px;}
+	.contents{ width:938px; margin-top:2px; border-top:1px solid #368DC3; border-bottom:1px solid #368DC3; float:left;}
+		.contents_left{ width:306px; padding:20px 21px 6px 21px; float:left;}
+			.left_box{ width:306px; float:left; margin:0 0 14px 0}
+				.box_title{ width:306px; float:left; margin:0 0 9px 0;}
+				.box_img{ float:left; margin:0 9px 0 0;}
+				.box_text{ width:220px; line-height:19px; margin:0 0 5px 0; float:left;}
+				.more{ width:220px; text-align:right; float: right;}
+			.contents_right{ width:555px; padding:20px 0 20px 35px; float: left;}
+				.right_box{ width:530px; margin:0 0 14px 0; float:left;}
+					.right_box_title{ width:530px; float:left;}
+					.right_box_text{ line-height:19px; padding:9px 0; border-bottom:1px dashed #298BD2; float:left;}
+					.r{ float:right;}
+				.right_img{ width:551px; padding:9px 0; margin:27px 0 9px 0; float:left;}
+					.right_img_title{ padding-bottom:12px; border-bottom:1px solid #298BD2; margin-bottom:9px;}
+	.foot{ line-height:52px; color:#298BD2; text-align:center;}

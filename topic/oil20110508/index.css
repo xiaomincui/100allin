@@ -1,0 +1,41 @@
+﻿/* CSS Document */
+body{padding:0;	font:12px "宋体";font-family: Verdana;margin:0px auto;color:#373737;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+ul{list-style-type:none;}
+img {border:0;}
+a{color:#293B5E;text-decoration:none;}
+a:hover{color:#FF6600;text-decoration:underline;}
+h2 {font-family:"黑体";font-size:20px;font-weight:normal;background:url(images/h2_bg.gif) repeat-x;height:28px;padding:8px 0px 0px 15px;}
+h3 {font-family:"黑体";font-size:18px;color:#666666;font-weight:normal;height:32px;padding:15px 0px 0px 0px;}
+h4 {font-family:"黑体";font-size:18px;color:#333333;font-weight:normal;height:25px;padding:10px 0px 0px 10px; margin:10px 0px 10px 0px; background:#CCCCCC;}
+h3 a{color:#666666;text-decoration:none;}
+p {line-height:24px;}
+.h_box{ background:#FCFCFC url(images/main_top.gif) repeat-x; width:100%; float:left;}
+.head{width:950px;margin:0 auto;}
+.head_top{width:944px;height:39px;padding:0 3px;}
+.head_top img{vertical-align:middle;}
+.head_top_left{height:39px;float:left;}
+.head_top_right{height:29px;float:right;margin-top:10px;}
+.main{width:950px;padding:0;margin:0 auto;}
+.title{margin-bottom:5px;}
+
+.text_3{border:1px #CECECE solid;width:948px; font-size:14px; margin-bottom:5px;line-height:24px; overflow:hidden;}
+.text_3_title{padding:10px 0px 0px 15px;width:920px; font-size:14px; color:#EB8A00;}
+.text_3_sub_title{margin:10px 0px 0px 15px;background:#E8E8E8; height:170px; width:920px;}
+.text_3_sub_title h4{font-family:"黑体";font-size:18px;color:#333333;font-weight:normal;padding:0px; margin:10px 0px 5px 0px; background:none;}
+.text_3_sub_title_left{width:430px;float:left; padding:0px 0px 0px 10px;}
+.text_3_sub_title_mid{border-left:1px #CCCCCC solid; height:150px;float:left; margin:10px 10px 10px 10px;}
+.text_3_sub_title_right{width:430px;float:left; padding:0px 0px 0px 10px;}
+
+.text_3_sub{padding:10px 0px 0px 15px;width:920px; font-size:14px; overflow:hidden;}
+.text_3_sub_left{padding:0px 0px 0px 5px;width:560px; float:left;}
+.text_3_sub_right{padding:0px 0px 0px 15px;width:330px;float:left;}
+.text_3_comment { margin:0px 10px; padding:5px 0px;  text-align:right;}
+
+.text_3_list{padding:10px 0px 15px 15px;width:920px; font-size:14px; overflow:hidden;}
+.text_3_list ul{width:895px; overflow:hidden;}
+.text_3_list li{display:inline; float:left;}
+
+.row0{width:500px;}
+
+.bottom_tn{width:950px;line-height:20px;text-decoration:none;text-align:center;float:left;}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+body,img{ margin:0; padding:0; margin:auto;}
+img{ display:block;}
+.root{ margin:auto;}
+#floatTool{ 
+		width:250px; 
+		height:100px; 
+		overflow:hidden; 
+		background:url(images/400tel-1.png) no-repeat; 
+		position:absolute; 
+		right:9%; 
+		top:130px;
+		z-index:1000;
+}
+#floatTool .move{
+		width: 100%;
+		height: 80px;
+		cursor:move;
+}		
+.hide{
+        display:none;
+    }		

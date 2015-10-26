@@ -1,0 +1,59 @@
+﻿2010-3-5 16:55:09 程序开始
+2010-3-5 16:55:09 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 16:55:01&notify_id=9c50ea12e39083cfe8ecc6398ad8ecc2&notify_time=2010-03-05 16:55:01&notify_type=bank2freeze&orderNo=BO20100305484216918&outOrderNo=FCL10030516518867&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=bb86fbb34cb065a7bdfc39fe08315a10,mysign=bb86fbb34cb065a7bdfc39fe08315a10,sign=bb86fbb34cb065a7bdfc39fe08315a10,dingdan=FCL10030516518867,status=S,responseTxt=true
+2010-3-5 16:55:09 正确
+2010-3-5 16:55:09 写入数据库
+2010-3-5 16:55:09 程序结束
+2010-3-5 17:02:24 程序开始
+2010-3-5 17:02:24 prestr=hcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=,mysign=4c16fbed8a9e4fb73001ff0900b7a411,sign=,dingdan=,status=,responseTxt=invalid命令参数不对
+2010-3-5 17:02:24 错误
+2010-3-5 17:02:24 程序结束
+2010-3-5 17:03:06 程序开始
+2010-3-5 17:03:06 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 17:02:59&notify_id=95b40d9bc08e10b08fffc464e96cdc1f&notify_time=2010-03-05 17:02:59&notify_type=bank2freeze&orderNo=BO20100305484226825&outOrderNo=FCL10030516518869&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=b3b5c5128eaf0e3d2d974d4cc49faf3c,mysign=b3b5c5128eaf0e3d2d974d4cc49faf3c,sign=b3b5c5128eaf0e3d2d974d4cc49faf3c,dingdan=FCL10030516518869,status=S,responseTxt=true
+2010-3-5 17:03:06 正确
+2010-3-5 17:03:06 写入数据库
+2010-3-5 17:03:06 程序结束
+2010-3-5 17:04:15 程序开始
+2010-3-5 17:04:15 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 17:00:37&notify_id=12c2f65324bad58252487d7be7ea7d01&notify_time=2010-03-05 17:04:08&notify_type=bank2freeze&orderNo=BO20100305484224389&outOrderNo=FCL10030516518868&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=1a8f3cd3bf0f0a843b6c6d2ff542f180,mysign=1a8f3cd3bf0f0a843b6c6d2ff542f180,sign=1a8f3cd3bf0f0a843b6c6d2ff542f180,dingdan=FCL10030516518868,status=S,responseTxt=true
+2010-3-5 17:04:15 正确
+2010-3-5 17:14:13 程序开始
+2010-3-5 17:14:13 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 17:00:37&notify_id=12c2f65324bad58252487d7be7ea7d01&notify_time=2010-03-05 17:14:06&notify_type=bank2freeze&orderNo=BO20100305484224389&outOrderNo=FCL10030516518868&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=f6647fdbbcbc6d8c27136d4317ccb624,mysign=f6647fdbbcbc6d8c27136d4317ccb624,sign=f6647fdbbcbc6d8c27136d4317ccb624,dingdan=FCL10030516518868,status=S,responseTxt=true
+2010-3-5 17:14:13 正确
+2010-3-5 17:24:23 程序开始
+2010-3-5 17:24:23 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 17:00:37&notify_id=12c2f65324bad58252487d7be7ea7d01&notify_time=2010-03-05 17:24:16&notify_type=bank2freeze&orderNo=BO20100305484224389&outOrderNo=FCL10030516518868&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=d4ac38bb786c8c902e4005af87823d76,mysign=d4ac38bb786c8c902e4005af87823d76,sign=d4ac38bb786c8c902e4005af87823d76,dingdan=FCL10030516518868,status=S,responseTxt=true
+2010-3-5 17:24:23 正确
+2010-3-5 18:24:15 程序开始
+2010-3-5 18:24:15 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 17:00:37&notify_id=12c2f65324bad58252487d7be7ea7d01&notify_time=2010-03-05 18:24:08&notify_type=bank2freeze&orderNo=BO20100305484224389&outOrderNo=FCL10030516518868&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=088b39d9cf41cb41bacb5776a1c316bb,mysign=088b39d9cf41cb41bacb5776a1c316bb,sign=088b39d9cf41cb41bacb5776a1c316bb,dingdan=FCL10030516518868,status=S,responseTxt=true
+2010-3-5 18:24:15 正确
+2010-3-5 18:34:37 程序开始
+2010-3-5 18:34:37 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 18:34:29&notify_id=9ebc06c43c9be5766fdcc374d0b64b86&notify_time=2010-03-05 18:34:29&notify_type=bank2freeze&orderNo=BO20100305484338229&outOrderNo=FCL10030518331643&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=361c49f8246adc634b1231f09cf9e5d2,mysign=361c49f8246adc634b1231f09cf9e5d2,sign=361c49f8246adc634b1231f09cf9e5d2,dingdan=FCL10030518331643,status=S,responseTxt=true
+2010-3-5 18:34:37 正确
+2010-3-5 18:34:37 写入数据库
+2010-3-5 18:34:37 程序结束
+2010-3-5 18:37:25 程序开始
+2010-3-5 18:37:25 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 18:37:18&notify_id=7e85872599be708ebd98dde6bd09e407&notify_time=2010-03-05 18:37:18&notify_type=bank2freeze&orderNo=BO20100305484341767&outOrderNo=FCL10030518331644&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=d3c0b9b557aca79120d5d1195442dd84,mysign=d3c0b9b557aca79120d5d1195442dd84,sign=d3c0b9b557aca79120d5d1195442dd84,dingdan=FCL10030518331644,status=S,responseTxt=true
+2010-3-5 18:37:25 正确
+2010-3-5 18:37:25 程序结束
+2010-3-5 18:42:29 程序开始
+2010-3-5 18:42:29 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 18:42:22&notify_id=56f2ffbab96464828ce2ff032253c72a&notify_time=2010-03-05 18:42:22&notify_type=bank2freeze&orderNo=BO20100305484347489&outOrderNo=FCL10030518331645&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=941e3a9cc65e0d765d8f487e4b07f499,mysign=941e3a9cc65e0d765d8f487e4b07f499,sign=941e3a9cc65e0d765d8f487e4b07f499,dingdan=FCL10030518331645,status=S,responseTxt=true
+2010-3-5 18:42:29 正确
+2010-3-5 18:42:29 写入数据库
+2010-3-5 18:42:29 程序结束
+2010-3-5 18:47:29 程序开始
+2010-3-5 18:47:29 prestr=amount=0.04&buyerEmail=nature_d@hotmail.com&buyerUserId=2088002107479710&gmtPay=2010-03-05 18:47:22&notify_id=6eac3fd512c6b75637aba77591f8a20d&notify_time=2010-03-05 18:47:22&notify_type=bank2freeze&orderNo=BO20100305484349417&outOrderNo=FCL10030518203425&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=d68c8af15c0f9120534c89933b34d746,mysign=d68c8af15c0f9120534c89933b34d746,sign=d68c8af15c0f9120534c89933b34d746,dingdan=FCL10030518203425,status=S,responseTxt=true
+2010-3-5 18:47:29 正确
+2010-3-5 18:47:29 写入数据库
+2010-3-5 18:47:29 程序结束
+2010-3-5 20:24:15 程序开始
+2010-3-5 20:24:16 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 17:00:37&notify_id=12c2f65324bad58252487d7be7ea7d01&notify_time=2010-03-05 20:24:08&notify_type=bank2freeze&orderNo=BO20100305484224389&outOrderNo=FCL10030516518868&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=bd0c3ee26b98cfc3baf203611f3714b7,mysign=bd0c3ee26b98cfc3baf203611f3714b7,sign=bd0c3ee26b98cfc3baf203611f3714b7,dingdan=FCL10030516518868,status=S,responseTxt=true
+2010-3-5 20:24:16 正确
+2010-3-6 2:24:15 程序开始
+2010-3-6 2:24:15 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 17:00:37&notify_id=12c2f65324bad58252487d7be7ea7d01&notify_time=2010-03-06 02:24:08&notify_type=bank2freeze&orderNo=BO20100305484224389&outOrderNo=FCL10030516518868&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=b247059a1e657da7debb29ce11f50951,mysign=b247059a1e657da7debb29ce11f50951,sign=b247059a1e657da7debb29ce11f50951,dingdan=FCL10030516518868,status=S,responseTxt=true
+2010-3-6 2:24:15 正确
+2010-3-6 17:24:13 程序开始
+2010-3-6 17:24:13 prestr=amount=0.08&buyerEmail=paradini2046@yahoo.cn&buyerUserId=2088002868184964&gmtPay=2010-03-05 17:00:37&notify_id=12c2f65324bad58252487d7be7ea7d01&notify_time=2010-03-06 17:24:06&notify_type=bank2freeze&orderNo=BO20100305484224389&outOrderNo=FCL10030516518868&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=c3da3bd5528a8469f499e70c57c2e2e4,mysign=c3da3bd5528a8469f499e70c57c2e2e4,sign=c3da3bd5528a8469f499e70c57c2e2e4,dingdan=FCL10030516518868,status=S,responseTxt=true
+2010-3-6 17:24:13 正确
+2010-3-10 18:31:11 程序开始
+2010-3-10 18:31:11 prestr=amount=0.02&buyerEmail=feel_d@msn.com&buyerUserId=2088302194212583&gmtPay=2010-03-10 18:31:07&notify_id=8ce61a709372d6a1a6ac3aa5d38a38d0&notify_time=2010-03-10 18:31:07&notify_type=bank2freeze&orderNo=BO20100310490145041&outOrderNo=FCL10031018243556&sellerEmail=fin@100allin.com&sellerUserId=2088201885472720&sign_type=MD5&status=Shcxocn904wlsbz17rb86lqel4s6exmbt,request_sign=9a63ace1a60dd2a18a799a7e729675a9,mysign=9a63ace1a60dd2a18a799a7e729675a9,sign=9a63ace1a60dd2a18a799a7e729675a9,dingdan=FCL10031018243556,status=S,responseTxt=true
+2010-3-10 18:31:11 正确
+2010-3-10 18:31:11 写入数据库
+2010-3-10 18:31:11 程序结束

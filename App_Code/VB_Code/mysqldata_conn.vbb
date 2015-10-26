@@ -1,0 +1,47 @@
+﻿Imports Microsoft.VisualBasic
+Imports MySql.Data.MySqlClient
+
+Public Class mysqldata_conn
+    Inherits System.Web.UI.Page
+    Public Function mdb_conn() As MySqlConnection
+        Dim connection1 As MySqlConnection
+        'Dim dbname1 As String
+        'dbname1 = Server.MapPath("~/Connections/DB_DataBase_new.mdb")
+        connection1 = New MySqlConnection("Database=allin;Data Source = localhost;User Id = sasa;Password = takeeasy822822")
+        Return connection1
+    End Function
+
+    Public Function mdb_da(ByVal sql As String) As MySqlDataAdapter
+        Dim connection1 As MySqlConnection
+        Dim da1 As New MySqlDataAdapter
+        Dim command1 As MySqlCommand
+        Dim conn1 As New mysqldata_conn
+        connection1 = conn1.mdb_conn()
+        connection1.Open()
+        command1 = New MySqlCommand(sql, connection1)
+        da1.SelectCommand = command1
+        connection1.Close()
+        Return da1
+    End Function
+
+
+    Public Function mdb_ds(ByVal sql As String, ByVal table As String) As Data.DataSet
+        Dim ds1 As New Data.DataSet
+        Dim da1 As New MySqlDataAdapter
+        Dim conn1 As New mysqldata_conn
+        da1 = conn1.mdb_da(sql)
+        da1.Fill(ds1, table)
+        Return ds1
+    End Function
+
+    Public Sub mdb_exe(ByVal sql As String)
+        Dim connection1 As MySqlConnection
+        Dim command1 As MySqlCommand
+        Dim conn1 As New mysqldata_conn
+        connection1 = conn1.mdb_conn()
+        connection1.Open()
+        command1 = New MySqlCommand(sql, connection1)
+        command1.ExecuteNonQuery()
+        connection1.Close()
+    End Sub
+End Class

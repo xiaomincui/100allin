@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	font:12px "宋体";
+
+}
+
+img {
+    border:0;
+}
+#container {
+	text-align:center;
+	width:850px;
+	margin: 0 auto;
+}
+
+.header {
+	height:15px;
+	background-image: url(../images/header_bg.gif);
+	padding:5px;
+	color:#666666;
+	text-align:left;
+}
+
+.header a{
+	color:#666666;
+	text-decoration:none;
+}
+
+.header a:hover{
+	color:#666666;
+	text-decoration:underline;
+}
+
+.top{
+	text-align:left;
+}
+
+.main{
+	text-align:left;
+}
+
+.main_block{
+	margin:15px 0px 10px 0px;
+}
+
+.main_block .detail{
+	margin:10px 0px 0px 10px;
+	font-size:14px;
+	line-height:26px;
+	color:#666666;
+}
+
+.main_block .detail a{
+	color:#3281B4;
+}
+
+.main_block .detail a:hover{
+	color:#FF6600;
+}
+
+
+.bottom{
+	padding-top:10px;
+	text-align:left;
+}
+
+.footer{
+	background-color:#DCDCDC;
+	padding:10px 0px 10px 0px;
+	line-height:22px;
+	color:#666666;
+}
+
+.footer a{
+	color:#666666;
+	text-decoration:none;
+}
+
+.footer a:hover{
+	color:#666666;
+	text-decoration:underline;
+}
+
+.line{
+	width:850px;height:1px;
+}
+
+.orange{
+	color:#FF6600;
+}
+
+.red{
+	color:#FF0000;
+}
+
+.black{
+	color:#000000;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.highlight{
+	margin:15px 0px 10px 0px;
+	padding:10px 10px 10px 10px;
+	font-size:14px;
+	line-height:26px;
+	border: 1px solid #999999;
+	background-color:#FFFFCC;
+}
+
+.post{
+	margin:15px 0px 10px 0px;
+	padding:10px 10px 10px 10px;
+	font-size:14px;
+	line-height:26px;
+	text-align:center;
+}

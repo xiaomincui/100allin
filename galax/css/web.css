@@ -1,0 +1,27 @@
+/* CSS Document */
+
+body{ padding:0; font:12px "宋体"; margin:0px auto; color:#4D4D4D; background:#F0F0F0 url(../images/bg.jpg) repeat-y center;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+a{color:#298BD2;}
+a:hover{ color:#FF6600;}
+
+/* main */
+.main{ width:940px;margin:0 auto; padding:0 17px; overflow:hidden;}
+	.header{ width:938px; float:left;}
+		.header_text{ width:938px; float:left; text-align:right; padding:6px 0 0 0;}
+		.nav{ width:938px; float:left;}
+		#logo{ float:left;}
+	.photo{ width:938px;}
+	.contents{ width:938px; margin-top:2px;}
+		.about_l{ width:283px; border:1px solid #7BB5DA; float:left; background:#EBF5FF;}
+			.about_l_top{ width:283px; height:28px; background:url(../images/about_l_title.gif) repeat-x top; font-size:13px; line-height:28px; color:#FFF;}
+				.about_l_top img{ margin:0 6px; vertical-align:middle;}
+			.about_l_title{ width:221px; height:23px; background:url(../images/about_l_title2.gif) no-repeat center; margin:4px 20px 0 17px; display:inline; font-size:12px; line-height:23px; padding-left:23px; color:#328CC8; float:left;}
+			.about_l_text{ width:232px; margin:4px 20px 0 17px; padding:0 6px 12px 6px; display:inline; line-height:20px; float:left;}
+		.about_r{ width:637px; margin-left:16px; float:left;}
+			.about_r_text{ padding:12px 0; border-bottom:1px dashed #2B8ED2;}
+				.about_r_text h2{ font-size:13px; line-height:23px; color:#328CC8;}
+				.about_r_text p{ line-height:20px; font-size:12px;}
+	.links{ width:932px; height:104px; float:left;  border:3px solid #E1E1E1; margin:12px 0;}
+		.pat{ font-size:26px; color:#308ECE; font-family:"微软雅黑";}			
+	.foot{ width:938px; line-height:52px; color:#298BD2; text-align:center; float:left;  border-top:1px solid #368DC3;}

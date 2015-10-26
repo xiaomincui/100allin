@@ -1,0 +1,321 @@
+/* CSS Document */
+
+body{
+	padding:0;
+	font:12px "宋体";
+	margin:0px auto;
+	background:#f2f2f2 url(../images/index/main_top.jpg) repeat-x;
+}
+
+.13n{
+	font:13px ;
+}
+
+.14n{
+	font:14px "宋体" !important;
+}
+
+#48n{
+	font:48px "宋体";
+}
+
+.main_container{
+	width:950px;
+	height:auto;
+	margin:0px auto;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.red{
+	color:#FF0000;
+}
+
+.orange{
+	color:#FF6600;
+}
+
+.gray{
+	color: #7D7D7D;
+	text-decoration:none;
+	}
+
+.blue{
+	color:#081023;
+	text-decoration:none;
+}
+
+.blue2{
+	color:#28385A;
+	text-decoration:none;
+}
+
+.blue3{
+	color:#2B7CCD;
+	text-decoration:none;
+}
+
+.green{
+	color:green;
+}
+
+.blue a:link,.blue a:visited,.blue a:active{
+	color:#28385A;
+	text-decoration:none;
+}
+
+.blue a:hover,.blue3:hover{
+	color:#FF6600;
+	text-decoration:underline;
+}
+
+/*顶部登陆*/
+
+.top_bar{
+	width:946px;
+	height:25px;
+	color:#1E5995;
+	padding:0px 1px 1px 1px;
+}
+
+.top_bar_hd{
+	width:934px;
+	height:25px;
+	padding:0px 0px 0px 12px;
+}
+
+.top_bar_hd h2{
+	font:12px "宋体";
+	float:left;
+	width:200px;
+	line-height:25px;
+	margin:0px;
+}
+
+.top_bar_hd h2 img{
+	vertical-align:middle;
+	padding-right:4px;
+}
+
+.top_bar_hd h2 a{
+	color:#1E5995;
+	text-decoration:none;
+}
+
+.top_bar_hd h2 a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.top_bar_hd ul{
+	display:block;
+	float:right;
+	width:465px;
+	margin:0px;
+	padding:0px;
+}
+
+.top_bar_hd ul li{
+	list-style:none;
+	line-height:25px;
+	float:right;
+}
+
+.top_bar_hd ul li a{
+	line-height:25px;
+}
+
+.top_bar_hd ul li a:link,.top_bar_hd ul li a:visited,.top_bar_hd ul li a:active {
+	color: #1E5995;
+	text-decoration:none;
+}
+
+.top_bar_hd ul li a:hover,.freight_detail a:hover {
+	color: #FF6600;
+	text-decoration:underline;
+}
+
+.menu_end{
+	width:905px;
+	height:22px;
+	padding: 10px 30px 0px 15px;
+	background: url(../images/fcl/menu_end_bg.jpg) repeat-x top;
+}
+
+.menu_end h1{
+	color:#22568F;
+	background:transparent url(../images/fcl/jt.gif) no-repeat 3px 50%;
+	font:12px "宋体";
+	padding:0 0 0 12px;
+	margin:0px;
+	float:left;
+}
+
+.menu_end h1 a{
+	color:#22568F;
+	text-decoration:none;
+}
+
+.menu_end h1 a:hover{
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+/*订舱*/
+
+.book{
+	width:840px;
+	padding:0 55px;
+	background:#fff url(../images/fcl/booking_1.jpg) no-repeat top right;
+}
+
+.book_end{
+	width:840px;
+	background:#fff;
+	padding:0 55px;
+}
+
+.book h2{
+	margin:0px;
+	padding:30px 0 20px 270px;
+}
+
+.book_bt{
+	width:950px;
+	height:85px;
+	background:#fff url(../images/fcl/booking_2.jpg) no-repeat bottom left;
+	margin-bottom:18px;
+}
+
+.main_content{
+	width:950px;
+	clear:both;
+	margin:0px;
+}
+
+.ipt{
+	width:380px;
+	font:12px "宋体";
+}
+
+.ipt2{
+	width:285px;
+	height:16px;
+	font:12px "宋体";
+}
+
+.ipt3{
+	width:92px;
+	height:16px;
+	font:12px "宋体";
+}
+
+.ipt4{
+	width:120px;
+	font:12px "宋体";
+}
+
+.ipt5{
+	width:220px;
+	font:12px "宋体";
+}
+
+.ipt6{
+	width:70px;
+	height:16px;
+	font:12px "宋体";
+}
+
+.ipt7{
+	width:800px;
+	font:12px "宋体";
+}
+
+.booking_sm{
+	width:950px;
+	height:117px;
+	text-align:center;
+	background:url(../images/fcl/booking_b7.jpg) repeat-x;
+	float:left;
+}
+
+.notice{
+	width:913px;
+	padding:0 0 0 35px;
+	float: left;
+	color:#999;
+	background:#fbf1db url(../images/fcl/gt.gif) no-repeat 15px ;
+	border:1px dashed #e6d3ab;
+	margin:12px 0;
+	line-height:28px;
+}
+
+.notice p{
+	margin:0px;
+	float:left;
+}
+
+.notice_bar{
+	line-height:20px;
+	color:#566939;
+	margin:4px 0 0 12px;
+	padding:0 9px 0 24px;
+	background:#c8e59a url(../images/fcl/dc16.gif) no-repeat 6px;
+}
+
+
+/*底部*/
+
+.foot{
+	width:930px;
+	float:left;
+	line-height:23px;
+	color:#FFFFFF;
+	text-decoration:none;
+	margin:8px 0;
+	padding:4px 0px 4px 20px;
+	background-color:#122661;
+}
+
+.foot a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.bottom_tn{
+	width:950px;
+	line-height:20px;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+}
+
+.bottom_tn a{
+	color: #000000;
+	text-decoration:none;
+}
+
+.other_yf a{
+	display:block;
+	float:left;
+	width:200px;
+	height:32px;
+	color:#406086;
+	text-decoration:none;
+	text-align:center;
+	margin:8px 55px 8px 0;
+	line-height:32px;
+	background:#F0F7FF;
+	border:1px dashed #9facbc;
+}
+
+.other_yf a:hover{
+	color:#7b5f5f;
+	font:14px "宋体";
+	line-height:32px;
+	font-weight:bold;
+	background:#fff5f5;
+	border:1px dashed #baa0a0;
+}

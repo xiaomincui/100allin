@@ -1,0 +1,8 @@
+﻿document.write("<a href='/fcl/1420.html' target='_blank'><img src='/images/adv/002.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/fcl/16059.html' target='_blank'><img src='/images/adv/004.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/fcl/11453.html' target='_blank'><img src='/images/adv/028.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/fcl/16939.html' target='_blank'><img src='/images/adv/024.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/fcl/9106.html' target='_blank'><img src='/images/adv/029.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/intro/gift.aspx' target='_blank'><img src='/images/adv/000.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/intro/gift.aspx' target='_blank'><img src='/images/adv/000.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/intro/gift.aspx' target='_blank'><img src='/images/adv/000.jpg' width='197' height='100' border='0' /></a> ")

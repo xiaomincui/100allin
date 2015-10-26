@@ -1,0 +1,8 @@
+﻿document.write("<a href='/air/792.html' target='_blank'><img src='/images/adv/012.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/air/408.html' target='_blank'><img src='/images/adv/013.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/air/1957.html' target='_blank'><img src='/images/adv/027.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/air/1255.html' target='_blank'><img src='/images/adv/015.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/intro/gift.aspx' target='_blank'><img src='/images/adv/000.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/intro/gift.aspx' target='_blank'><img src='/images/adv/000.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/intro/gift.aspx' target='_blank'><img src='/images/adv/000.jpg' width='197' height='100' border='0' /></a> ")
+document.write("<a href='/intro/gift.aspx' target='_blank'><img src='/images/adv/000.jpg' width='197' height='100' border='0' /></a> ")

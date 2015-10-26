@@ -1,0 +1,7 @@
+/*************************************************GLOBALS***/
+#feed_div * { word-break: break-all; word-wrap: break-word; font-size:12px; line-height:32px; font-family: Verdana, "Lucida Grande", Arial, Helvetica, sans-serif; }
+
+#feed_div a { color: #2C629E; text-decoration: none; }
+#feed_div a:hover { text-decoration: underline; }
+#feed_div a img { border: none; }
+

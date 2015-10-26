@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; vertical-align: top; }
+i{font: inherit;}
+p{text-indent:0}
+table {border-collapse: collapse; border-spacing: 0; }
+.container{margin-bottom: 80px; width:auto;}
+ol, ul {
+list-style: none;
+}
+a {
+text-decoration: none;
+color: #666;
+}
+.all-wrap{width: 1190px;margin: 0 auto;}
+.l{float: left;}
+.r{float: right}
+.hide {display: none; }
+.price{color: #d70050;}
+.center{text-align: center;}
+/* 清除浮动 */
+.clear {display: block; clear: both; overflow: hidden; height: 0; line-height: 0; font-size: 0 }
+.clearfix:after {content: " "; visibility: hidden; display: block; clear: both; height: 0; font-size: 0 }
+.clearfix {*zoom: 1 }
+
+#intro-slide{height: 300px;}
+.slide_com{background: url("/images2015/company/slide_com.png") no-repeat center top;}
+ /*热门货代公司*/ 
+.sec-t .title{margin-top: 40px;margin-bottom: 20px;}
+.member-grid {width: 100%; }
+.member-grid thead th {color: #fff; font-size: 18px; height: 40px; background: #999;line-height: 40px;border-right: 1px solid #fff;}
+.member-grid .info td{background: #f2f2f2;padding: 20px;border-right: 1px solid #fff; vertical-align:middle;}
+.member-grid .info.grey td{background: #e0e0e0;}
+/*页码*/
+.explain{margin-top: 20px;}
+.explain .star{background: url("/images2015/company/star.png") no-repeat 0px 0px ;width: 29px;height: 24px;display:inline-block;}
+.explain .mark{background: url("/images2015/company/mark.png") no-repeat 0px 0px ;width: 29px;height: 24px;display:inline-block;}/*list页面*/
+.explain .help b{color: #3398cb;}
+
+.pageview .flip{padding: 5px 10px;font-size: 12px;border: 1px solid #ddd;margin-left: 5px;}
+.pageview .flip.active{background: #1993c7;color: #fff;}
+
+
+.member-grid thead th.mid{background: url("/images2015/company/sprite_company.png") no-repeat 0 0;padding-left: 30px;}
+.member-grid thead th.deep{background: url("/images2015/company/sprite_company.png") no-repeat 0 -60px;}
+
+.member-grid .list{width: 25%;float: left;line-height: 24px;}
+.member-grid .list.more a{color: #3398cb;}
+/*查找公司*/
+.search_com .sec-t{border-bottom: 1px solid #343434;margin-bottom: 30px;}
+/*按妞妞*/
+.seachnav{background: #efefef;padding: 30px 0;margin-top: 40px;}
+.seachnav ul{padding-left: 30px;}
+.seachnav .item a{width: 137px;height:176px;float: left;margin-right: 60px;display: block;}
+.seachnav .item.item01 a{background: url("/images2015/company/seachnav_01.png") no-repeat 0px 0px ;}
+.seachnav .item.item02 a{background: url("/images2015/company/seachnav_02.png") no-repeat 0px 0px ;}
+.seachnav .item.item03 a{background: url("/images2015/company/seachnav_03.png") no-repeat 0px 0px ;}
+.seachnav .item.item04 a{background: url("/images2015/company/seachnav_04.png") no-repeat 0px 0px ;}
+.seachnav .item.item05 a{background: url("/images2015/company/seachnav_05.png") no-repeat 0px 0px ;}
+.seachnav .item.item06 a{background: url("/images2015/company/seachnav_06.png") no-repeat 0px 0px ;margin-right: 0px;}
+
+.seachnav .item.item01:hover a{background: url("/images2015/company/seachnav_hov_01.png") no-repeat 0px 0px ;}
+.seachnav .item.item02:hover a{background: url("/images2015/company/seachnav_hov_02.png") no-repeat 0px 0px ;}
+.seachnav .item.item03:hover a{background: url("/images2015/company/seachnav_hov_03.png") no-repeat 0px 0px ;}
+.seachnav .item.item04:hover a{background: url("/images2015/company/seachnav_hov_04.png") no-repeat 0px 0px ;}
+.seachnav .item.item05:hover a{background: url("/images2015/company/seachnav_hov_05.png") no-repeat 0px 0px ;}
+.seachnav .item.item06:hover a{background: url("/images2015/company/seachnav_hov_06.png") no-repeat 0px 0px ;}
+
+/*company_slide*/
+.com_list_slide{background: url("/images2015/company/company_list_slide.png") no-repeat center top;}
+.com_list_slide .all-wrap{position: relative; }
+.com_list_slide img{position: absolute;top: 140px;left: 435px;-webkit-animation: animation2 2s linear; -moz-animation: animation2 2s linear; -o-animation: animation2 2s linear; animation: animation2 2s linear ;}
+
+@keyframes animation2{from{opacity: 0;} to{opacity: 1; } }
+@-webkit-keyframes animation2{from{opacity: 0; } to{opacity: 1;} }
+@-moz-keyframes animation2{from{opacity: 0; } to{opacity: 1; } }
+@-o-keyframes animation2{from{opacity: 0;} to{opacity: 1; } }
+
+
+
+
+.filter{margin: 40px 0;}
+.filter .item a{width: 146px;height: 40px;text-align: center;font-size: 18px;color: #fff;display: block;float: left;line-height: 40px;}
+.filter .item.item01 a{background: url("/images2015/company/sprite_company.png") no-repeat 0px -120px ;}
+.filter .item.item02 a{background: url("/images2015/company/sprite_company.png") no-repeat 0px -180px ;}
+
+.member-grid .info .screen{width: 106px;background: #ccc;font-size: 16px;text-align: center;}
+.member-grid.border-bottom td{border-right: 0 none;border-bottom: 1px solid #fff;}
+.member-grid.border-bottom .extend{position: relative;}
+.member-grid.border-bottom .extend_main{position: absolute;top: 40px;right: 0;background: #fff;border:5px solid #3398cb;padding: 5px; border-radius: 5px;}
+.member-grid.border-bottom .extend ul{width: 250px;}
+.member-grid.border-bottom .extend i{background:  url("/images2015/company/sprite_company.png") no-repeat 0px -455px ; position: absolute;top: -10px; right:55px;width: 15px;height: 9px;}
+.member-grid.border-bottom .extend li {float: left;width: 20%;line-height: 24px;}
+
+.com_result .com_logo{width: 90px;height: 90px;border-radius: 5px;border: 1px solid #ddd;position: relative;display: block;background: #fff;text-align: center;vertical-align: middle;overflow: hidden;}
+.com_result .com_logo .logo{width: 90px;height: 90px;}
+.com_result .com_logo .hot{position: absolute;top: 0;left: 0;}
+.com_result .detailed{margin-left: 20px;}
+.com_result li{line-height: 24px;}
+
+
+/*slide_com_info*/
+.slide_com_info{background: url("/images2015/company/company_info_slide.png") no-repeat center top;}
+.slide_com_info img {-webkit-animation: animation3 2s ease-out; -moz-animation: animation3 2s ease-out; -o-animation: animation3 2s ease-out; animation: animation3 2s ease-out ; }
+@keyframes animation3{from{opacity: 0;height: 0;} to{opacity: 1; height: 300px;} }
+@-webkit-keyframes animation3{from{opacity: 0;height: 0; } to{opacity: 1; height: 300px;} }
+@-moz-keyframes animation3{from{opacity: 0; height: 0;} to{opacity: 1; height: 300px;} }
+@-o-keyframes animation3{from{opacity: 0; height: 0;} to{opacity: 1; height: 300px;} }
+
+#intro {padding: 40px 0;}
+#intro .com_intro{width: 565px;background: url("/images2015/company/com_intro_bg.png")no-repeat right -20px;font-family: "SimHei";color: #070707;font-size:18px; height: 135px;}
+#intro .com_name{font-size: 28px;font-weight: bold;padding-bottom: 20px;}
+#intro .intro_detail{width: 550px;line-height: 30px;font-size: 16px;}
+#intro .rough {height: 150px;overflow: hidden;}
+#intro .more a{color: #3398cb;}
+
+#contact{background: #eaeff3;padding: 15px 0;margin-bottom: 40px;}
+#contact .sec-t{height: 405px;background: url("/images2015/company/contact_bg.png") no-repeat center top;position: relative;margin-bottom: 20px;}
+#contact .sec-t .item01{position: absolute;top: 7px ;left: 620px;}
+#contact .sec-t .item02{position: absolute;top: 45px ;left: 680px;}
+#contact .sec-t .item03{position: absolute;top: 95px ;left: 720px;}
+#contact .sec-t .item04{position: absolute;top: 165px ;left: 755px;}
+#contact .sec-t .item05{position: absolute;top: 225px ;left: 760px;}
+#contact .sec-t .item06{position: absolute;top: 295px ;left: 735px;}
+#contact .sec-t .item07{position: absolute;top: 345px ;left: 690px;}
+#contact .sec-t .item08{position: absolute;top: 380px ;left: 620px;}
+#contact .sec-t .item06 img{margin-right: 10px;}
+
+#contact .sec-c li{width: 20%;float: left;text-decoration: 20px;}
+
+/*TA的最新整箱运价*/
+#route .item a{width: 200px;height: 40px;float: left;display: block;line-height: 40px;font-size: 18px;color: #fff;text-align: center;}
+#route .item.item01 a{background: url("/images2015/company/sprite_company.png") no-repeat 0px -285px ;}
+#route .item.item02 a{background: url("/images2015/company/sprite_company.png") no-repeat 0px -345px ;}
+#route .item.item03 a{background: url("/images2015/company/sprite_company.png") no-repeat 0px -405px ;}
+#route .route_name{font-weight: bold;color: #333;}
+#route .member-grid li{line-height: 24px;}
+
+
+

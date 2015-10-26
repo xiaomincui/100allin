@@ -1,0 +1,184 @@
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+使用说明:
+
+首先请替换下列函数
+
+1).函数
+	(1)BGCOLOR					表示背景颜色
+	(2)TDFONTCOLOR			表示表格内字体颜色=网站内所有字体颜色
+	(3)LINKCOLOR				链接颜色
+	(4)HOVERCOLOR			鼠标移上连接变色
+	(5)LINK2COLOR				链接2颜色					//伪类
+	(6)HOVER2COLOR			鼠标移上连接2变色		//伪类
+
+
+部分特殊类别说明
+
+2)伪类
+	(1)BG-NO-LB					背景不重复,背景图靠左边底部
+	(2)BG-NO-RB					背景不重复,背景图靠右边底部
+	(3)BG-NO-C						背景不重复,背景图居中
+	(4)BG-X-TOP					背景横向重复,背景图靠顶部
+
+
+3)其他
+	(1).BODER---SOLID		表格边框实线					
+	(2).BODER---DASHED		表格边框虚线
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+body{	
+        background:url(../images/index/bg01.jpg);
+		/*background-image: url(../images/index/bg.jpg);*/
+		scrollbar-highlight-color: #; 
+        scrollbar-shadow-color: #; 
+        scrollbar-3dlight-color: #; 
+        scrollbar-arrow-color: #; 
+        scrollbar-track-color: #; 
+        scrollbar-darkshadow-color: #;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+		}
+
+TD, SELECT, INPUT, DIV, TEXTAREA{
+		FONT-FAMILY: "VERDANA","ARIAL", "SANS-SERIF","宋体";
+		FONT-SIZE:12PX; COLOR: #4B4B4B;
+		LINE-HEIGHT: 180%;
+		}
+
+A:LINK{
+		COLOR:#686868;
+		TEXT-DECORATION: NONE;
+		}
+
+A:VISITED{
+		COLOR:#686868;
+		TEXT-DECORATION: NONE;
+		}
+
+A:HOVER{
+		COLOR:#202020 ;
+		TEXT-DECORATION: NONE;
+		}
+
+A:ACTIVE{	 
+		TEXT-DECORATION: NONE;
+		}
+
+P{
+		TEXT-INDENT: 2EM;
+		}
+
+
+.LINK2 A:LINK{
+		COLOR:#545454;
+		TEXT-DECORATION:NONE;	
+		}
+
+.LINK2 A:VISITED{
+		COLOR:#545454;
+		TEXT-DECORATION:NONE;	
+		}
+
+.LINK2 A:HOVER{
+		COLOR:#F26C00;
+		TEXT-DECORATION: NONE;	
+		}
+
+.LINK2 A:ACTIVE{
+		TEXT-DECORATION: NONE;
+		}
+.LINK3 A:LINK{
+		COLOR:#939393;
+		TEXT-DECORATION:NONE;	
+		}
+
+.LINK3 A:VISITED{
+		COLOR:#939393;
+		TEXT-DECORATION:NONE;	
+		}
+
+.LINK3 A:HOVER{
+		COLOR:#F26C00;
+		TEXT-DECORATION: NONE;	
+		}
+
+.LINK3 A:ACTIVE{
+		TEXT-DECORATION: NONE;
+		}
+.LINK4 A:LINK{
+		COLOR:#4B4B4B;
+		TEXT-DECORATION:NONE;	
+		}
+
+.LINK4 A:VISITED{
+		COLOR:#4B4B4B;
+		TEXT-DECORATION:NONE;	
+		}
+
+.LINK4 A:HOVER{
+		COLOR:#FF3600;
+		TEXT-DECORATION: NONE;	
+		}
+
+.LINK4 A:ACTIVE{
+		TEXT-DECORATION: NONE;
+		}		
+.LINK5 A:LINK{
+		COLOR:#2B5A7B;
+		TEXT-DECORATION:NONE;	
+		}
+
+.LINK5 A:VISITED{
+		COLOR:#2B5A7B;
+		TEXT-DECORATION:NONE;	
+		}
+
+.LINK5 A:HOVER{
+		COLOR:#FF6600;
+		TEXT-DECORATION: NONE;	
+		}
+
+.LINK5 A:ACTIVE{
+		TEXT-DECORATION: NONE;
+		}	
+.ENGLISH{
+		FONT-FAMILY:"VERDANA","ARIAL","SANS-SERIF";
+		FONT-SIZE:10PX; COLOR: TDFONTCOLOR;
+		LINE-HEIGHT: 140%;	
+		}
+.BG-NO-RB{
+		BACKGROUND-REPEAT: NO-REPEAT;
+		BACKGROUND-POSITION: RIGHT BOTTOM;
+		}
+.index_input{
+	border-right: #CACACA 1px solid;
+	border-top: #CACACA 1px solid;
+	border-left: #CACACA 1px solid;
+	border-bottom: #CACACA 1px solid;
+	font-size: 12px;
+	line-height: 14px;
+		}
+
+.time{
+		FONT-FAMILY: Arial, Helvetica, sans-serif;
+		FONT-SIZE: 11px;	COLOR: #929292;
+		}
+.index_bottom{
+		FONT-FAMILY: Arial, Helvetica, sans-serif;
+		FONT-SIZE: 11px;	COLOR: #6C6C6C;
+		}
+.index_bottom1{
+		FONT-SIZE: 12px;	COLOR: #6C6C6C;
+		}
+.news_time{
+		FONT-FAMILY: Arial, Helvetica, sans-serif;
+		FONT-SIZE: 11px;	COLOR: #8C9AAD;
+		}
+.left_menu{
+		FONT-SIZE: 12px;	COLOR: #FF6600;
+		}

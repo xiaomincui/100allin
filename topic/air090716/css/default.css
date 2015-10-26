@@ -1,0 +1,88 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font:12px "宋体";
+	background: #F7F6F4 url(../images/7.13_bg.jpg) repeat-x top;
+}
+
+.yunj a{ color:#1E5494; text-decoration:underline;}
+
+.yunj a:hover{color:#000; text-decoration:underline;}
+
+.picSmall img {background:#FFFFFF none repeat scroll 0 0;border:1px solid #999999;padding:2px;}
+
+.STYLE6{ color: #000; text-decoration:none;line-height:20px; font-size: 12px;}
+
+.STYLE6 a{ color: #000; text-decoration:none;line-height:20px; font-size: 12px;}
+
+
+.picSmall img:hover {background:#FFFFFF none repeat scroll 0 0;border:2px solid #FF6600;padding:1px;}
+
+
+.top_nav a{font:14px "宋体";color:#000;font-weight:bold;text-decoration:none;line-height:40px;}
+
+.top_nav a:hover{color: #FF6600;text-decoration: underline;}
+
+.STYLE1 {font-size: 14px;font-weight: bold;}
+
+.STYLE3 {font-size: 12px; color: #FF6600; text-decoration:underline;}
+
+.STYLE2 {color: #7a7979}
+
+.xx{ color:#FF6600}
+
+.list_box{
+	width:744px;
+	float:left;
+	line-height:24px;
+}
+
+.list_box ul{
+	width:744px;
+	float:left;
+	padding:0px;
+	margin:0px;
+	}
+
+.list_box ul li{
+	display:block;
+	list-style:none;
+	border-bottom:1px dashed #CCCCCC;
+}
+
+.list_box ul li a{
+	color:#29395B;
+	text-decoration:none;
+}
+
+.list_box ul li a:hover{
+	color:#29395B;
+	text-decoration: underline;
+}
+
+.yellow{
+	color:#f8cc1b;
+}
+
+.gray{
+	color: #666666;
+}
+
+.gray2{
+	color:#3b3a3a;
+}
+
+.orange{
+	color: #FF6600;
+}
+.STYLE6 {color: #000; text-decoration:none;line-height:20px; font-size: 12px;}
+
+
+.gray2 a{ color:#666666; text-decoration:none;}
+.STYLE1 a{ color:#000000; text-decoration:none;}
+
+#scrollLcl{height:200px;overflow:hidden}
+#scrollCompany{height:200px;overflow:hidden}

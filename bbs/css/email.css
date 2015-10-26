@@ -1,0 +1,48 @@
+/* CSS Document */
+
+body{
+	padding:0;
+	font:12px "宋体";
+	margin:0px auto;
+}
+
+.online{
+	width:490px;
+	background-color:#e8e8e8;
+	padding:5px;
+}
+
+.online_box{
+	width:448px;
+	background-color:#fff;
+	border:1px solid #CCCCCC;
+	padding:20px 20px;
+}
+
+.online_box h2{
+	font:14px "宋体";
+	font-weight:bold;
+	color:#FF6600;
+	border-bottom:1px solid #CCCCCC;
+	line-height:32px;
+}
+
+.online_box h2 img{
+	vertical-align:middle;
+}
+	
+.online_box_title{
+	padding:5px 25px 0 25px;
+	line-height:24px;
+}
+
+.online_box_bot{
+	margin-top:18px;
+	padding:14px 0px 0px 25px;
+	border-top:1px solid #CCCCCC;
+	line-height:24px;
+}
+
+.online_box_bot img{
+	vertical-align:middle;
+}

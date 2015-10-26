@@ -1,0 +1,95 @@
+﻿/* CSS Document */
+body{padding:0;	font:12px "宋体";font-family: Verdana;margin:0px auto;color:#555555;}
+div, p, ul, h2, h3, h4, img{padding:0px;margin:0px;}
+ul{list-style-type:none;}
+img {border:0;}
+a{color:#293B5E;text-decoration:none;}
+a:hover{color:#FF6600;text-decoration:underline;}
+.red{color:#991500;}
+h2 {font-family:"黑体";font-size:20px;font-weight:normal;background:#D2D2DE;height:28px;padding:8px 0px 0px 15px; margin-bottom:8px; color:#07307A}
+h3 {font-family:"黑体";font-size:18px;color:#666666;font-weight:normal;height:30px;padding:15px 0px 0px 0px;}
+h4 {font-family:"黑体";font-size:18px;color:#666666;font-weight:normal;height:25px;padding:10px 0px 0px 10px; margin:10px 0px 10px 0px; background:#CCCCCC;}
+h3 a{color:#666666;text-decoration:none;}
+p {line-height:24px;}
+.h_box{ background:#FCFCFC url(images/main_top.gif) repeat-x; width:100%; float:left;}
+.head{width:950px;margin:0 auto;}
+.head_top{width:944px;height:39px;padding:0 3px;}
+.head_top img{vertical-align:middle;}
+.head_top_left{height:39px;float:left;}
+.head_top_right{height:29px;float:right;margin-top:10px;}
+.main{width:950px;padding:0;margin:0 auto;}
+.title{margin-bottom:5px;}
+
+.text{border:1px #CECECE solid;width:932px; font-size:14px; margin-bottom:5px; padding:8px; height:1830px;}
+.div_1_1{float:left; height:166px; width:350px;}
+.div_1_2{float:left; height:36px; width:582px; padding:65px 0px}
+.div_1_2 img,.div_1_3 img{vertical-align:middle;}
+.div_1_3{float:left; height:60px; width:340px; padding:25px 10px 25px 0px}
+.div_1_4{float:left; height:110px; width:582px;}
+.text_line{width:910px; border-bottom:1px solid #B6B6B6; line-height:0px; font-size:0px; overflow:hidden; padding:10px 0px 0px 15px;}
+.text_smtitle{margin-bottom:15px;line-height:30px; font-weight:bold; }
+.text_smtitle img{margin-left:27px; margin-top:10px;}
+.text_smtitle div{margin-left:25px; margin-bottom:10px; line-height:25px; font-weight:normal;}
+
+.text_1{border:1px #CECECE solid;width:932px; font-size:14px; margin-bottom:5px; padding:8px; height:350px;}
+.text_1 ul{width:930px;}
+.text_1 li{display:block; float:left; line-height:25px; padding-top:10px;}
+.text_1 .row0{width:230px; padding-left:10px;}
+.text_1 .row1{width:100px;}
+.text_1 .row2{width:580px;}
+
+.text_2{border:1px #CECECE solid;width:932px; font-size:14px; margin-bottom:5px; padding:8px; height:375px;}
+.text_2 h3{background:url(images/h3_red.gif) repeat-y; color:#FFFFFF; height:25px;padding:10px 0px 0px 15px; margin-bottom:10px;}
+.button {text-align:center;}
+
+
+
+
+
+.text_3{border:1px #CECECE solid;font-size:14px;}
+.text_3 h4,.text_3_right_2 h4  {position:relative;font-family:"黑体";font-size:18px;color:#FFFFFF;font-weight:normal;height:25px; margin:0;padding:5px 0px 0px 10px; background:url(images/yj_bg.gif) repeat-x;}
+.text_3 h4 span{font-family:"宋体";font-size:16px;color:#FF9900;font-weight:normal;height:25px; float:right; padding-right:10px;position:absolute;right:0;top:10;}
+.text_3 h4 span a{font-family:"宋体";font-size:16px;color:#FFFFFF;font-weight:normal;height:25px; }
+.text_3_title { background:#CCCCCC; margin:0px 5px; padding:5px 0px; width:938px; height:20px;}
+.text_3_rows { margin:0px 5px; width:938px;  line-height:24px; height:28px;}
+.text_3 li{display:inline; float:left; }
+.row0{width:100px; padding-left:10px;}
+.row1{width:130px;}
+.row2{width:60px;}
+.row3{width:60px;}
+.row4{width:60px;}
+.row7{width:252px;padding-left:10px;}
+.row8{width:245px;padding-left:10px;}
+.page { margin:0px 10px; padding:5px 0px; width:920px; line-height:24px; text-align:right;}
+
+.tb_freight_01{
+	width:100px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	-moz-binding:url('/css2/ellipsis.xml#ellipsis');
+	overflow:hidden;
+	float:left;
+}
+
+.tb_freight_02{
+	width:120px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	-moz-binding:url('/css2/ellipsis.xml#ellipsis');
+	overflow:hidden;
+	float:left;
+}
+
+.fcl_price_detail{
+	width:50px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	-moz-binding:url('/css2/ellipsis.xml#ellipsis');
+	overflow:hidden;
+	float:left;
+}
+
+.bottom_tn{width:950px;line-height:20px;text-decoration:none;text-align:center;float:left;}

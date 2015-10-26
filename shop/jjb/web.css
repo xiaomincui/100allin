@@ -1,0 +1,53 @@
+/* CSS Document */
+
+body{ padding:0; font:12px "宋体"; font-family:Verdana, Arial, Helvetica, sans-serif; margin:0px auto; color:#4D4D4D; }
+div, p, ul, h2, h3, h4{padding:0px;margin:0px;}
+a{color: #4D4D4D; text-decoration:none;}
+a:hover{ color:#FF6600;}
+.red{ color:#FF0000;}
+img{padding:0px;margin:0px; border:0}
+
+/* index */
+.main{ width:950px; margin:0 auto; background:#fff;}
+.big_pic{ width:950px; background:#fff; text-align:center;}
+.index{width:908px; padding:10px 20px; margin:5px 0px;background:#fff; border:1px solid #999999; line-height:24px; font-size:14px; font-weight:bold;}
+.select{color:#255B83; font-weight:bold; font-size:14px; margin:10px;}	
+.table{ font-weight:bold; font-size:14px; margin:10px;}		
+.foot{ width:950px; height:38px; background:#DCDCDC; margin:12px 0px 0px 0px;  text-align:center; line-height:38px; font-size:14px;}
+.table_title {color: #000000}
+
+
+
+
+.manu {
+    font-family:'宋体';TEXT-ALIGN: right; padding:8px;
+}
+
+.manu A {
+	BORDER: #DDDDDD 1px solid; 
+	PADDING: 5px 8px;  
+	MARGIN: 1px; 
+	COLOR: #28385A; 
+	TEXT-DECORATION: none; 
+}
+.manu A:hover {
+	BORDER: #6A829A 1px solid;
+}
+.manu A:active {
+	BORDER: #999 1px solid; COLOR: #666; 
+}
+.manu .current {
+	BORDER: #DDDDDD 1px solid; 
+	PADDING: 5px 8px; 
+	FONT-WEIGHT: bold; 
+	MARGIN: 1px; 
+	COLOR: #fff; 
+	BACKGROUND-COLOR: #DD0000;
+}
+.manu .nolink {
+	BORDER: #DDDDDD 1px solid; 
+	PADDING: 5px 8px; 
+	MARGIN: 1px;  
+	COLOR: #ddd;
+}
+	

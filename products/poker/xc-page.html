@@ -1,0 +1,83 @@
+    <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>环球运费网-扑克牌广告位招商</title>
+<meta name="description" content="精准客户群,海量印制50000份扑克牌,广而告之,只为品牌推广而立" />
+<meta name="keywords" content="运费,运价,货代" /> 
+<link href="style.css" type="text/css" rel="stylesheet">
+<script src="jquery.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="root">
+    <div class="img-box">
+        <img src="images/imgs_01.gif" />
+        <img src="images/imgs_02.gif" />
+        <img src="images/imgs_03.gif" />
+        <img src="images/imgs_04.gif" />
+        <img src="images/imgs_05.gif" />
+        <img src="images/imgs_06.gif" />
+        <img src="images/imgs_07.gif" />
+        <img src="images/imgs_08.gif" />
+        <img src="images/imgs_09.gif" />
+        <img src="images/imgs_10.gif" />
+        <img src="images/imgs_11.gif" />
+        <img src="images/imgs_12.gif" />
+        <img src="images/imgs_13.gif" />
+        <img src="images/imgs_14.gif" />
+        <img src="images/imgs_15.gif" />
+        <img src="images/imgs_16.gif" />        
+    </div>
+    <div id="floatTool">
+        <div class="move"></div>
+    </div>
+</div>
+    <div class="hide">
+        <script type="text/javascript">
+            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7eadaf0d890c413495f9634562301898' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script src="http://s104.cnzz.com/stat.php?id=1806724&web_id=1806724" language="JavaScript" charset="gb2312" type="text/javascript"></script>
+    </div>
+</body>
+<script type="text/javascript">
+	var floatTool = {};
+		floatTool._move = false;
+		floatTool.ismove = false;
+		floatTool._x;
+		floatTool._y;
+		floatTool.moveBox = $('#floatTool'); //整体悬浮框
+		floatTool.drag = $('#floatTool .move'); //可拖动部分
+		floatTool.defaultTop = (window.screen.height - floatTool.moveBox.height())/2 - 200; //默认顶部保持上下居中，再往上去200像素
+	$(window).scroll(function(){
+		var offsetTop = floatTool.defaultTop + $(window).scrollTop()+'px';
+		floatTool.moveBox.animate({top:offsetTop},{
+			duration: 600,
+   			queue: false
+   		});						  
+	});
+	//拖动
+	floatTool.drag.mousedown(function (e) {
+        floatTool._move = true;
+        floatTool._x = e.pageX - parseInt(floatTool.moveBox.css("left"));
+        floatTool._y = e.pageY - parseInt(floatTool.moveBox.css("top"));
+    });
+    $(document).mousemove(function (e) {
+        if (floatTool._move) {
+        	var x = e.pageX - floatTool._x;
+            var y = e.pageY - floatTool._y;
+            var wx = $(window).width() - floatTool.moveBox.width();
+            var dy = $(document).height() - floatTool.moveBox.height();
+            if(x >= 0 && x <= wx && y > 0 && y <= dy) {
+                floatTool.moveBox.css({
+                    top: y,
+                    left: x
+                });
+            	floatTool.ismove = true;
+            }
+        }
+    }).mouseup(function () {
+        floatTool._move = false;
+    });
+</script>
+</html>

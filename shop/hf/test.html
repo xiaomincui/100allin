@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1- 
+transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /> 
+<title>循环停顿上下滚动</title> 
+<style type="text/css"> 
+#block2{height:23px;width:500px;border:#ccc 1px solid;font-size:12px;text-align:center;} 
+#block2 ul{list-style:outside none none;height:17px;padding:3px 0;overflow:hidden;margin:0;} 
+#block2 ul li{float:left;display:inline;margin:2px 0;height:14px;width:24.9%;} 
+#block2 ul li a{text-decoration:none;} 
+</style> 
+</head> 
+<body> 
+<div id="block2"> 
+  <ul id="rolltxt"> 
+    <li><a href="http://www.jb51.net">脚本之家</a>1</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>2</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>3</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>4</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>5</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>6</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>7</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>8</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>9</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>10</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>11</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>12</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>13</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>14</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>15</li> 
+    <li><a href="http://www.jb51.net">脚本之家</a>16</li> 
+  </ul> 
+<script type="text/javascript">  
+function extractNodes(pNode){ 
+    if(pNode.nodeType == 3)return null; 
+    var node,nodes = new Array(); 
+    for(var i=0;node= pNode.childNodes[i];i++){ 
+        if(node.nodeType == 1)nodes.push(node); 
+    } 
+    return nodes; 
+} 
+var obj=document.getElementById("rolltxt"); 
+for(i=0;i<4;i++){ 
+    obj.appendChild(extractNodes(obj)[i].cloneNode(true)); 
+} 
+settime=0; 
+var t=setInterval(rolltxt,50); 
+function rolltxt(){ 
+    if(obj.scrollTop % (obj.clientHeight-5) ==0){ 
+        settime+=1; 
+        if(settime==50){ 
+            obj.scrollTop+=1; 
+            settime=0; 
+        } 
+    }else{ 
+        obj.scrollTop+=1; 
+        if(obj.scrollTop==(obj.scrollHeight-obj.clientHeight)){ 
+            obj.scrollTop=0; 
+        } 
+    } 
+} 
+obj.onmouseover=function(){clearInterval(t)} 
+obj.onmouseout=function(){t=setInterval(rolltxt,50)} 
+</script> 
+</div> 
+</body> 
+</html>

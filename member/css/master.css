@@ -1,0 +1,323 @@
+body {
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+a:link {
+	color: #315E8E;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #315E8E;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+a:active {
+	text-decoration: none;
+	color: #315E8E;
+}
+
+
+#page {
+	text-align:center;
+}
+
+#center {
+	margin:0px auto;
+	width:990px;
+	text-align:left;
+}
+
+#top {
+	height:80px;
+}
+
+#menu {
+	margin-bottom:15px;
+}
+
+#menu ul {
+	list-style:none;
+	font-size:14px;
+	color:#315E8E;
+	margin-left:15px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-top:6px;
+	padding:0px
+}
+
+#menu li {
+	float:left;
+	margin-right:15px;
+}
+
+#menu a:link {
+	font-size:14px;
+	color: #315E8E;
+	text-decoration: none;
+}
+#menu a:visited {
+	font-size:14px;
+	text-decoration: none;
+	color: #315E8E;
+}
+#menu a:hover {
+	font-size:14px;
+	text-decoration: underline;
+	color: #FF6600;
+}
+#menu a:active {
+	font-size:14px;
+	text-decoration: none;
+	color: #315E8E;
+}
+
+
+#logo {
+	float:left; 
+	width:182px; 
+	padding-top:10px; 
+	padding-left:5px;
+}
+
+#banner {
+	float:left;
+	width:803px;
+}
+
+#banner a{
+	margin-left:8px; 
+	margin-right:8px;
+}
+
+#help {
+	text-align:right; 
+	margin-top:8px; 
+	margin-right:-5px;
+}
+
+#count {
+	text-align:right; 
+	margin-top:25px;
+	margin-right:1px;
+}
+
+.countText {
+	margin-left:6px;
+}
+
+.countNumber {
+	margin-right:0px;
+}
+
+#main {
+
+}
+
+#left {
+	float:left;
+	width:190px;
+	margin-bottom:15px;
+}
+
+#right {
+	float:left;
+	width:800px;
+	margin-bottom:15px;	
+}
+
+#bottom {
+	width:100%;
+	text-align:center;
+}
+
+#bottom a{
+	margin-left:8px; 
+	margin-right:8px;
+}
+
+#bottom .line{
+	margin-bottom:10px; 
+	width:100%; 
+}
+
+#bottom .copyright{
+	line-height:22px;
+}
+
+.leftbox{
+	margin-bottom:15px;
+}
+
+.smallBoxTitle {
+	font-size:12px;
+	color:#315E8E;
+	font-weight:bold;
+	margin-top:3px;
+}
+
+.bigBoxTitle {
+	font-size:14px;
+	color:#315E8E;
+	font-weight:bold;
+	margin-top:3px;
+	margin-left:5px;
+}
+
+.inLeftBox {
+	margin-top:8px; 
+	line-height:25px;
+}
+
+.inRightBox {
+	margin-top:17px; 
+	margin-left:14px;	
+	line-height:22px;
+}
+
+
+.smallBoldOrange {
+	color:#FF6600;
+	font-weight:bold;
+}
+
+.bigBoldOrange {
+	color:#FF6600;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.smallBoldRed {
+	color:#FF0000;
+}
+
+.tipBox {
+	border:1px solid #FBE800;
+	background:#FFFBCA;
+}
+
+.divTable {
+	margin-left:5px;
+}
+
+.underline a:link{
+	text-decoration:underline;
+	color: #226077;
+}
+
+.underline a:visited {
+	text-decoration: underline;
+	color: #226077;
+}
+
+.underline a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+.underline a:active {
+	text-decoration: underline;
+	color: #226077;
+}
+
+.page {
+	border-collapse:collapse; 
+	height:30px; width:758px; 
+	background:#F2F8FB; 
+	border-bottom: #DBEEF5 1px solid; 
+	border-left:#DBEEF5 1px solid; 
+	border-right:#DBEEF5 1px solid; 
+	margin-left:5px;
+	padding-left:10px;
+	color:#315E8E;
+}
+
+.page a:link{
+	text-decoration:underline;
+	color: #226077;
+	font-weight:bold;
+	margin-left:6px;
+	margin-right:6px;
+}
+
+.page a:visited {
+	text-decoration: underline;
+	color: #226077;
+	font-weight:bold;
+	margin-left:6px;
+	margin-right:6px;
+}
+
+.page a:hover {
+	text-decoration: underline;
+	color: #FF6600;
+	font-weight:bold;
+	margin-left:6px;
+	margin-right:6px;
+}
+
+.page a:active {
+	text-decoration: underline;
+	color: #226077;
+	font-weight:bold;
+	margin-left:6px;
+	margin-right:6px;
+}
+
+.pageCount {
+	float:left;
+	width:270px;
+	padding-top:7px;
+}
+
+.pageControl {
+	float:left;
+	width:330px;
+	padding-top:7px;
+}
+
+.pageText {
+	float:left;
+	width:70px;
+	padding-top:9px;
+}
+
+.pageSelect {
+	float:left;
+	padding-top:4px;
+}
+
+.dropdown {
+	font-size:12px;
+}
+
+.pageDropdown{
+	width:80px;
+}
+
+.hidden {
+	display:none;
+}
+
+
+.shortTextbox {
+	width:40px; height:15px; font-size:12px; 
+}
+
+.bigTextbox {
+	width:80px; height:15px; font-size:12px;
+}
+
+.hand {
+	cursor:pointer;
+}
+
+.regRequired {color: #FF6600;}
+.tipNormal {color:#5496CB; float:left;  margin-left:10px;}
+.tipFalse {color:red; float:left;  margin-left:10px;}
+.tipTrue {color:green; float:left;  margin-left:10px;}

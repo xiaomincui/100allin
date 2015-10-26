@@ -1,0 +1,15 @@
+
+# Contact info submission
+
+url: 100allin.com/
+site_owner: Shanghai Allin Information system co.,ltd
+address1: Rm908,GangLu Plaza,No 18,Xizang middle Rd,Shanghai,China
+address2: 
+city: Shanghai
+state: Shanghai
+country: China
+postal_code: 200021
+phone_number:  8621 53853033
+display_email: allin@100allin.com
+site_name: 
+site_description: 
