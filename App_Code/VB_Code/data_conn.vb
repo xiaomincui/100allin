@@ -8,7 +8,7 @@ Public Class data_conn
         Dim connection1 As Data.OleDb.OleDbConnection
         'Dim dbname1 As String
         'dbname1 = Server.MapPath("~/Connections/DB_DataBase_new.mdb")
-        connection1 = New Data.OleDb.OleDbConnection("Provider=SQLOLEDB.1;Persist Security Info=False;Server=127.0.0.1;User ID=sasa;Password=SmNETEkwLzJNQmNoS;Database=DB_DataBase_new")
+        connection1 = New Data.OleDb.OleDbConnection("Provider=SQLOLEDB.1;Persist Security Info=False;Server=139.196.52.121;User ID=sa;Password=65127389;Database=DB_DataBase_new")
         Return connection1
     End Function
 
