@@ -15,7 +15,7 @@ public class GangkouCheck
         //
     }
 
-    public static long? CheckMudiGang(string word)
+    public static long CheckMudiGang(string word)
     {
         SQLHelper.SQLHelper helper = new SQLHelper.SQLHelper();
         SqlDataReader reader;
@@ -24,7 +24,7 @@ public class GangkouCheck
             new SqlParameter("mingcheng",System.Data.SqlDbType.NVarChar, 250)
         }, out reader);
 
-        long? gangkouId = null;
+        long gangkouId = -1;
         if (reader.Read())
         {
             gangkouId = reader.GetInt64(0);
