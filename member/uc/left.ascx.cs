@@ -32,17 +32,17 @@ public partial class member_uc_left : System.Web.UI.UserControl
 
 
         //显示未读消息
-        sql = "select count(mid) as count from TB_PM where readed = 0 and listener = " + u;
+        //sql = "select count(mid) as count from TB_PM where readed = 0 and listener = " + u;
 
-        ds = cn.mdb_ds(sql, "tb_pm");
+        //ds = cn.mdb_ds(sql, "tb_pm");
 
-        ltrPm.Text = ds.Tables["tb_pm"].Rows[0]["count"].ToString();
+        //ltrPm.Text = ds.Tables["tb_pm"].Rows[0]["count"].ToString();
 
-        sql = "select count(oid) as count from TB_ORDER where (order_status = 2 or order_status = 4) and order_forward = " + u;
+        //sql = "select count(oid) as count from TB_ORDER where (order_status = 2 or order_status = 4) and order_forward = " + u;
 
-        ds = cn.mdb_ds(sql, "TB_ORDER");
+        //ds = cn.mdb_ds(sql, "TB_ORDER");
 
-        ltrNewBooking.Text = ds.Tables["TB_ORDER"].Rows[0]["count"].ToString();
+        //ltrNewBooking.Text = ds.Tables["TB_ORDER"].Rows[0]["count"].ToString();
 
     }
 

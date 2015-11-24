@@ -98,29 +98,29 @@ public partial class member_index : System.Web.UI.Page
         ltrNewMessage.Text = ds.Tables["tb_pm"].Rows[0]["count"].ToString();
 
 
-        sql = "select count(oid) as count from TB_ORDER where (order_status = 2 or order_status = 4) and order_forward = " + u;
+        //sql = "select count(oid) as count from TB_ORDER where (order_status = 2 or order_status = 4) and order_forward = " + u;
 
-        ds = cn.mdb_ds(sql, "TB_ORDER");
+        //ds = cn.mdb_ds(sql, "TB_ORDER");
 
-        ltrNewBooking.Text = ds.Tables["TB_ORDER"].Rows[0]["count"].ToString();
+        //ltrNewBooking.Text = ds.Tables["TB_ORDER"].Rows[0]["count"].ToString();
 
-        sql = "select credit,overage from TB_ORDER_ACCOUNT where userid = " + u;
+        //sql = "select credit,overage from TB_ORDER_ACCOUNT where userid = " + u;
 
-        ds = cn.mdb_ds(sql, "TB_ORDER_ACCOUNT");
+        //ds = cn.mdb_ds(sql, "TB_ORDER_ACCOUNT");
 
-        ltrOverage.Text = ds.Tables["TB_ORDER_ACCOUNT"].Rows[0]["overage"].ToString() + " / " + ds.Tables["TB_ORDER_ACCOUNT"].Rows[0]["credit"].ToString();
+        //ltrOverage.Text = ds.Tables["TB_ORDER_ACCOUNT"].Rows[0]["overage"].ToString() + " / " + ds.Tables["TB_ORDER_ACCOUNT"].Rows[0]["credit"].ToString();
 
         ltrOverageTips.Text = "<a href=\"/member/order/pay_sel.aspx\">立即预存</a>";
 
-        if (Convert.ToDouble(ds.Tables["TB_ORDER_ACCOUNT"].Rows[0]["overage"].ToString()) < 1000)
-        {
-            ltrOverageTips.Text = "您的订舱费余额已不多，提醒您<a href=\"/member/order/pay_sel.aspx\">立即预存</a>";
-        }
+        //if (Convert.ToDouble(ds.Tables["TB_ORDER_ACCOUNT"].Rows[0]["overage"].ToString()) < 1000)
+        //{
+        //    ltrOverageTips.Text = "您的订舱费余额已不多，提醒您<a href=\"/member/order/pay_sel.aspx\">立即预存</a>";
+        //}
 
-        if (Convert.ToDouble(ds.Tables["TB_ORDER_ACCOUNT"].Rows[0]["credit"].ToString()) == 0)
-        {
-            ltrOverageTips.Text = "还不是安运通会员？提醒您<a href=\"/member/order/pay_sel.aspx\">立即预存</a>";
-        }
+        //if (Convert.ToDouble(ds.Tables["TB_ORDER_ACCOUNT"].Rows[0]["credit"].ToString()) == 0)
+        //{
+        //    ltrOverageTips.Text = "还不是安运通会员？提醒您<a href=\"/member/order/pay_sel.aspx\">立即预存</a>";
+        //}
 
         sql = "";
 
@@ -139,80 +139,81 @@ public partial class member_index : System.Web.UI.Page
             uid = "0";
         }
 
-        mysqldata_conn mysqlcn = new mysqldata_conn();
+        //mysqldata_conn mysqlcn = new mysqldata_conn();
 
-        //以下为获得“我的好友”
-        sql = "SELECT friendid FROM uc_friends WHERE uid = " + uid;
+        ////以下为获得“我的好友”
+        //sql = "SELECT friendid FROM uc_friends WHERE uid = " + uid;
 
-        ds = mysqlcn.mdb_ds(sql, "uc_friends");
-
-
-        string uidlist = "0,";
-
-        for (int i = 0; i < ds.Tables["uc_friends"].Rows.Count; i++)
-        {
-            if (uid != "")
-            {
-                uidlist += ds.Tables["uc_friends"].Rows[i][0].ToString() + ",";
-            }
-        }
-
-        uidlist += "0";
-
-        sql = "SELECT TOP 4 * FROM V_SHOW_ALL WHERE UCenterHomeUid in (" + uidlist + ") ORDER BY POSTDATE DESC";
-
-        ds = cn.mdb_ds(sql, "myfriends");
+        //ds = mysqlcn.mdb_ds(sql, "uc_friends");
 
 
-        Repeater1.DataSource = ds.Tables["myfriends"].DefaultView;
-        Repeater1.DataBind();
+        //string uidlist = "0,";
+
+        //for (int i = 0; i < ds.Tables["uc_friends"].Rows.Count; i++)
+        //{
+        //    if (uid != "")
+        //    {
+        //        uidlist += ds.Tables["uc_friends"].Rows[i][0].ToString() + ",";
+        //    }
+        //}
+
+        //uidlist += "0";
+
+        //sql = "SELECT TOP 4 * FROM V_SHOW_ALL WHERE UCenterHomeUid in (" + uidlist + ") ORDER BY POSTDATE DESC";
+
+        //ds = cn.mdb_ds(sql, "myfriends");
 
 
-        sql = "SELECT TOP 4 * FROM V_SHOW_ALL WHERE userid = " + u + " ORDER BY POSTDATE DESC";
-
-        ds = cn.mdb_ds(sql, "mydongtai");
-
-
-        Repeater2.DataSource = ds.Tables["mydongtai"].DefaultView;
-        Repeater2.DataBind();
+        //Repeater1.DataSource = ds.Tables["myfriends"].DefaultView;
+        //Repeater1.DataBind();
 
 
-        string[] udetail;
-        udetail = AllinUser1.GetUserDetail(u);
+        //sql = "SELECT TOP 4 * FROM V_SHOW_ALL WHERE userid = " + u + " ORDER BY POSTDATE DESC";
 
-        if (udetail[11] == "0")
-        {
-            PlaceHolder2.Visible = true;
-        }
-        else
-        {
-            PlaceHolder2.Visible = false;
-        }
+        //ds = cn.mdb_ds(sql, "mydongtai");
+
+
+        //Repeater2.DataSource = ds.Tables["mydongtai"].DefaultView;
+        //Repeater2.DataBind();
+
+
+        //string[] udetail;
+        //udetail = AllinUser1.GetUserDetail(u);
+
+        //if (udetail[11] == "0")
+        //{
+        //    PlaceHolder2.Visible = true;
+        //}
+        //else
+        //{
+        //    PlaceHolder2.Visible = false;
+        //}
+        PlaceHolder2.Visible = false;
 
         PlaceHolder3.Visible = false;
 
-        string[][] fn=new string[8][];
+        //string[][] fn=new string[8][];
 
-        fn[0] = new string[] { "宁波市", "宁波港---美加线", "1400", "<a href=\"http://www.100allin.com/topic/supplier20101122/ningbo.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/ningbo.aspx</a>" };
-        fn[1] = new string[] { "大连市", "大连港---日韩线", "1000", "<a href=\"http://www.100allin.com/topic/supplier20101122/dalian.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/dalian.aspx</a>" };
-        fn[2] = new string[] { "厦门市", "厦门港---美加线", "1200", "<a href=\"http://www.100allin.com/topic/supplier20101122/xiamen.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/xiamen.aspx</a>" };
-        fn[3] = new string[] { "广州市", "广州港---中东印巴线", "1000", "<a href=\"http://www.100allin.com/topic/supplier20101122/guangzhou.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/guangzhou.aspx</a>" };
-        fn[4] = new string[] { "青岛市", "青岛港---中南美线", "1000", "<a href=\"http://www.100allin.com/topic/supplier20101122/qingdao.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/qingdao.aspx</a>" };
-        fn[5] = new string[] { "天津市", "天津港---中南美线", "1200", "<a href=\"http://www.100allin.com/topic/supplier20101122/tianjin.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/tianjin.aspx</a>" };
-        fn[6] = new string[] { "深圳市", "深圳港---美加线", "2400", "<a href=\"http://www.100allin.com/topic/supplier20101122/shenzhen.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/shenzhen.aspx</a>" };
-        fn[7] = new string[] { "上海市", "上海港---澳洲线", "1500", "<a href=\"http://www.100allin.com/topic/supplier20101122/shanghai.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/shanghai.aspx</a>" };
+        //fn[0] = new string[] { "宁波市", "宁波港---美加线", "1400", "<a href=\"http://www.100allin.com/topic/supplier20101122/ningbo.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/ningbo.aspx</a>" };
+        //fn[1] = new string[] { "大连市", "大连港---日韩线", "1000", "<a href=\"http://www.100allin.com/topic/supplier20101122/dalian.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/dalian.aspx</a>" };
+        //fn[2] = new string[] { "厦门市", "厦门港---美加线", "1200", "<a href=\"http://www.100allin.com/topic/supplier20101122/xiamen.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/xiamen.aspx</a>" };
+        //fn[3] = new string[] { "广州市", "广州港---中东印巴线", "1000", "<a href=\"http://www.100allin.com/topic/supplier20101122/guangzhou.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/guangzhou.aspx</a>" };
+        //fn[4] = new string[] { "青岛市", "青岛港---中南美线", "1000", "<a href=\"http://www.100allin.com/topic/supplier20101122/qingdao.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/qingdao.aspx</a>" };
+        //fn[5] = new string[] { "天津市", "天津港---中南美线", "1200", "<a href=\"http://www.100allin.com/topic/supplier20101122/tianjin.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/tianjin.aspx</a>" };
+        //fn[6] = new string[] { "深圳市", "深圳港---美加线", "2400", "<a href=\"http://www.100allin.com/topic/supplier20101122/shenzhen.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/shenzhen.aspx</a>" };
+        //fn[7] = new string[] { "上海市", "上海港---澳洲线", "1500", "<a href=\"http://www.100allin.com/topic/supplier20101122/shanghai.aspx\" target=\"_blank\">http://www.100allin.com/topic/supplier20101122/shanghai.aspx</a>" };
 
-        for (int i = 0; i <= 7; i++)
-        {
-            if (udetail[62] == fn[i][0])
-            {
-                PlaceHolder3.Visible = true;
-                Literal0.Text = fn[i][0].Replace("市","");
-                Literal1.Text = fn[i][1];
-                Literal2.Text = fn[i][2];
-                Literal3.Text = fn[i][3];
-            }
-        }
+        //for (int i = 0; i <= 7; i++)
+        //{
+        //    if (udetail[62] == fn[i][0])
+        //    {
+        //        PlaceHolder3.Visible = true;
+        //        Literal0.Text = fn[i][0].Replace("市","");
+        //        Literal1.Text = fn[i][1];
+        //        Literal2.Text = fn[i][2];
+        //        Literal3.Text = fn[i][3];
+        //    }
+        //}
 
 
 

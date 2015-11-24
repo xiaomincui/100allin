@@ -237,7 +237,7 @@ $(function(){
 </DIV>
 </div>
 </div>
-<memberright:memberright ID="memberright1" runat="server" />	
+<%--<memberright:memberright ID="memberright1" runat="server" />	--%>
 
 </div>
 <memberfooter:memberfooter ID="memberfooter1" runat="server" />
