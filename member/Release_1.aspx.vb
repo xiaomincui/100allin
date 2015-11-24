@@ -509,7 +509,7 @@ Partial Class member_Release_1
 
                 Dim destPort As String
                 destPort = strrow(0)
-                Dim destPortId? As Long
+                Dim destPortId As Nullable(Of Long)
                 destPortId = GangkouCheck.CheckMudiGang(destPort)
                 Dim destPortOk As Integer = IIf(destPortId IsNot Nothing, 1, 0)
                 Dim destPortIdStr As String = IIf(destPortOk = 1, destPortId, "null")
