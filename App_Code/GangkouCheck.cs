@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Web;
 
@@ -17,20 +18,14 @@ public class GangkouCheck
 
     public static long CheckMudiGang(string word)
     {
-        SQLHelper.SQLHelper helper = new SQLHelper.SQLHelper();
-        SqlDataReader reader;
-        helper.RunSQL("select gangkou_id from V_GangkouSearch where mingcheng = @mingcheng", new SqlParameter[]
-        {
-            new SqlParameter("mingcheng",System.Data.SqlDbType.NVarChar, 250)
-        }, out reader);
+        data_conn cn = new data_conn();
+        DataSet ds = cn.mdb_ds("select gangkou_id from V_GangkouSearch where mingcheng = " + word.Replace("'", "''"), "gangkou");
 
-        long gangkouId = -1;
-        if (reader.Read())
+        object gangkouId = ds.Tables["gangkou"].Rows[0]["gangkou_id"];
+        if (gangkouId == null)
         {
-            gangkouId = reader.GetInt64(0);
+            return -1;
         }
-        reader.Close();
-
-        return gangkouId;
+        return (long)gangkouId;
     }
 }
