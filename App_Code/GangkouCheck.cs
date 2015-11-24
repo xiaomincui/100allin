@@ -18,10 +18,15 @@ public class GangkouCheck
 
     public static long CheckMudiGang(string word)
     {
-        data_conn cn = new data_conn();
-        DataSet ds = cn.mdb_ds("select gangkou_id from V_GangkouSearch where mingcheng = " + word.Replace("'", "''"), "gangkou");
+        data_conn3 cn = new data_conn3();
+        SqlConnection conn = cn.mdb_conn();
 
-        object gangkouId = ds.Tables["gangkou"].Rows[0]["gangkou_id"];
+        conn.Open();
+        SqlCommand cmd = new SqlCommand("select gangkou_id from V_GangkouSearch where mingcheng = @mingcheng", conn);
+        cmd.Parameters.AddWithValue("mingcheng", word);
+        object gangkouId = cmd.ExecuteScalar();
+        conn.Close();
+
         if (gangkouId == null)
         {
             return -1;
