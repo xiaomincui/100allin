@@ -21,7 +21,7 @@ public partial class accounts_reg : System.Web.UI.Page, System.Web.UI.ICallbackE
         {
             Response.Redirect("../search/err.aspx");
         }
-        else
+        else 
         {
             if (Request["code"].ToString() == "")
             {
