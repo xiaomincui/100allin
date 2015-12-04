@@ -28,15 +28,15 @@ public partial class admin_default : System.Web.UI.Page
         LoadPxTotal();
         LoadHkToday();
         LoadHkTotal();
-        LoadHyhpToday();
-        LoadHyhpTotal();
-        LoadKyhpToday();
-        LoadKyhpTotal();
+        //LoadHyhpToday();
+        //LoadHyhpTotal();
+        //LoadKyhpToday();
+        //LoadKyhpTotal();
         LoadZxYesterday();
         LoadPxYesterday();
         LoadHkYesterday();
-        LoadHyhpYesterday();
-        LoadKyhpYesterday();
+        //LoadHyhpYesterday();
+        //LoadKyhpYesterday();
 
         LoadZxAvailable();
         LoadPxAvailable();
